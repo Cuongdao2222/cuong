@@ -3,9 +3,12 @@
 <html lang="vi">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
     <title>Landing page</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
 
     <!-- Latest compiled and minified CSS -->
@@ -223,6 +226,7 @@
             margin-right:20px;
             position:relative;
             width: 23.55% !important;
+            text-align: center;
         }
         .big-title{
             height: 6vw;
@@ -294,9 +298,9 @@
         .re1{
             background-image: url('./image/bg.gif');
         }
-        .box-introduce-fix{
+        /*.box-introduce-fix{
             height: 100%;
-        }
+        }*/
         .pd-0{
             padding: 0;
         }
@@ -322,7 +326,7 @@
             width: 80%;
         }
         .box-customer{
-            height: 90vw;
+            height: 96vw;
             background: #f1f1f1;
         }
         .box-customer-title-1 h3{
@@ -457,8 +461,174 @@
          .top-form label{
             margin-bottom: 0;
          }
+         .big-title-5{
+           background: #fff;
+           color:  #1d50a7 !important;
+           font-family: SFUITextbold;
+           border-radius: 4px !important;
 
-         
+         }
+         .footer{
+            height: 30vw;
+            background: #0551da;
+         }
+         .owl-prev{
+            position: absolute;
+            top: 50%;
+            left: 0;
+         }
+         .owl-next{
+            position: absolute;
+            top: 50%;
+            right: 0;
+         }
+         .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        @media screen and (min-width: 768px) {
+            .float{
+                float: left;
+            }
+            .withpadding{
+                with: 80%;
+            }
+            .box-intro-run-mobile{
+                display: none;
+            }
+        }
+
+         @media screen and (max-width: 767px) {
+            .box-title{
+                display: block;
+                height: auto;
+            }
+            .col-xs-12{
+                padding: 0;
+            }
+            .box-introduce{
+                height: auto;
+            }
+            .title-introduce h3{
+                height: auto;
+            }
+            .box-price-child{
+                width: 100% !important;
+            }
+            .box-introduce-title1{
+                width: 100%;
+            }
+            .text {
+                font-size: 14px;
+            }  
+            .box-why-title1 h4{
+                font-size: 4vw;
+            }  
+            .check-btn button {
+                width: 50vw;
+                height: 33px;
+            }  
+            .title-why-dmedia span{
+                font-size: 5vw;
+            }  
+            .box-customer{
+                height: auto;
+            }
+            .box-price-all{
+                height: auto;
+            }
+            .box-price-fix{
+                width: 100%;
+            }
+            .banner-introduce img{
+                display: none;
+            }
+            .text-feedback span{
+                font-size: 14px;
+            }
+            .box-price{
+                padding: 0;
+            }
+            .banner, .box-title, .box-introduce, .col-xs-12{
+                padding: 0;
+            }
+            .box-title{
+                margin: 0;
+            }
+            .box-feedback-1{
+                margin: 0;
+                height: auto;
+            }
+            .big-title {
+                height: 25vw;
+            }    
+            .box-price-child{
+                height: 600px;
+            }
+            .box-price-contain{
+                height: auto;
+            }
+            .box-customer-feedback{
+                display: none;
+            }
+            .image-demo-contact{
+                display: none;
+            }
+
+            .register button{
+                height: 10vw;
+                 width: 26vw;
+            }
+            .price-contain{
+                margin: 0 !important;
+            }
+            .box-intro-run{
+                display: none;
+            }
+
+            .box-intro-run-mobile .text{
+                padding: 15px;
+            }
+            .title-type-text img{
+                margin: 17px auto;
+                width: 38% !important;
+            }
+            .btn-kp button{
+                width: 170px;
+                height: 36px;
+            }
+            .btn-kp {
+                height: 50px;
+            }
+            .box-price {
+                height: auto;
+            }   
+            .box-price-fix{
+                clear: left;
+            } 
+            .box-feedback-1{
+                width: auto;
+            }
+            .text-feedback{
+                padding: 17px;
+            }
+            .image-customer {
+                height: 107vw;
+                text-align: left;   
+            }
+            .info-doctor{
+                right: 5vw;
+                bottom: auto;
+            }   
+            .formcontrol1{
+                height: 35px !important;
+            } 
+            .form-contact {
+                height: 87vw;
+            }    
+        }
 
         /*.contain{
             width: 90%;
@@ -474,17 +644,15 @@
 <body class="link-body" cz-shortcut-listen="true" style="font-family:'SFUIText'">
     
     <div class="row d-flex justify-content-center text-center head-image">
-        <div class="link-content">
+       
             <header class="d-flex flex-column align-items-center">
-                <div class="col-md-12 banner">
-                    
-                </div>
+                <div class="col-md-12 col-xs-12 banner"></div>
                 
             </header>
 
             <main id="links" class="mt-0">
-               	<div class="row box-title">
-           			<div class="col-md-4">
+               	<div class="row box-title col-xs-12">
+           			<div class="col-md-4 col-xs-12">
            				<div class="title-info">
            					<div class="percent"><span>70,3%</span></div>
 	                    	<div class="title1"><span>Dân số Việt Nam Sử dụng internet</span></div>
@@ -492,13 +660,13 @@
 	                   
 	                    
 	                </div>
-	                <div class="col-md-4">
+	                <div class="col-md-4 col-xs-12">
 	                	<div class="title-info">
 		                    <div class="percent"><span>37%</span></div>
 		                    <div class="title1"><span>Khách hàng tìm kiếm internet trước khi đến phòng khám</span></div>
 		                </div>
 	                </div>
-	                <div class="col-md-4">
+	                <div class="col-md-4 col-xs-12">
 	                	<div class="title-info">
 		                    <div class="percent"><span>62%</span></div>
 		                    <div class="title1"><span>Nha sĩ khẳng định quảng cáo trên báo không có hiệu quả</span></div>
@@ -506,20 +674,21 @@
 	                </div>
                	</div>
 
-               	<div class="box-introduce">
-                    <div class="box-introduce-fix">
-                        <div class="col-md-12 title-introduce" style="text-align: center;">
-                            <h3>Những gì nhận được khi sử dụng dịch vụ của D’ Media</h3>
-                        </div>
-                        <div class="col-md-5">
+               	<div class="box-introduce col-xs-12">
+                   
+                    <div class="col-md-12 col-xs-12 title-introduce" style="text-align: center;">
+                        <h3>Những gì nhận được khi sử dụng dịch vụ của D’ Media</h3>
+                    </div>
+
+                    <div class="box-intro-run">
+                        <div class="col-md-5 col-xs-12">
                             <div class="banner-introduce">
                                 <img src="./image/web/im2.png">
                             </div>
-                            
                         </div>
-                        <div class="col-md-7 box-introduce-title1">
+                        <div class="col-md-7 col-xs-12 box-introduce-title1">
                             <div class="col-md-12">
-                                <div class="col-md-6 ">
+                                <div class="col-md-6">
                                     <div class="title-type-text col-md-12">
                                         <div class="col-md-3">
                                              <img src="./image/web/icon1.png">
@@ -604,19 +773,53 @@
                             <div class="check-btn col-md-12 top-mar-max">
                                <button>Dùng thử ngay </button>
                             </div>
-                            
-                        </div>  
+                        </div>
                     </div>
-               		
+                      
+                   
                	</div>
+
+                <!-- box-introduce-mobile -->
+
+                <div class="col-xs-12">
+
+                    <div class="container" >
+                        <div class="row">
+                            <div class="owl-carousel owl-theme">
+
+                                <div class="box-intro-run-mobile">
+                                    
+                                    <div class="col-xs-12 box-introduce-title1">
+                                        <div class="title-type-text">
+                                            
+                                            <img src="./image/web/icon1.png">
+                                            
+                                            <h4 class="title-introduce" style="margin:0">Tạo website chuẩn nha khoa trong 5 giây</h4>
+                                           
+                                          
+                                        </div>
+                                        <div class="text">
+                                            <span>
+                                               Dù là gói miễn phí hay thiết kế riêng, tất cả những sản phẩm của Meta đều luôn trong trạng thái sẵn sàng đưa vào sử dụng chỉ trong 1 cú click.
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>            
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
                 <!-- box why dmedia -->
-                <div class="box-why-dmedia">
+                <div class="box-why-dmedia col-xs-12">
                     
                     <div class="title-why-dmedia">
                         <span>Vì sao lựa trọn D Media ?</span>
                     </div>
                     
-                    <div class="container" style="width:80%;">
+                    <div class="container withpadding" >
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="box-why-title1">
@@ -681,6 +884,11 @@
                                     <a href="#"><img src="./image/slider/3.gif"></a>
                                     
                                 </div>
+
+                                <div class="item">
+                                    <a href="#"><img src="./image/slider/3.gif"></a>
+                                    
+                                </div>
                             </div>
                             <div class="btn-kp">
                                <button><span>Khám phá ngay</span></button>
@@ -692,18 +900,19 @@
                 </div>
 
                 <!-- box price -->
-                <div class="box-price">
-                    <div class="container box-price-contain box-price-fix">
-                        <div class="row box-price-contain">
-                            <div class="col-md-12 box-price-title">
-                                <h3>Bảng giá</h3>
-                            </div>
-
-                            <div class="box-price-all">
-                                <div class="col-md-3 box-price-child">
+                
+                <div class="box-price float">
+                        <div class="container box-price-contain box-price-fix ">
+                            <div class="row box-price-contain">
+                                <div class="col-md-12 col-xs-12 box-price-title">
+                                    <h3>Bảng giá</h3>
+                                </div>
+                                
+                                <div class="col-md-3 col-xs-12 box-price-child">
                                     <div class="big-title big-title-1">
                                         <h3>Free</h3>
                                     </div>
+
                                     <div class="text-price">
                                         <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
 
@@ -731,7 +940,7 @@
 
                                 </div>
 
-                                <div class="col-md-3 box-price-child">
+                                <div class="col-md-3 col-xs-12 box-price-child">
                                     <div class="big-title big-title-3">
                                         <h3>Competitive edge </h3>
                                          <h3>10.000.000 vnđ </h3>
@@ -763,7 +972,7 @@
 
                                 </div>
 
-                                <div class="col-md-3 box-price-child">
+                                <div class="col-md-3 col-xs-12 box-price-child">
                                     <div class="big-title big-title-2">
                                         <h3>15tr - premium</h3>
                                     </div>
@@ -794,7 +1003,7 @@
 
                                 </div>
 
-                                <div class="col-md-3 box-price-child box-price-child-1">
+                                <div class="col-md-3 col-xs-12 box-price-child box-price-child-1">
                                     <div class="big-title big-title-4">
                                         <h3>20tr - enterprise</h3>
                                     </div>
@@ -824,15 +1033,14 @@
 
                                 </div>
 
-                            </div>
+                               
 
-                            
+                            </div>
                         </div>
-                    </div>
                 </div>
 
                 <!-- box customer -->
-                <div class="box-customer">
+                <div class="col-xs-12 box-customer ">
                     <div class="container box-price-contain box-price-fix">
                         <div class="row box-price-contain">
                             <div class="box-customer-title">
@@ -844,7 +1052,38 @@
                                 </div>
                             </div>
 
-                            <div class="box-customer-feedback">
+                            <div class="box-intro-run-mobile">
+                                
+                                <div class="owl-carousel owl-theme">
+
+                                   <div class="col-xs-12 box-feedback-1">
+                                        <div class="text-feedback">
+                                            <span>
+                                                 Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
+                                            </span>
+                                            
+                                        </div>
+                                        <div class="image-customer">
+                                            <img src="./image/web/im4.png">
+                                            <div class="info-doctor">
+                                                <div class="hr">
+                                                    <hr>
+                                                </div>
+                                               
+                                                <h3>DR.SIVANA</h3>
+                                                <span>Nha khoa Smile Uk</span>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+
+
+                            <div class="box-customer-feedback col-xs-12">
                                 <div class="col-md-4 box-feedback-1">
                                     <div class="text-feedback">
                                         <span>
@@ -908,7 +1147,7 @@
                             </div>
 
                             <!--  box contact -->
-                            <div class="contact">
+                            <div class="contact col-xs-12">
                                 <div class="contact-title">
                                     <h3>Tối ưu thời gian để mang lại giải pháp marketing hiệu quả bằng cách liên hệ với chúng tôi qua form đăng kí sau:</h3>
                                 </div>
@@ -940,48 +1179,33 @@
                                                 <textarea class="form-control customn-area" id="exampleFormControlTextarea1" rows="3"></textarea>
                                             </div>
 
-                                             <!-- <div class="check-btn  top-form btn-send">
-                                                <button>gửi </button>
-                                            </div> -->
+                                            <div class="register">
+                                                <button class="big-title-5">Gửi</button>
+                                            </div>
+
+                                            
                                     </div>
 
-                                    <!-- <div class="col-md-6 form form-group-1 form-group">
-                                        
-                                            <div class="top-mar-res top-form">
-                                                 <label for="exampleFormControlInput1">Họ và tên</label>
-                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
-                                            </div>
-                                           
-                                            <div class="top-mar-res top-form">
-                                                <label for="exampleFormControlInput1">Email</label>
-                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
-                                            </div>            
-                                            
-                                            <div class="top-mar-res top-form">
-                                                 <label for="exampleFormControlInput1">Số điện thoại</label>
-                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
-                                            </div>
-                                           
-                                            <div class="top-mar-res top-form">
-                                                <label for="exampleFormControlTextarea1">Yêu cầu nội dung</label>
-                                                <textarea class="form-control customn-area" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                            </div>
-
-                                             <div class="check-btn  top-form btn-send">
-                                                <button>gửi </button>
-                                            </div>
-                                                
-                                    </div> -->
-                                    
                                 </div>
                             </div>
                         </div>    
                     </div>        
-                </div>   
+                </div> 
+               
+                 
             </main>
-            <footer class="link-footer">
-
-            </footer>
+           
+                <div class="footer">
+                    
+                    <div class="col-md-6 logo-footer">
+                       
+                    </div>
+                    <div class="col-md-6 logo-contact">
+                        
+                    </div>
+                    
+                </div>
+            
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <script src="./owl-carousel/assets/owl.carousel.js"></script>
@@ -991,12 +1215,16 @@
                     loop:true,
                     margin:10,
                     nav:true,
+                    dots:false,
+                    // navText: ["<img src='image/web/icon7.png'>","<img src='image/web/icon8.png'>"],
                     responsive:{
                         0:{
-                            items:1
+                            items:1,
+                            nav:true
                         },
                         600:{
-                            items:3
+                            items:3,
+                            nav:true
                         },
 
                     }
@@ -1004,7 +1232,7 @@
 
             </script> 
 
-        </div>
+        
     </div>
     
 </body>
