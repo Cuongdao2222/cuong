@@ -1,1239 +1,1421 @@
-
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
     <title>Landing page</title>
-
-
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
     <link rel="stylesheet" href="./owl-carousel/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="./owl-carousel/assets/owl.theme.default.min.css">
-         
-
-
+    <link rel="stylesheet" href="./owl-carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css">
     <style type="text/css">
-       
+    @font-face {
+        font-family: SFUIText;
+        src: url(./font/SFUIText-Light.ttf);
+    }
 
-        @font-face {
-		  font-family: SFUIText;
-		  src: url(./font/SFUIText-Light.ttf);
-		}
+    @font-face {
+        font-family: SFUITextbold;
+        src: url(./font/SFUIText-Bold.ttf);
+    }
 
-        @font-face {
-          font-family: SFUITextbold;
-          src: url(./font/SFUIText-Bold.ttf);
-        }
+    @font-face {
+        font-family: SFUITextheavy;
+        src: url(./font/SFUIText-Heavy.ttf);
+    }
 
-         @font-face {
-          font-family: SFUITextheavy;
-          src: url(./font/SFUIText-Heavy.ttf);
-        }
 
-      
-        .banner{
-            width: 100%;
-            height:55vw;
-           background-image: url("./image/web/im1.png");
-           background-size: 100%;
-           background-repeat: no-repeat;
-           
-        }
-        .head-image{
-            margin: 0;
-            padding: 0;
-        }
-        
-        .box-title{
-        	height: 190px;
-            background: #f1f1f1;
-           display: flex;
-    		align-items: center;
-            margin-right: 0;
-        }
-        .percent span {
-        	color: #0340B2;
-        	font-size: 26px;
-        }
-        .title1 span{
-        	font-size: 20px;
-        }
-        .title-child{
-        	position: absolute;
-        	top: 50%; /* Important */ 
-    		left: 0; /* Important */ 
-        }
-        .box-introduce{
+    .banner {
+        width: 100%;
+        height: 55vw;
+        background-image: url("./image/web/im1.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
 
-        	background: #0342B8;
-        	height: 49vw;
-        }
-        .introduce-title{
-        	width: 100%;
-        }
-        .introduce-title h2{
-        	color: #fff;
-        }
-        .title-introduce{
-        	text-transform: uppercase;
-        	color: #fff;
-        	font-weight: bold;
-        }
-         .title-introduce h3{
-         	margin: 40px 0;
-    		height: 20px;
-            font-weight: bold;
-            font-family: SFUITextbold;
+    }
 
-         }
-         .banner-introduce img{
-         	width: 87%;
-         	height: auto;
-         }
-         
-         .text {
-            color:  #fff;
-            margin-top: 20px;
-            text-align: left;
-            font-size: 1vw;
-         }
-         .top-mar{
-            margin-top: 20px;
-         }
+    .head-image {
+        margin: 0;
+        padding: 0;
+    }
 
-         .top-mar-max{
-            margin-top: 40px;
-         }
-         .top-mar-big{
-            margin-top: 80px;
-         }   
-         .check-btn{
-            width: 100%;
-            text-align: center;
+    .box-title {
+        height: 190px;
+        background: #f1f1f1;
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+    }
 
-         }
-         .check-btn button{
-            width: 310px;
-            height: 80px;
-            border-radius: 22px;
-            color: #0342B8;
-            border: 0;
-            font-weight: bold;
-         }
-         .check-btn button:active{
-            border: 0;
-         }
-         .box-why-dmedia{
-            width: 100%;
-            
-            background: #f0f0f0;
-         }
-         .title-why-dmedia{
-            width: 100%;
-            text-align: center;
-            height: 8%;
-            padding: 24px
+    .percent span {
+        color: #0340B2;
+        font-size: 26px;
+    }
 
-         }
-         .title-why-dmedia span{
-            text-transform: uppercase;
-            font-size: 2vw;
-            color: #0340B2;
-         }
+    .title1 span {
+        font-size: 20px;
+    }
 
-         
-        .title-type-text {
-            display: inline-block;
-        }
-         
-         .title-type-text img{
-            width: 100%
-         }
-            
-         .box-why-title1{
-            height: 40%;
-            text-align: left;
-         }
-         .box-why-title1 h4{
-            color: #0340B1;
-            font-size: 1vw;
-            font-weight: bold;
-            text-transform: uppercase;
-         }
-         .why-image img{
-            width: 97%;
-         }
-         .title-why-dmedia{
-            font-family: SFUITextbold !important;
-         }
-         .btn-kp{
-             height: 5vw;
-         }
-         .btn-kp button {
-            width: 298px;
-            height: 3vw;
-            border-radius: 18px;
-            color: #0342B8;
-            border: 0;
-            font-weight: bold;
-            background: #fff;
-            box-shadow: 0px 0px 5px 5px #ddd;
+    .title-child {
+        position: absolute;
+        top: 50%;
+        /* Important */
+        left: 0;
+        /* Important */
+    }
 
-        }
+    .box-introduce {
 
-        .btn-kp button span{
-            font-family:'SFUITextbold'
-        }
-        .box-price-title{
-            text-align: center;
-            height: 5%;
-        }
-        .box-price-title h3{
-            font-family:'SFUITextbold';
-            color: #fff;
-            text-transform: uppercase;
+        background: #0342B8;
+        height: 49vw;
+    }
 
-        }
-        .box-price{
-            width: 100%;
-            background: #0442b9;
-            height: 1500px;
+    .introduce-title {
+        width: 100%;
+    }
 
-        }
-        .box-price-all{
-            height: 100%;
-        }
-        .box-price-contain{
-            height: 100%;
-           
-        }
-        
-        .box-price-child{
-            height: 88%;
-            background:#fff;
-            border-radius:10px;
-            padding: 0;
-            margin-right:20px;
-            position:relative;
-            width: 23.55% !important;
-            text-align: center;
-        }
-        .big-title{
-            height: 6vw;
-            
-            border-top-left-radius:10px;
-            border-top-right-radius:10px;
+    .introduce-title h2 {
+        color: #fff;
+    }
 
-        }
-        .big-title-1{
-            background-image: url('./image/bg.gif');
-            background-size: cover;
-        }
-        .big-title-2{
-            background-image: url('./image/bg-1.gif');
-            background-size: cover;
-        }
-        .big-title-3{
-            background-image: url('./image/bg-2.gif');
-            background-size: cover;
-        }
-        .big-title-4{
-            background-image: url('./image/bg-3.gif');
-            background-size: cover;
-        }
-        
+    .title-introduce {
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+    }
 
-        .big-title h3{
-            margin:0;
-            color: #fff;
-            font-weight: bold;
-            /*line-height: 6vw;*/
-        }
+    .title-introduce h3 {
+        margin: 40px 0;
+        height: 20px;
+        font-weight: bold;
+        font-family: SFUITextbold;
 
-        .box-price-child-1{
-            margin-right: 0 !important;
-        }
-        .big-title h3{
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-            text-transform: uppercase;
-        }
-        .text-price{
-            border-bottom: 2px solid #ddd;
-            padding:5px 0;
-        }
+    }
 
-        .text-price span{
-            font-family: SFUITextbold;
-        }
-        .register{
-            position:absolute;
-            bottom: 10px;
-            
-            left: 50%;
-            /*-moz-transform: translateX(-50%) translateY(-50%);
+    .banner-introduce img {
+        width: 87%;
+        height: auto;
+    }
+
+    .text {
+        color: #fff;
+        margin-top: 20px;
+        text-align: left;
+        font-size: 1vw;
+    }
+
+    .top-mar {
+        margin-top: 20px;
+    }
+
+    .top-mar-max {
+        margin-top: 40px;
+    }
+
+    .top-mar-big {
+        margin-top: 80px;
+    }
+
+    .check-btn {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .check-btn button {
+        width: 310px;
+        height: 80px;
+        border-radius: 22px;
+        color: #0342B8;
+        border: 0;
+        font-weight: bold;
+    }
+
+    .check-btn button:active {
+        border: 0;
+    }
+
+    .box-why-dmedia {
+        width: 100%;
+
+        background: #f0f0f0;
+    }
+
+    .title-why-dmedia {
+        width: 100%;
+        text-align: center;
+        height: 8%;
+        padding: 24px
+    }
+
+    .title-why-dmedia span {
+        text-transform: uppercase;
+        font-size: 2vw;
+        color: #0340B2;
+    }
+
+
+    .title-type-text {
+        display: inline-block;
+    }
+
+    .title-type-text img {
+        width: 100%
+    }
+
+    .box-why-title1 {
+        height: 40%;
+        text-align: left;
+    }
+
+    .box-why-title1 h4 {
+        color: #0340B1;
+        font-size: 1vw;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .why-image img {
+        width: 97%;
+    }
+
+    .title-why-dmedia {
+        font-family: SFUITextbold !important;
+    }
+
+    .btn-kp {
+        height: 5vw;
+    }
+
+    .btn-kp button {
+        width: 298px;
+        height: 3vw;
+        border-radius: 18px;
+        color: #0342B8;
+        border: 0;
+        font-weight: bold;
+        background: #fff;
+        box-shadow: 0px 0px 5px 5px #ddd;
+
+    }
+
+    .btn-kp button span {
+        font-family: 'SFUITextbold'
+    }
+
+    .box-price-title {
+        text-align: center;
+        height: 5%;
+    }
+
+    .box-price-title h3 {
+        font-family: 'SFUITextbold';
+        color: #fff;
+        text-transform: uppercase;
+
+    }
+
+    .box-price {
+        width: 100%;
+        background: #0442b9;
+        height: 1500px;
+
+    }
+
+    .box-price-all {
+        height: 100%;
+    }
+
+    .box-price-contain {
+        height: 100%;
+
+    }
+
+    .box-price-child {
+        height: 88%;
+        background: #fff;
+        border-radius: 10px;
+        padding: 0;
+        margin-right: 20px;
+        position: relative;
+        width: 23.55% !important;
+        text-align: center;
+    }
+
+    .big-title {
+        height: 6vw;
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    }
+
+    .big-title-1 {
+        background-image: url('./image/bg.gif');
+        background-size: cover;
+    }
+
+    .big-title-2 {
+        background-image: url('./image/bg-1.gif');
+        background-size: cover;
+    }
+
+    .big-title-3 {
+        background-image: url('./image/bg-2.gif');
+        background-size: cover;
+    }
+
+    .big-title-4 {
+        background-image: url('./image/bg-3.gif');
+        background-size: cover;
+    }
+
+
+    .big-title h3 {
+        margin: 0;
+        color: #fff;
+        font-weight: bold;
+        /*line-height: 6vw;*/
+    }
+
+    .box-price-child-1 {
+        margin-right: 0 !important;
+    }
+
+    .big-title h3 {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-transform: uppercase;
+    }
+
+    .text-price {
+        border-bottom: 2px solid #ddd;
+        padding: 5px 0;
+    }
+
+    .text-price span {
+        font-family: SFUITextbold;
+    }
+
+    .register {
+        position: absolute;
+        bottom: 10px;
+
+        left: 50%;
+        /*-moz-transform: translateX(-50%) translateY(-50%);
             -webkit-transform: translateX(-50%) translateY(-50%);*/
-            transform: translateX(-50%);
-        }
+        transform: translateX(-50%);
+    }
 
-        .register button{
-            
-            height: 2vw;
-            width: 7vw;
-            color: #fff;
-            border: 0;
-            border-radius: 7px;
-        }
-        .re1{
-            background-image: url('./image/bg.gif');
-        }
-        /*.box-introduce-fix{
+    .register button {
+
+        height: 2vw;
+        width: 7vw;
+        color: #fff;
+        border: 0;
+        border-radius: 7px;
+    }
+
+    .re1 {
+        background-image: url('./image/bg.gif');
+    }
+
+    /*.box-introduce-fix{
             height: 100%;
         }*/
-        .pd-0{
+    .pd-0 {
+        padding: 0;
+    }
+
+    .mt-60 {
+        margin-top: 60px;
+    }
+
+    .mt-90 {
+        margin-top: 90px;
+    }
+
+    .title-introduce {
+        text-align: left;
+        line-height: 24px;
+        font-size: 13px;
+
+    }
+
+    .d-with {
+        width: 80%;
+    }
+
+    .box-introduce-title1 {
+        width: 51%;
+    }
+
+    .box-price-fix {
+        width: 80%;
+    }
+
+    .box-customer {
+        height: 96vw;
+        background: #f1f1f1;
+    }
+
+    .box-customer-title-1 h3 {
+        font-family: SFUITextbold !important;
+        font-weight: bold;
+        color: #0340B2;
+        text-transform: uppercase;
+    }
+
+    .box-customer-title {
+        padding: 2vw 0;
+        height: 10%;
+    }
+
+    .box-customer-text span {
+        font-size: 18px;
+    }
+
+
+    .box-feedback-1 {
+        height: 100%;
+        border: 1px solid #0450e1;
+        border-radius: 34px;
+        background: #0450e1;
+        position: relative;
+        width: 31.333%;
+        margin-right: 3%;
+
+    }
+
+    .text-feedback {
+        height: 45%;
+        color: #fff;
+        padding: 22px 0px;
+        text-align: left;
+    }
+
+    .text-feedback span {
+        font-size: 1vw;
+    }
+
+    .image-customer {
+        height: 55%;
+        text-align: left;
+    }
+
+    .image-customer img {
+        width: 60%;
+    }
+
+    .info-doctor {
+        color: #fff;
+        position: absolute;
+        bottom: 1vw;
+        right: 1vw;
+    }
+
+    .info-doctor h3 {
+        font-weight: bold;
+    }
+
+    .box-customer-feedback {
+        height: 32%;
+    }
+
+    .image-customer img {
+        position: absolute;
+        left: 0;
+    }
+
+    .hr {
+        text-align: right;
+    }
+
+    .hr hr {
+        width: 50%;
+        float: right;
+    }
+
+    .box-feed-1 {
+        margin-right: 0 !important;
+    }
+
+    .contact {
+        height: 5%;
+        text-transform: uppercase;
+        margin-top: 5%;
+    }
+
+    .contact-title {
+        font-family: SFUITextheavy;
+        color: #0340B2;
+    }
+
+    .form-contact {
+        height: 40vw;
+        background: #044dd7;
+        border-radius: 20px;
+        margin-top: 5%;
+    }
+
+    .image-demo-contact {
+
+        position: relative;
+        height: 100%;
+    }
+
+    .image-contact-1 {
+        position: absolute;
+        text-align: left;
+        bottom: 3vw;
+        left: 0;
+    }
+
+    .image-contact-1 img {
+        width: 70%;
+    }
+
+    .formcontrol1 {
+        height: 4vw !important;
+        border-radius: 12px !important;
+    }
+
+    .form-group-1 {
+        text-align: left;
+        color: #fff;
+        /* margin-top: 15px;*/
+    }
+
+    .customn-area {
+        height: 10vw !important;
+        border-radius: 12px !important;
+    }
+
+    .form-group-1 label {
+        text-transform: none;
+        font-weight: normal;
+    }
+
+    .form {
+        height: 100%;
+    }
+
+    .top-mar-res {
+        margin-top: 2vw;
+    }
+
+    .btn-send button {
+        width: 310px;
+        height: 62px;
+        border-radius: 10px;
+        color: #0342B8;
+        border: 0;
+        font-weight: bold;
+    }
+
+    .top-form label {
+        margin-bottom: 0;
+    }
+
+    .big-title-5 {
+        background: #fff;
+        color: #1d50a7 !important;
+        font-family: SFUITextbold;
+        border-radius: 4px !important;
+
+    }
+
+    .footer {
+        height: 30vw;
+        background: #0551da;
+    }
+
+    .owl-prev {
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+
+    .owl-next {
+        position: absolute;
+        top: 50%;
+        right: 0;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .percent span {
+        font-family: SFUITextheavy;
+    }
+
+    .box-full-per {
+        background: #f1f1f1;
+    }
+
+    .title1 span {
+        font-weight: bold;
+    }
+
+    @media screen and (min-width: 768px) {
+        .float {
+            float: left;
+        }
+
+        .withpadding {
+            width: 80% !important;
+        }
+
+        .box-intro-run-mobile {
+            display: none;
+        }
+
+        .width-text-pad {
+            width: 88%;
+        }
+
+        .menu-mobile {
+            display: none;
+        }
+        .menu-order{
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .box-title {
+            display: block;
+            height: auto;
+        }
+
+        .col-xs-12 {
             padding: 0;
         }
-        .mt-60{
-            margin-top:60px;
-        }
-        .mt-90{
-            margin-top:90px;
-        }
-        .title-introduce{
-            text-align: left;
-            line-height: 24px;
-            font-size: 13px;
-            
-        }
-        .d-with{
-            width: 80%;
-        }
-        .box-introduce-title1{
-            width: 51%;
-        }
-        .box-price-fix{
-            width: 80%;
-        }
-        .box-customer{
-            height: 96vw;
-            background: #f1f1f1;
-        }
-        .box-customer-title-1 h3{
-            font-family: SFUITextbold !important;
-            font-weight: bold;
-            color: #0340B2;
-            text-transform: uppercase;
-        }
-        .box-customer-title{
-            padding: 2vw 0;
-            height: 10%;
-        }
-         .box-customer-text span{
-            font-size: 18px;
-         }
-         
-        
-         .box-feedback-1{
-            height: 100%;
-            border: 1px solid #0450e1;
-            border-radius: 34px;
-            background: #0450e1;
-            position: relative;
-            width: 31.333%;
-            margin-right: 3%;
 
-         }
-         .text-feedback{
-            height: 45%;
-            color: #fff;
-            padding: 22px 0px;
-            text-align: left;
-         }
-         .text-feedback span{
-            font-size: 1vw;
-         }
-         .image-customer{
-            height: 55%;
-            text-align: left;
-         }
-         .image-customer img{
-            width: 60%;
-         }
-         .info-doctor {
-            color: #fff;
-            position: absolute;
-            bottom: 1vw;
-            right: 1vw;
-         }
+        .box-introduce {
+            height: auto;
+        }
 
-         .info-doctor h3{
-            font-weight: bold;
-         }
-         .box-customer-feedback{
-            height: 32%;
-         }
-         .image-customer img{
-            position: absolute;
-            left: 0;
-         }
-         .hr{
-            text-align: right;
-         }
-         .hr hr{
-            width: 50%;
+        .title-introduce h3 {
+            height: auto;
+        }
+
+        .box-price-child {
+            width: 100% !important;
+        }
+
+        .box-introduce-title1 {
+            width: 100%;
+        }
+
+        .text {
+            font-size: 14px;
+        }
+
+        .box-why-title1 h4 {
+            font-size: 4vw;
+        }
+
+        .check-btn button {
+            width: 50vw;
+            height: 33px;
+        }
+
+        .title-why-dmedia span {
+            font-size: 5vw;
+        }
+
+        .box-customer {
+            height: auto;
+        }
+
+        .box-price-all {
+            height: auto;
+        }
+
+        .box-price-fix {
+            width: 100%;
+        }
+
+        .banner-introduce img {
+            display: none;
+        }
+
+        .text-feedback span {
+            font-size: 14px;
+        }
+
+        .box-price {
+            padding: 0;
+        }
+
+        .banner,
+        .box-title,
+        .box-introduce,
+        .col-xs-12 {
+            padding: 0;
+        }
+
+        .box-title {
+            margin: 0;
+        }
+
+        .box-feedback-1 {
+            margin: 0;
+            height: auto;
+        }
+
+        .big-title {
+            height: 25vw;
+        }
+
+        .box-price-child {
+            height: 600px;
+        }
+
+        .box-price-contain {
+            height: auto;
+        }
+
+        .box-customer-feedback {
+            display: none;
+        }
+
+        .image-demo-contact {
+            display: none;
+        }
+
+        .register button {
+            height: 10vw;
+            width: 26vw;
+        }
+
+        .price-contain {
+            margin: 0 !important;
+        }
+
+        .box-intro-run {
+            display: none;
+        }
+
+        .box-intro-run-mobile .text {
+            padding: 15px;
+        }
+
+        .title-type-text img {
+            margin: 17px auto;
+            width: 38% !important;
+        }
+
+        .btn-kp button {
+            width: 170px;
+            height: 36px;
+        }
+
+        .btn-kp {
+            height: 50px;
+        }
+
+        .box-price {
+            height: auto;
+        }
+
+        .box-price-fix {
+            clear: left;
+        }
+
+        .box-feedback-1 {
+            width: auto;
+        }
+
+        .text-feedback {
+            padding: 17px;
+        }
+
+        .image-customer {
+            height: 107vw;
+            text-align: left;
+        }
+
+        .info-doctor {
+            right: 5vw;
+            bottom: auto;
+        }
+
+        .formcontrol1 {
+            height: 35px !important;
+        }
+
+        .form-contact {
+            height: 87vw;
+        }
+
+        .why-image img {
+            padding: 20px 0;
+        }
+
+        .slogan {
+            margin-top: 0 !important;
+        }
+
+        .slogan h1 {
+            font-size: 15px !important;
+            line-height: 3px !important;
+            font-family: SFUIText !important;
+        }
+
+        .menu-des {
+            display: none;
+        }
+
+        .slogan h1 {
+            display: none !important;
+        }
+
+        .check button {
+            height: 40px !important;
+            width: 153px !important;
+
+        }
+
+        .slogan {
+            width: 100%;
+            height: 55px;
+        }
+
+        .menu-mobile .line1 {
+            width: 35px;
+            height: 5px;
+            background-color: #fff;
+            margin: 6px 0;
+        }
+
+        .icon-menu {
+            width: 20%;
             float: right;
-         }
-         .box-feed-1{
-            margin-right: 0 !important;
-         }
-         .contact{
-            height: 5%;
-            text-transform: uppercase;
-            margin-top: 5%;
-         }
-         .contact-title{
-            font-family:  SFUITextheavy;
-            color: #0340B2;
-         }
-         .form-contact{
-            height: 40vw;
-            background: #044dd7;
-            border-radius: 20px;
-            margin-top: 5%;
-         }
-         .image-demo-contact{
-           
-            position: relative;
-            height: 100%;
-         }
-         .image-contact-1{
+        }
+        .menu-order{
+            height: 200px;
+            background: #fff;
             position: absolute;
+            
+            z-index: 99;
+            width: 82%;
+            top: 0;
+        }
+        .menu-child{
+            height: 35px;
             text-align: left;
-            bottom: 3vw;
-            left: 0;
-         }
-         .image-contact-1 img{
-            width: 70%;
-         }
-         .formcontrol1{
-            height: 4vw !important;
-            border-radius: 12px !important;
-         }
-         .form-group-1{
-            text-align: left;
-            color: #fff;
-           /* margin-top: 15px;*/
-         }
-         .customn-area{
-            height: 10vw !important;
-            border-radius: 12px !important;
-         }
-         .form-group-1 label{
-            text-transform: none;
-            font-weight: normal;
-         }
-         .form{
-            height: 100%;
-         }
-         
-         .top-mar-res{
-            margin-top: 2vw;
-         }
-         .btn-send button{
-            width: 310px;
-            height: 62px;
-            border-radius: 10px;
-            color: #0342B8;
-            border: 0;
+        }
+        .menu-child span{
             font-weight: bold;
-         }
-         .top-form label{
-            margin-bottom: 0;
-         }
-         .big-title-5{
-           background: #fff;
-           color:  #1d50a7 !important;
-           font-family: SFUITextbold;
-           border-radius: 4px !important;
-
-         }
-         .footer{
-            height: 30vw;
-            background: #0551da;
-         }
-         .owl-prev{
-            position: absolute;
-            top: 50%;
-            left: 0;
-         }
-         .owl-next{
-            position: absolute;
-            top: 50%;
-            right: 0;
-         }
-         .clearfix::after {
-          content: "";
-          clear: both;
-          display: table;
+        }
+        .menu-open{
+            padding: 10px !important;
         }
 
-        @media screen and (min-width: 768px) {
-            .float{
-                float: left;
-            }
-            .withpadding{
-                with: 80%;
-            }
-            .box-intro-run-mobile{
-                display: none;
-            }
-        }
+    }
 
-         @media screen and (max-width: 767px) {
-            .box-title{
-                display: block;
-                height: auto;
-            }
-            .col-xs-12{
-                padding: 0;
-            }
-            .box-introduce{
-                height: auto;
-            }
-            .title-introduce h3{
-                height: auto;
-            }
-            .box-price-child{
-                width: 100% !important;
-            }
-            .box-introduce-title1{
-                width: 100%;
-            }
-            .text {
-                font-size: 14px;
-            }  
-            .box-why-title1 h4{
-                font-size: 4vw;
-            }  
-            .check-btn button {
-                width: 50vw;
-                height: 33px;
-            }  
-            .title-why-dmedia span{
-                font-size: 5vw;
-            }  
-            .box-customer{
-                height: auto;
-            }
-            .box-price-all{
-                height: auto;
-            }
-            .box-price-fix{
-                width: 100%;
-            }
-            .banner-introduce img{
-                display: none;
-            }
-            .text-feedback span{
-                font-size: 14px;
-            }
-            .box-price{
-                padding: 0;
-            }
-            .banner, .box-title, .box-introduce, .col-xs-12{
-                padding: 0;
-            }
-            .box-title{
-                margin: 0;
-            }
-            .box-feedback-1{
-                margin: 0;
-                height: auto;
-            }
-            .big-title {
-                height: 25vw;
-            }    
-            .box-price-child{
-                height: 600px;
-            }
-            .box-price-contain{
-                height: auto;
-            }
-            .box-customer-feedback{
-                display: none;
-            }
-            .image-demo-contact{
-                display: none;
-            }
+    .menu-order{
+        display: none;
+    }
 
-            .register button{
-                height: 10vw;
-                 width: 26vw;
-            }
-            .price-contain{
-                margin: 0 !important;
-            }
-            .box-intro-run{
-                display: none;
-            }
+    .menu-des ul {
+        color: #fff;
 
-            .box-intro-run-mobile .text{
-                padding: 15px;
-            }
-            .title-type-text img{
-                margin: 17px auto;
-                width: 38% !important;
-            }
-            .btn-kp button{
-                width: 170px;
-                height: 36px;
-            }
-            .btn-kp {
-                height: 50px;
-            }
-            .box-price {
-                height: auto;
-            }   
-            .box-price-fix{
-                clear: left;
-            } 
-            .box-feedback-1{
-                width: auto;
-            }
-            .text-feedback{
-                padding: 17px;
-            }
-            .image-customer {
-                height: 107vw;
-                text-align: left;   
-            }
-            .info-doctor{
-                right: 5vw;
-                bottom: auto;
-            }   
-            .formcontrol1{
-                height: 35px !important;
-            } 
-            .form-contact {
-                height: 87vw;
-            }    
-        }
+    }
 
-        /*.contain{
+    .menu-des {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .menu-des ul li {
+        list-style: none;
+        float: left;
+        width: 20%;
+        text-align: right;
+    }
+
+    .menu-home {
+        height: 10%;
+        margin-top: 20px;
+    }
+
+    .logo {
+        text-align: left;
+    }
+
+    .slogan {
+        text-align: left;
+
+        color: #fff;
+
+        margin-top: 46%;
+
+    }
+
+    .slogan h1 {
+        line-height: 54px;
+        font-family: SFUITextheavy;
+        text-transform: uppercase;
+
+    }
+
+    .check {
+        margin-top: 10%;
+        text-align: left;
+    }
+
+    .check button {
+        height: 3vw;
+        width: 175px;
+        border: 0;
+    }
+
+
+
+
+
+    /*.contain{
             width: 90%;
         }*/
-
-
-
-         
     </style>
-
 </head>
 
 <body class="link-body" cz-shortcut-listen="true" style="font-family:'SFUIText'">
-    
     <div class="row d-flex justify-content-center text-center head-image">
-       
-            <header class="d-flex flex-column align-items-center">
-                <div class="col-md-12 col-xs-12 banner"></div>
-                
-            </header>
-
-            <main id="links" class="mt-0">
-               	<div class="row box-title col-xs-12">
-           			<div class="col-md-4 col-xs-12">
-           				<div class="title-info">
-           					<div class="percent"><span>70,3%</span></div>
-	                    	<div class="title1"><span>Dân số Việt Nam Sử dụng internet</span></div>
-           				</div>
-	                   
-	                    
-	                </div>
-	                <div class="col-md-4 col-xs-12">
-	                	<div class="title-info">
-		                    <div class="percent"><span>37%</span></div>
-		                    <div class="title1"><span>Khách hàng tìm kiếm internet trước khi đến phòng khám</span></div>
-		                </div>
-	                </div>
-	                <div class="col-md-4 col-xs-12">
-	                	<div class="title-info">
-		                    <div class="percent"><span>62%</span></div>
-		                    <div class="title1"><span>Nha sĩ khẳng định quảng cáo trên báo không có hiệu quả</span></div>
-		                </div>    
-	                </div>
-               	</div>
-
-               	<div class="box-introduce col-xs-12">
-                   
-                    <div class="col-md-12 col-xs-12 title-introduce" style="text-align: center;">
-                        <h3>Những gì nhận được khi sử dụng dịch vụ của D’ Media</h3>
-                    </div>
-
-                    <div class="box-intro-run">
-                        <div class="col-md-5 col-xs-12">
-                            <div class="banner-introduce">
-                                <img src="./image/web/im2.png">
-                            </div>
+        <header class="d-flex flex-column align-items-center">
+            <div class="col-md-12 col-xs-12 banner">
+                <div class="container withpadding menu-home">
+                    <div class="col-md-6 col-xs-6">
+                        <div class="logo">
+                            <h1>DMEDIA</h1>
                         </div>
-                        <div class="col-md-7 col-xs-12 box-introduce-title1">
-                            <div class="col-md-12">
-                                <div class="col-md-6">
-                                    <div class="title-type-text col-md-12">
-                                        <div class="col-md-3">
-                                             <img src="./image/web/icon1.png">
-                                        </div>
-                                        <div class="col-md-9 pd-0">
-                                             <h4 class="title-introduce" style="margin:0">Tạo website chuẩn nha khoa trong 5 giây</h4>
-                                        </div>
-                                      
-                                    </div>
-                                    <div class="text">
-                                        <span>
-                                           Dù là gói miễn phí hay thiết kế riêng, tất cả những sản phẩm của Meta đều luôn trong trạng thái sẵn sàng đưa vào sử dụng chỉ trong 1 cú click.
-
-                                        </span>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6 ">
-                                    <div class="title-type-text col-md-12">
-                                        <div class="col-md-3">
-                                             <img src="./image/web/icon2.png">
-                                        </div>
-
-                                        <div class="col-md-9 pd-0">
-                                             <h4 class="title-introduce" style="margin:0">Toàn quyền sở hữu website</h4>
-                                        </div>
-
-                                    </div>
-                                    <div class="text">
-                                        <span>
-                                            Trang web, nội dung độc nhất trong website như hình ảnh hay video đều thuộc toàn quyền sở hữu của khách hàng.
-                                        </span>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <div class="col-md-12 mt-90">
-
-                                <div class="col-md-6 ">
-                                    <div class="title-type-text col-md-12">
-                                        <div class="col-md-3">
-                                             <img src="./image/web/icon3.png">
-                                        </div>
-                                        <div class="col-md-9 pd-0">
-                                             <h4 class="title-introduce" style="margin:0">Tăng tỉ lệ chuyển đổi khách hàng</h4>
-                                        </div>
-                                      
-                                    </div>
-                                    <div class="text">
-                                        <span>
-                                            Chúng tôi tập trung vào mục tiêu tăng phản hồi trực tuyến thông qua tính năng gọi điện thoại, tin nhắn và gửi biểu mẫu. Tạo nên những website được tối ưu hóa cho việc nhận phản hồi  từ những người truy cập trang web từ đa dạng các thiết bị.
-
-                                        </span>
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-6 ">
-                                    <div class="title-type-text col-md-12">
-                                        <div class="col-md-3">
-                                             <img src="./image/web/icon4.png">
-                                        </div>
-
-                                        <div class="col-md-9 pd-0">
-                                             <h4 class="title-introduce" style="margin:0">Đội ngũ nhiệt huyết dày dặn kinh nghiệm</h4>
-                                        </div>
-
-                                    </div>
-                                    <div class="text">
-                                        <span>
-                                            Những thành viên của D Media là duy nhất và là tập hợp của những người đã có từ 10 đến 15 năm làm việc trong ngành nha khoa. Bạn sẽ được tư vấn về kiến thức chuyên môn xuyên suốt dự án.
-
-                                        </span>
-                                    </div>
-
-                                </div>
-                        
-                            </div>
-
-                            <div class="check-btn col-md-12 top-mar-max">
-                               <button>Dùng thử ngay </button>
-                            </div>
+                        <div class="slogan">
+                            <h1>
+                                D'media<br>đưa bệnh nhân từ internet<br>đến phòng khám thật
+                            </h1>
+                            <span>Không chỉ đơn giản là phát triển website</span>
+                        </div>
+                        <div class="check">
+                            <button class="big-title-5">Dùng thử miễn phí</button>
                         </div>
                     </div>
-                      
-                   
-               	</div>
-
-                <!-- box-introduce-mobile -->
-
-                <div class="col-xs-12">
-
-                    <div class="container" >
-                        <div class="row">
-                            <div class="owl-carousel owl-theme">
-
-                                <div class="box-intro-run-mobile">
-                                    
-                                    <div class="col-xs-12 box-introduce-title1">
-                                        <div class="title-type-text">
-                                            
-                                            <img src="./image/web/icon1.png">
-                                            
-                                            <h4 class="title-introduce" style="margin:0">Tạo website chuẩn nha khoa trong 5 giây</h4>
-                                           
-                                          
-                                        </div>
-                                        <div class="text">
-                                            <span>
-                                               Dù là gói miễn phí hay thiết kế riêng, tất cả những sản phẩm của Meta đều luôn trong trạng thái sẵn sàng đưa vào sử dụng chỉ trong 1 cú click.
-
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>            
-
-                            </div>
+                    <div class="col-md-6 col-xs-6 menu-des">
+                        <ul>
+                            <li>Trang chủ</li>
+                            <li>Về chúng tôi</li>
+                            <li>Bảng giá</li>
+                            <li>Đăng ký</li>
+                            <li>Liên hệ</li>
+                        </ul>
+                    </div>
+                    <!-- menu mobile -->
+                    <div class="col-xs-6 menu-mobile">
+                        <div class="icon-menu">
+                            <div class="line1"></div>
+                            <div class="line1"></div>
+                            <div class="line1"></div>
                         </div>
                     </div>
                 </div>
-                    
-                <!-- box why dmedia -->
-                <div class="box-why-dmedia col-xs-12">
-                    
-                    <div class="title-why-dmedia">
-                        <span>Vì sao lựa trọn D Media ?</span>
-                    </div>
-                    
-                    <div class="container withpadding" >
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="box-why-title1">
-                                    <h4>Thiết kế web với công nghệ thông minh</h4>
-                                    <span>Website đáp ứng được tất cả các yêu cầu từ Google và các công cụ tìm kiếm <br>
-                                    - Đáp ứng mọi nhu cầu với nhiều tiện ích đặc quyền <br>
-                                    - Tích hợp với phần mềm thanh toán trực tuyến, lập lịch và biểu mẫu được cung cấp bởi các bên thứ ba. <br>
-                                    </span>
-                                </div>
-
-                                <div class="box-why-title1 top-mar-big">
-                                    <h4>Thiết kế web với công nghệ thông minh</h4>
-                                    <span>Website đáp ứng được tất cả các yêu cầu từ Google và các công cụ tìm kiếm <br>
-                                    - Đáp ứng mọi nhu cầu với nhiều tiện ích đặc quyền <br>
-                                    - Tích hợp với phần mềm thanh toán trực tuyến, lập lịch và biểu mẫu được cung cấp bởi các bên thứ ba. <br>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="col-md-6 why-image">
-                                <img src="./image/PICTURE-3.gif">
-                            </div>
-                            <div class="col-md-3">
-                                 <div class="box-why-title1">
-                                    <h4>Giao diện tinh tế, thân thiện với người dùng</h4>
-                                    <span>
-                                     - Sản phẩm của D Media có tính thẩm mỹ cao, đảm bảo tất cả những tính năng của trang web đều được tối ưu cho trải nghiệm người dùng. 
-                                    - Nắm bắt chính xác hình ảnh, màu sắc thương hiệu của khách hàng, thể hiện theo cách riêng thông qua từng chi tiết tỉ mỉ.
-                                    </span>
-                                </div>
-
-                                <div class="box-why-title1 top-mar-big">
-                                    <h4>Thiết kế web với công nghệ thông minh</h4>
-                                    <span>Website đáp ứng được tất cả các yêu cầu từ Google và các công cụ tìm kiếm <br>
-                                    - Đáp ứng mọi nhu cầu với nhiều tiện ích đặc quyền <br>
-                                    - Tích hợp với phần mềm thanh toán trực tuyến, lập lịch và biểu mẫu được cung cấp bởi các bên thứ ba. <br>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-
-                    <div class="title-why-dmedia top-mar-max">
-                        <span>các dự án đã hoàn thiện</span>
-                    </div>
-                    <div class="container" style="width: 80%;">
-                        <div class="row">
-                            <div class="owl-carousel owl-theme">
-
-                                <div class="item">
-                                    
-                                    <a href="#"><img src="./image/slider/1.gif"></a>
-                                </div>
-
-                                <div class="item">
-                                    <a href="#"><img src="./image/slider/2.gif"></a>
-                                    
-                                </div>
-
-                                <div class="item">
-                                    <a href="#"><img src="./image/slider/3.gif"></a>
-                                    
-                                </div>
-
-                                <div class="item">
-                                    <a href="#"><img src="./image/slider/3.gif"></a>
-                                    
-                                </div>
-                            </div>
-                            <div class="btn-kp">
-                               <button><span>Khám phá ngay</span></button>
-                            </div>
-
-                        </div>
-                    </div>        
-                    
-                </div>
-
-                <!-- box price -->
-                
-                <div class="box-price float">
-                        <div class="container box-price-contain box-price-fix ">
-                            <div class="row box-price-contain">
-                                <div class="col-md-12 col-xs-12 box-price-title">
-                                    <h3>Bảng giá</h3>
-                                </div>
+                <!-- menu mobile-order -->
+                <div class="menu-order">
+                    <ul class="main-nav-mobile menu-open">
+                        <div class="menu-mb-1">
                                 
-                                <div class="col-md-3 col-xs-12 box-price-child">
-                                    <div class="big-title big-title-1">
-                                        <h3>Free</h3>
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>1 trang chủ</span>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>5 trang con</span>
-
-                                    </div>
-
-                                    <div class="register">
-                                        <button class="big-title-1">Đăng ký</button>
-                                    </div>
-                                   
-
+                            <div>
+                                <div class="menu-child">
+                                    <span><a href="#">Trang chủ</a></span>
                                 </div>
 
-                                <div class="col-md-3 col-xs-12 box-price-child">
-                                    <div class="big-title big-title-3">
-                                        <h3>Competitive edge </h3>
-                                         <h3>10.000.000 vnđ </h3>
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>1 trang chủ</span>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>5 trang con</span>
-
-                                    </div>
-
-                                    <div class="register">
-                                        <button class="big-title-2">Đăng ký</button>
-                                    </div>
-
+                                <div class="menu-child">
+                                    <span><a href="#">Về chúng tôi</a></span>
                                 </div>
 
-                                <div class="col-md-3 col-xs-12 box-price-child">
-                                    <div class="big-title big-title-2">
-                                        <h3>15tr - premium</h3>
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>1 trang chủ</span>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>5 trang con</span>
-
-                                    </div>
-
-                                    <div class="register">
-                                        <button class="big-title-3">Đăng ký</button>
-                                    </div>
-
+                                <div class="menu-child">
+                                    <span><a href="#">Bảng giá</a></span>
                                 </div>
 
-                                <div class="col-md-3 col-xs-12 box-price-child box-price-child-1">
-                                    <div class="big-title big-title-4">
-                                        <h3>20tr - enterprise</h3>
-                                    </div>
-                                    <div class="text-price">
-                                        <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>1 trang chủ</span>
-
-                                    </div>
-
-                                    <div class="text-price">
-                                        <span>5 trang con</span>
-
-                                    </div>
-
-                                    <div class="register">
-                                        <button class="big-title-4">Đăng ký</button>
-                                    </div>
-
+                                <div class="menu-child">
+                                    <span><a href="#">Đăng ký</a></span>
                                 </div>
 
-                               
+                                <div class="menu-child">
+                                    <span><a href="#">Liên hệ </a></span>
+                                </div>
 
                             </div>
-                        </div>
-                </div>
-
-                <!-- box customer -->
-                <div class="col-xs-12 box-customer ">
-                    <div class="container box-price-contain box-price-fix">
-                        <div class="row box-price-contain">
-                            <div class="box-customer-title">
-                                <div class="box-customer-title-1">
-                                    <h3>Cảm nhận từ khách hàng sử dụng dịch vụ</h3>
-                                </div>
-                                <div class="box-customer-text">
-                                    <span>Những chia sẻ và cảm nhận từ khách hàng của chúng tôi</span>
-                                </div>
-                            </div>
-
-                            <div class="box-intro-run-mobile">
-                                
-                                <div class="owl-carousel owl-theme">
-
-                                   <div class="col-xs-12 box-feedback-1">
-                                        <div class="text-feedback">
-                                            <span>
-                                                 Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
-                                            </span>
-                                            
-                                        </div>
-                                        <div class="image-customer">
-                                            <img src="./image/web/im4.png">
-                                            <div class="info-doctor">
-                                                <div class="hr">
-                                                    <hr>
-                                                </div>
-                                               
-                                                <h3>DR.SIVANA</h3>
-                                                <span>Nha khoa Smile Uk</span>
-                                            </div>
-                                        </div>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-
                             
-
-
-
-                            <div class="box-customer-feedback col-xs-12">
-                                <div class="col-md-4 box-feedback-1">
-                                    <div class="text-feedback">
-                                        <span>
-                                             Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
-                                        </span>
-                                        
-                                    </div>
-                                    <div class="image-customer">
-                                        <img src="./image/web/im4.png">
-                                        <div class="info-doctor">
-                                            <div class="hr">
-                                                <hr>
-                                            </div>
-                                           
-                                            <h3>DR.SIVANA</h3>
-                                            <span>Nha khoa Smile Uk</span>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-
-                                <div class="col-md-4 box-feedback-1">
-                                    <div class="text-feedback">
-                                        <span>
-                                             Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
-                                        </span>
-                                        
-                                    </div>
-                                    <div class="image-customer">
-                                        <img src="./image/web/im4.png">
-                                        <div class="info-doctor">
-                                            <div class="hr">
-                                                <hr>
-                                            </div>
-                                           
-                                            <h3>DR.SIVANA</h3>
-                                            <span>Nha khoa Smile Uk</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4 box-feedback-1 box-feed-1">
-                                    <div class="text-feedback">
-                                        <span>
-                                             Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
-                                        </span>
-                                        
-                                    </div>
-                                    <div class="image-customer">
-                                        <img src="./image/web/im4.png">
-                                        <div class="info-doctor">
-                                            <div class="hr">
-                                                <hr>
-                                            </div>
-                                           
-                                            <h3>DR.SIVANA</h3>
-                                            <span>Nha khoa Smile Uk</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--  box contact -->
-                            <div class="contact col-xs-12">
-                                <div class="contact-title">
-                                    <h3>Tối ưu thời gian để mang lại giải pháp marketing hiệu quả bằng cách liên hệ với chúng tôi qua form đăng kí sau:</h3>
-                                </div>
-                                <div class="form-contact">
-                                    <div class="col-md-6 image-demo-contact">
-                                        <div class="image-contact-1">
-                                            <img src="./image/web/im5.png">
-                                        </div>
-                                    </div>
-
-                                     <div class="col-md-6" style="height: 100%;">
-                                         <div class="top-mar-res top-form form-group-1">
-                                                 <label for="exampleFormControlInput1">Họ và tên</label>
-                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
-                                            </div>
-                                           
-                                            <div class="top-mar-res top-form form-group-1">
-                                                <label for="exampleFormControlInput1">Email</label>
-                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
-                                            </div>            
-                                            
-                                            <div class="top-mar-res top-form form-group-1">
-                                                 <label for="exampleFormControlInput1">Số điện thoại</label>
-                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
-                                            </div>
-                                           
-                                            <div class="top-mar-res top-form form-group-1">
-                                                <label for="exampleFormControlTextarea1">Yêu cầu nội dung</label>
-                                                <textarea class="form-control customn-area" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                            </div>
-
-                                            <div class="register">
-                                                <button class="big-title-5">Gửi</button>
-                                            </div>
-
-                                            
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>    
-                    </div>        
-                </div> 
-               
-                 
-            </main>
-           
-                <div class="footer">
-                    
-                    <div class="col-md-6 logo-footer">
+                        </div>
                        
-                    </div>
-                    <div class="col-md-6 logo-contact">
                         
-                    </div>
-                    
+                    </ul>
                 </div>
-            
+            </div>
+        </header>
+        <main id="links" class="mt-0">
+            <div class="box-full-per">
+                <div class="container width-text-pad">
+                    <div class="row box-title col-xs-12">
+                        <div class="col-md-4 col-xs-12">
+                            <div class="title-info">
+                                <div class="percent"><span>70,3%</span></div>
+                                <div class="title1"><span>Dân số Việt Nam Sử dụng internet</span></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                            <div class="title-info">
+                                <div class="percent"><span>37%</span></div>
+                                <div class="title1"><span>Khách hàng tìm kiếm internet trước khi đến phòng khám</span></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                            <div class="title-info">
+                                <div class="percent"><span>62%</span></div>
+                                <div class="title1"><span>Nha sĩ khẳng định quảng cáo trên báo không có hiệu quả</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-introduce col-xs-12">
+                <div class="col-md-12 col-xs-12 title-introduce" style="text-align: center;">
+                    <h3>Những gì nhận được khi sử dụng dịch vụ của D’ Media</h3>
+                </div>
+                <div class="box-intro-run">
+                    <div class="col-md-5 col-xs-12">
+                        <div class="banner-introduce">
+                            <img src="./image/web/im2.png">
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-xs-12 box-introduce-title1">
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <div class="title-type-text col-md-12">
+                                    <div class="col-md-3">
+                                        <img src="./image/web/icon1.png">
+                                    </div>
+                                    <div class="col-md-9 pd-0">
+                                        <h4 class="title-introduce" style="margin:0">Tạo website chuẩn nha khoa trong 5 giây</h4>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <span>
+                                        Dù là gói miễn phí hay thiết kế riêng, tất cả những sản phẩm của Meta đều luôn trong trạng thái sẵn sàng đưa vào sử dụng chỉ trong 1 cú click.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <div class="title-type-text col-md-12">
+                                    <div class="col-md-3">
+                                        <img src="./image/web/icon2.png">
+                                    </div>
+                                    <div class="col-md-9 pd-0">
+                                        <h4 class="title-introduce" style="margin:0">Toàn quyền sở hữu website</h4>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <span>
+                                        Trang web, nội dung độc nhất trong website như hình ảnh hay video đều thuộc toàn quyền sở hữu của khách hàng.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-90">
+                            <div class="col-md-6 ">
+                                <div class="title-type-text col-md-12">
+                                    <div class="col-md-3">
+                                        <img src="./image/web/icon3.png">
+                                    </div>
+                                    <div class="col-md-9 pd-0">
+                                        <h4 class="title-introduce" style="margin:0">Tăng tỉ lệ chuyển đổi khách hàng</h4>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <span>
+                                        Chúng tôi tập trung vào mục tiêu tăng phản hồi trực tuyến thông qua tính năng gọi điện thoại, tin nhắn và gửi biểu mẫu. Tạo nên những website được tối ưu hóa cho việc nhận phản hồi từ những người truy cập trang web từ đa dạng các thiết bị.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <div class="title-type-text col-md-12">
+                                    <div class="col-md-3">
+                                        <img src="./image/web/icon4.png">
+                                    </div>
+                                    <div class="col-md-9 pd-0">
+                                        <h4 class="title-introduce" style="margin:0">Đội ngũ nhiệt huyết dày dặn kinh nghiệm</h4>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <span>
+                                        Những thành viên của D Media là duy nhất và là tập hợp của những người đã có từ 10 đến 15 năm làm việc trong ngành nha khoa. Bạn sẽ được tư vấn về kiến thức chuyên môn xuyên suốt dự án.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="check-btn col-md-12 top-mar-max">
+                            <button>Dùng thử ngay </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- box-introduce-mobile -->
+            <div class="col-xs-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="owl-carousel owl-theme">
+                            <div class="box-intro-run-mobile">
+                                <div class="col-xs-12 box-introduce-title1">
+                                    <div class="title-type-text">
+                                        <img src="./image/web/icon1.png">
+                                        <h4 class="title-introduce" style="margin:0">Tạo website chuẩn nha khoa trong 5 giây</h4>
+                                    </div>
+                                    <div class="text">
+                                        <span>
+                                            Dù là gói miễn phí hay thiết kế riêng, tất cả những sản phẩm của Meta đều luôn trong trạng thái sẵn sàng đưa vào sử dụng chỉ trong 1 cú click.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- box why dmedia -->
+            <div class="box-why-dmedia col-xs-12">
+                <div class="title-why-dmedia">
+                    <span>Vì sao lựa trọn D Media ?</span>
+                </div>
+                <div class="container withpadding">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="box-why-title1">
+                                <h4>Thiết kế web với công nghệ thông minh</h4>
+                                <span>Website đáp ứng được tất cả các yêu cầu từ Google và các công cụ tìm kiếm <br>
+                                    - Đáp ứng mọi nhu cầu với nhiều tiện ích đặc quyền <br>
+                                    - Tích hợp với phần mềm thanh toán trực tuyến, lập lịch và biểu mẫu được cung cấp bởi các bên thứ ba. <br>
+                                </span>
+                            </div>
+                            <div class="box-why-title1 top-mar-big">
+                                <h4>Thiết kế web với công nghệ thông minh</h4>
+                                <span>Website đáp ứng được tất cả các yêu cầu từ Google và các công cụ tìm kiếm <br>
+                                    - Đáp ứng mọi nhu cầu với nhiều tiện ích đặc quyền <br>
+                                    - Tích hợp với phần mềm thanh toán trực tuyến, lập lịch và biểu mẫu được cung cấp bởi các bên thứ ba. <br>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 why-image">
+                            <img src="./image/PICTURE-3.gif">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="box-why-title1">
+                                <h4>Giao diện tinh tế, thân thiện với người dùng</h4>
+                                <span>
+                                    - Sản phẩm của D Media có tính thẩm mỹ cao, đảm bảo tất cả những tính năng của trang web đều được tối ưu cho trải nghiệm người dùng.
+                                    - Nắm bắt chính xác hình ảnh, màu sắc thương hiệu của khách hàng, thể hiện theo cách riêng thông qua từng chi tiết tỉ mỉ.
+                                </span>
+                            </div>
+                            <div class="box-why-title1 top-mar-big">
+                                <h4>Thiết kế web với công nghệ thông minh</h4>
+                                <span>Website đáp ứng được tất cả các yêu cầu từ Google và các công cụ tìm kiếm <br>
+                                    - Đáp ứng mọi nhu cầu với nhiều tiện ích đặc quyền <br>
+                                    - Tích hợp với phần mềm thanh toán trực tuyến, lập lịch và biểu mẫu được cung cấp bởi các bên thứ ba. <br>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="title-why-dmedia top-mar-max">
+                    <span>các dự án đã hoàn thiện</span>
+                </div>
+                <div class="container" style="width: 80%;">
+                    <div class="row">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <a href="#"><img src="./image/slider/1.gif"></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="./image/slider/2.gif"></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="./image/slider/3.gif"></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="./image/slider/3.gif"></a>
+                            </div>
+                        </div>
+                        <div class="btn-kp">
+                            <button><span>Khám phá ngay</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- box price -->
+            <div class="box-price float">
+                <div class="container box-price-contain box-price-fix ">
+                    <div class="row box-price-contain">
+                        <div class="col-md-12 col-xs-12 box-price-title">
+                            <h3>Bảng giá</h3>
+                        </div>
+                        <div class="col-md-3 col-xs-12 box-price-child">
+                            <div class="big-title big-title-1">
+                                <h3>Free</h3>
+                            </div>
+                            <div class="text-price">
+                                <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
+                            </div>
+                            <div class="text-price">
+                                <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
+                            </div>
+                            <div class="text-price">
+                                <span>1 trang chủ</span>
+                            </div>
+                            <div class="text-price">
+                                <span>5 trang con</span>
+                            </div>
+                            <div class="register">
+                                <button class="big-title-1">Đăng ký</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12 box-price-child">
+                            <div class="big-title big-title-3">
+                                <h3>Competitive edge </h3>
+                                <h3>10.000.000 vnđ </h3>
+                            </div>
+                            <div class="text-price">
+                                <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
+                            </div>
+                            <div class="text-price">
+                                <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
+                            </div>
+                            <div class="text-price">
+                                <span>1 trang chủ</span>
+                            </div>
+                            <div class="text-price">
+                                <span>5 trang con</span>
+                            </div>
+                            <div class="register">
+                                <button class="big-title-2">Đăng ký</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12 box-price-child">
+                            <div class="big-title big-title-2">
+                                <h3>15tr - premium</h3>
+                            </div>
+                            <div class="text-price">
+                                <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
+                            </div>
+                            <div class="text-price">
+                                <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
+                            </div>
+                            <div class="text-price">
+                                <span>1 trang chủ</span>
+                            </div>
+                            <div class="text-price">
+                                <span>5 trang con</span>
+                            </div>
+                            <div class="register">
+                                <button class="big-title-3">Đăng ký</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12 box-price-child box-price-child-1">
+                            <div class="big-title big-title-4">
+                                <h3>20tr - enterprise</h3>
+                            </div>
+                            <div class="text-price">
+                                <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
+                            </div>
+                            <div class="text-price">
+                                <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
+                            </div>
+                            <div class="text-price">
+                                <span>1 trang chủ</span>
+                            </div>
+                            <div class="text-price">
+                                <span>5 trang con</span>
+                            </div>
+                            <div class="register">
+                                <button class="big-title-4">Đăng ký</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- box customer -->
+            <div class="col-xs-12 box-customer ">
+                <div class="container box-price-contain box-price-fix">
+                    <div class="row box-price-contain">
+                        <div class="box-customer-title">
+                            <div class="box-customer-title-1">
+                                <h3>Cảm nhận từ khách hàng sử dụng dịch vụ</h3>
+                            </div>
+                            <div class="box-customer-text">
+                                <span>Những chia sẻ và cảm nhận từ khách hàng của chúng tôi</span>
+                            </div>
+                        </div>
+                        <div class="box-intro-run-mobile">
+                            <div class="owl-carousel owl-theme">
+                                <div class="col-xs-12 box-feedback-1">
+                                    <div class="text-feedback">
+                                        <span>
+                                            Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
+                                        </span>
+                                    </div>
+                                    <div class="image-customer">
+                                        <img src="./image/web/im4.png">
+                                        <div class="info-doctor">
+                                            <div class="hr">
+                                                <hr>
+                                            </div>
+                                            <h3>DR.SIVANA</h3>
+                                            <span>Nha khoa Smile Uk</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-customer-feedback col-xs-12">
+                            <div class="col-md-4 box-feedback-1">
+                                <div class="text-feedback">
+                                    <span>
+                                        Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
+                                    </span>
+                                </div>
+                                <div class="image-customer">
+                                    <img src="./image/web/im4.png">
+                                    <div class="info-doctor">
+                                        <div class="hr">
+                                            <hr>
+                                        </div>
+                                        <h3>DR.SIVANA</h3>
+                                        <span>Nha khoa Smile Uk</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 box-feedback-1">
+                                <div class="text-feedback">
+                                    <span>
+                                        Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
+                                    </span>
+                                </div>
+                                <div class="image-customer">
+                                    <img src="./image/web/im4.png">
+                                    <div class="info-doctor">
+                                        <div class="hr">
+                                            <hr>
+                                        </div>
+                                        <h3>DR.SIVANA</h3>
+                                        <span>Nha khoa Smile Uk</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 box-feedback-1 box-feed-1">
+                                <div class="text-feedback">
+                                    <span>
+                                        Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
+                                    </span>
+                                </div>
+                                <div class="image-customer">
+                                    <img src="./image/web/im4.png">
+                                    <div class="info-doctor">
+                                        <div class="hr">
+                                            <hr>
+                                        </div>
+                                        <h3>DR.SIVANA</h3>
+                                        <span>Nha khoa Smile Uk</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  box contact -->
+                        <div class="contact col-xs-12">
+                            <div class="contact-title">
+                                <h3>Tối ưu thời gian để mang lại giải pháp marketing hiệu quả bằng cách liên hệ với chúng tôi qua form đăng kí sau:</h3>
+                            </div>
+                            <div class="form-contact">
+                                <div class="col-md-6 image-demo-contact">
+                                    <div class="image-contact-1">
+                                        <img src="./image/web/im5.png">
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="height: 100%;">
+                                    <div class="top-mar-res top-form form-group-1">
+                                        <label for="exampleFormControlInput1">Họ và tên</label>
+                                        <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
+                                    </div>
+                                    <div class="top-mar-res top-form form-group-1">
+                                        <label for="exampleFormControlInput1">Email</label>
+                                        <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
+                                    </div>
+                                    <div class="top-mar-res top-form form-group-1">
+                                        <label for="exampleFormControlInput1">Số điện thoại</label>
+                                        <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
+                                    </div>
+                                    <div class="top-mar-res top-form form-group-1">
+                                        <label for="exampleFormControlTextarea1">Yêu cầu nội dung</label>
+                                        <textarea class="form-control customn-area" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <div class="register">
+                                        <button class="big-title-5">Gửi</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="footer">
+            <div class="col-md-6 logo-footer">
+            </div>
+            <div class="col-md-6 logo-contact">
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./owl-carousel/assets/owl.carousel.js"></script>
+        <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            // navText: ["<img src='image/web/icon7.png'>","<img src='image/web/icon8.png'>"],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: true
+                },
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <script src="./owl-carousel/assets/owl.carousel.js"></script>
+            }
+        })
 
-            <script type="text/javascript">
-                $('.owl-carousel').owlCarousel({
-                    loop:true,
-                    margin:10,
-                    nav:true,
-                    dots:false,
-                    // navText: ["<img src='image/web/icon7.png'>","<img src='image/web/icon8.png'>"],
-                    responsive:{
-                        0:{
-                            items:1,
-                            nav:true
-                        },
-                        600:{
-                            items:3,
-                            nav:true
-                        },
+        $( ".icon-menu" ).click(function() {
+           
+            if($(".menu-order").is(":visible")){
+                 $('.menu-order').hide();
+            }
+            else{
+             $('.menu-order').show();
+            }
 
-                    }
-                })
-
-            </script> 
-
-        
+        });
+        </script>
     </div>
-    
 </body>
+
 </html>
