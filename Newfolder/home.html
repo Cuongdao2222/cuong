@@ -32,6 +32,10 @@
           src: url(./font/SFUIText-Bold.ttf);
         }
 
+         @font-face {
+          font-family: SFUITextheavy;
+          src: url(./font/SFUIText-Heavy.ttf);
+        }
 
       
         .banner{
@@ -317,6 +321,144 @@
         .box-price-fix{
             width: 80%;
         }
+        .box-customer{
+            height: 90vw;
+            background: #f1f1f1;
+        }
+        .box-customer-title-1 h3{
+            font-family: SFUITextbold !important;
+            font-weight: bold;
+            color: #0340B2;
+            text-transform: uppercase;
+        }
+        .box-customer-title{
+            padding: 2vw 0;
+            height: 10%;
+        }
+         .box-customer-text span{
+            font-size: 18px;
+         }
+         
+        
+         .box-feedback-1{
+            height: 100%;
+            border: 1px solid #0450e1;
+            border-radius: 34px;
+            background: #0450e1;
+            position: relative;
+            width: 31.333%;
+            margin-right: 3%;
+
+         }
+         .text-feedback{
+            height: 45%;
+            color: #fff;
+            padding: 22px 0px;
+            text-align: left;
+         }
+         .text-feedback span{
+            font-size: 1vw;
+         }
+         .image-customer{
+            height: 55%;
+            text-align: left;
+         }
+         .image-customer img{
+            width: 60%;
+         }
+         .info-doctor {
+            color: #fff;
+            position: absolute;
+            bottom: 1vw;
+            right: 1vw;
+         }
+
+         .info-doctor h3{
+            font-weight: bold;
+         }
+         .box-customer-feedback{
+            height: 32%;
+         }
+         .image-customer img{
+            position: absolute;
+            left: 0;
+         }
+         .hr{
+            text-align: right;
+         }
+         .hr hr{
+            width: 50%;
+            float: right;
+         }
+         .box-feed-1{
+            margin-right: 0 !important;
+         }
+         .contact{
+            height: 5%;
+            text-transform: uppercase;
+            margin-top: 5%;
+         }
+         .contact-title{
+            font-family:  SFUITextheavy;
+            color: #0340B2;
+         }
+         .form-contact{
+            height: 40vw;
+            background: #044dd7;
+            border-radius: 20px;
+            margin-top: 5%;
+         }
+         .image-demo-contact{
+           
+            position: relative;
+            height: 100%;
+         }
+         .image-contact-1{
+            position: absolute;
+            text-align: left;
+            bottom: 3vw;
+            left: 0;
+         }
+         .image-contact-1 img{
+            width: 70%;
+         }
+         .formcontrol1{
+            height: 4vw !important;
+            border-radius: 12px !important;
+         }
+         .form-group-1{
+            text-align: left;
+            color: #fff;
+           /* margin-top: 15px;*/
+         }
+         .customn-area{
+            height: 10vw !important;
+            border-radius: 12px !important;
+         }
+         .form-group-1 label{
+            text-transform: none;
+            font-weight: normal;
+         }
+         .form{
+            height: 100%;
+         }
+         
+         .top-mar-res{
+            margin-top: 2vw;
+         }
+         .btn-send button{
+            width: 310px;
+            height: 62px;
+            border-radius: 10px;
+            color: #0342B8;
+            border: 0;
+            font-weight: bold;
+         }
+         .top-form label{
+            margin-bottom: 0;
+         }
+
+         
 
         /*.contain{
             width: 90%;
@@ -691,7 +833,150 @@
 
                 <!-- box customer -->
                 <div class="box-customer">
-                    
+                    <div class="container box-price-contain box-price-fix">
+                        <div class="row box-price-contain">
+                            <div class="box-customer-title">
+                                <div class="box-customer-title-1">
+                                    <h3>Cảm nhận từ khách hàng sử dụng dịch vụ</h3>
+                                </div>
+                                <div class="box-customer-text">
+                                    <span>Những chia sẻ và cảm nhận từ khách hàng của chúng tôi</span>
+                                </div>
+                            </div>
+
+                            <div class="box-customer-feedback">
+                                <div class="col-md-4 box-feedback-1">
+                                    <div class="text-feedback">
+                                        <span>
+                                             Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
+                                        </span>
+                                        
+                                    </div>
+                                    <div class="image-customer">
+                                        <img src="./image/web/im4.png">
+                                        <div class="info-doctor">
+                                            <div class="hr">
+                                                <hr>
+                                            </div>
+                                           
+                                            <h3>DR.SIVANA</h3>
+                                            <span>Nha khoa Smile Uk</span>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+
+                                <div class="col-md-4 box-feedback-1">
+                                    <div class="text-feedback">
+                                        <span>
+                                             Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
+                                        </span>
+                                        
+                                    </div>
+                                    <div class="image-customer">
+                                        <img src="./image/web/im4.png">
+                                        <div class="info-doctor">
+                                            <div class="hr">
+                                                <hr>
+                                            </div>
+                                           
+                                            <h3>DR.SIVANA</h3>
+                                            <span>Nha khoa Smile Uk</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 box-feedback-1 box-feed-1">
+                                    <div class="text-feedback">
+                                        <span>
+                                             Website đẹp mắt, rõ ràng và tăng khách hàng đặt lịch khám lên rõ ràng. Một số đồng nghiệp của tôi cũng đã sử dụng dịch vụ của D' Media sau khi thấy website của tôi. Kết quả hoàn toàn vượt xa mong đợi: Số lượng khách hàng tiềm năng tăng lên hàng tháng và tăng trưởng của phòng khám hơn 25% so với cùng kỳ năm ngoái.
+                                        </span>
+                                        
+                                    </div>
+                                    <div class="image-customer">
+                                        <img src="./image/web/im4.png">
+                                        <div class="info-doctor">
+                                            <div class="hr">
+                                                <hr>
+                                            </div>
+                                           
+                                            <h3>DR.SIVANA</h3>
+                                            <span>Nha khoa Smile Uk</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--  box contact -->
+                            <div class="contact">
+                                <div class="contact-title">
+                                    <h3>Tối ưu thời gian để mang lại giải pháp marketing hiệu quả bằng cách liên hệ với chúng tôi qua form đăng kí sau:</h3>
+                                </div>
+                                <div class="form-contact">
+                                    <div class="col-md-6 image-demo-contact">
+                                        <div class="image-contact-1">
+                                            <img src="./image/web/im5.png">
+                                        </div>
+                                    </div>
+
+                                     <div class="col-md-6" style="height: 100%;">
+                                         <div class="top-mar-res top-form form-group-1">
+                                                 <label for="exampleFormControlInput1">Họ và tên</label>
+                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
+                                            </div>
+                                           
+                                            <div class="top-mar-res top-form form-group-1">
+                                                <label for="exampleFormControlInput1">Email</label>
+                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
+                                            </div>            
+                                            
+                                            <div class="top-mar-res top-form form-group-1">
+                                                 <label for="exampleFormControlInput1">Số điện thoại</label>
+                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
+                                            </div>
+                                           
+                                            <div class="top-mar-res top-form form-group-1">
+                                                <label for="exampleFormControlTextarea1">Yêu cầu nội dung</label>
+                                                <textarea class="form-control customn-area" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            </div>
+
+                                             <!-- <div class="check-btn  top-form btn-send">
+                                                <button>gửi </button>
+                                            </div> -->
+                                    </div>
+
+                                    <!-- <div class="col-md-6 form form-group-1 form-group">
+                                        
+                                            <div class="top-mar-res top-form">
+                                                 <label for="exampleFormControlInput1">Họ và tên</label>
+                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
+                                            </div>
+                                           
+                                            <div class="top-mar-res top-form">
+                                                <label for="exampleFormControlInput1">Email</label>
+                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
+                                            </div>            
+                                            
+                                            <div class="top-mar-res top-form">
+                                                 <label for="exampleFormControlInput1">Số điện thoại</label>
+                                                <input type="email" class="form-control formcontrol1" id="exampleFormControlInput1">
+                                            </div>
+                                           
+                                            <div class="top-mar-res top-form">
+                                                <label for="exampleFormControlTextarea1">Yêu cầu nội dung</label>
+                                                <textarea class="form-control customn-area" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            </div>
+
+                                             <div class="check-btn  top-form btn-send">
+                                                <button>gửi </button>
+                                            </div>
+                                                
+                                    </div> -->
+                                    
+                                </div>
+                            </div>
+                        </div>    
+                    </div>        
                 </div>   
             </main>
             <footer class="link-footer">
