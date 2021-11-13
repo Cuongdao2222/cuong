@@ -14,6 +14,10 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./owl-carousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="./owl-carousel/assets/owl.theme.default.min.css">
+         
+
 
     <style type="text/css">
         body {
@@ -24,6 +28,11 @@
 		  font-family: SFUIText;
 		  src: url(./font/SFUIText-Light.ttf);
 		}
+
+        @font-face {
+          font-family: SFUITextbold;
+          src: url(./font/SFUIText-Bold.ttf);
+        }
 
 
        /* h1 {
@@ -129,7 +138,8 @@
          }
          .box-why-dmedia{
             width: 100%;
-            height: 56vw;
+            height: 70vw;
+            background: #f0f0f0;
          }
          .title-why-dmedia{
             width: 100%;
@@ -155,6 +165,124 @@
          .why-image img{
             width: 97%;
          }
+         .title-why-dmedia{
+            font-family: SFUITextbold !important;
+         }
+         .btn-kp button {
+            width: 298px;
+            height: 3vw;
+            border-radius: 18px;
+            color: #0342B8;
+            border: 0;
+            font-weight: bold;
+            background: #fff;
+            box-shadow: 0px 0px 5px 5px #ddd;
+        }
+
+        .btn-kp button span{
+            font-family:'SFUITextbold'
+        }
+        .box-price-title{
+            text-align: center;
+            height: 5%;
+        }
+        .box-price-title h3{
+            font-family:'SFUITextbold';
+            color: #fff;
+            text-transform: uppercase;
+
+        }
+        .box-price{
+            width: 100%;
+            background: #0442b9;
+            height: 60vw;
+
+        }
+        .box-price-all{
+            height: 100%;
+        }
+        .box-price-contain{
+            height: 100%;
+        }
+        .box-price-child{
+            height: 88%;
+            background:#fff;
+            border-radius:10px;
+            padding: 0;
+            margin-right:20px;
+            position:relative;
+        }
+        .big-title{
+            height: 6vw;
+            
+            border-top-left-radius:10px;
+            border-top-right-radius:10px;
+
+        }
+        .big-title-1{
+            background-image: url('./image/bg.gif');
+            background-size: cover;
+        }
+        .big-title-2{
+            background-image: url('./image/bg-1.gif');
+            background-size: cover;
+        }
+        .big-title-3{
+            background-image: url('./image/bg-2.gif');
+            background-size: cover;
+        }
+        .big-title-4{
+            background-image: url('./image/bg-3.gif');
+            background-size: cover;
+        }
+        
+
+        .big-title h3{
+            margin:0;
+            color: #fff;
+            font-weight: bold;
+            /*line-height: 6vw;*/
+        }
+
+        .box-price-child{
+            width:23% !important;
+        }
+        .big-title h3{
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            text-transform: uppercase;
+        }
+        .text-price{
+            border-bottom: 2px solid #ddd;
+            padding:5px 0;
+        }
+
+        .text-price span{
+            font-family: SFUITextbold;
+        }
+        .register{
+            position:absolute;
+            bottom: 10px;
+            
+            left: 50%;
+            /*-moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);*/
+            transform: translateX(-50%);
+        }
+
+        .register button{
+            
+            height: 2vw;
+            width: 7vw;
+            color: #fff;
+            border: 0;
+            border-radius: 7px;
+        }
+        .re1{
+            background-image: url('./image/bg.gif');
+        }
+
 
          
     </style>
@@ -194,7 +322,6 @@
 		                    <div class="title1"><span>Nha sĩ khẳng định quảng cáo trên báo không có hiệu quả</span></div>
 		                </div>    
 	                </div>
-               		
                	</div>
 
                	<div class="box-introduce">
@@ -343,14 +470,228 @@
                         
                     </div>
 
-                    <div class="title-why-dmedia top-mar-max"><span>các dự án đã hoàn thiện</span></div>
-                </div>
-               	
+                    <div class="title-why-dmedia top-mar-max">
+                        <span>các dự án đã hoàn thiện</span>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="owl-carousel owl-theme">
 
+                                <div class="item">
+                                    
+                                    <a href="#"><img src="./image/slider/1.gif"></a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#"><img src="./image/slider/2.gif"></a>
+                                    
+                                </div>
+
+                                <div class="item">
+                                    <a href="#"><img src="./image/slider/3.gif"></a>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>        
+
+
+                    <div class="btn-kp col-md-12 top-mar-max">
+                       <button><span>Khám phá ngay</span></button>
+                    </div>
+                </div>
+
+                <!-- box price -->
+                <div class="box-price">
+                    <div class="container box-price-contain">
+                        <div class="row box-price-contain">
+                            <div class="col-md-12 box-price-title">
+                                <h3>Bảng giá</h3>
+                            </div>
+
+                            <div class="box-price-all">
+                                <div class="col-md-3 box-price-child">
+                                    <div class="big-title big-title-1">
+                                        <h3>Free</h3>
+                                    </div>
+                                    <div class="text-price">
+                                        <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>1 trang chủ</span>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>5 trang con</span>
+
+                                    </div>
+
+                                    <div class="register">
+                                        <button class="big-title-1">Đăng ký</button>
+                                    </div>
+                                   
+
+                                </div>
+
+                                <div class="col-md-3 box-price-child">
+                                    <div class="big-title big-title-3">
+                                        <h3>Competitive edge </h3>
+                                         <h3>10.000.000 vnđ </h3>
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>1 trang chủ</span>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>5 trang con</span>
+
+                                    </div>
+
+                                    <div class="register">
+                                        <button class="big-title-2">Đăng ký</button>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-3 box-price-child">
+                                    <div class="big-title big-title-2">
+                                        <h3>15tr - premium</h3>
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>1 trang chủ</span>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>5 trang con</span>
+
+                                    </div>
+
+                                    <div class="register">
+                                        <button class="big-title-3">Đăng ký</button>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-3 box-price-child">
+                                    <div class="big-title big-title-4">
+                                        <h3>20tr - enterprise</h3>
+                                    </div>
+                                    <div class="text-price">
+                                        <span>Yêu cầu đơn giản<br>Web làm nhanh để quảng cáo </span>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>giao diện có sẵn -</span> <a href=""><span>xem ngay</span></a>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>1 trang chủ</span>
+
+                                    </div>
+
+                                    <div class="text-price">
+                                        <span>5 trang con</span>
+
+                                    </div>
+
+                                    <div class="register">
+                                        <button class="big-title-4">Đăng ký</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            
+                        </div>
+                        
+                    </div>     
+
+                    
+                        <!-- <div class="row">
+                            <div class="col-md-3">
+                                <div class="box-price-all">
+                                    fsdfsdf
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                2
+                            </div>
+
+                             <div class="col-md-3">
+                                3
+                            </div>
+
+                             <div class="col-md-3">
+                                4
+                            </div>
+
+                        </div> -->
+                           
+                    
+                </div>
             </main>
             <footer class="link-footer">
 
             </footer>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="./owl-carousel/assets/owl.carousel.js"></script>
+
+            <script type="text/javascript">
+                $('.owl-carousel').owlCarousel({
+                    loop:true,
+                    margin:10,
+                    nav:true,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:3
+                        },
+
+                    }
+                })
+
+            </script> 
 
         </div>
     </div>
