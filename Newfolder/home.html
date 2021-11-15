@@ -588,12 +588,28 @@
         .menu-order{
             display: none;
         }
+        .logo img{
+            width: 50%;
+        }
     }
 
     @media screen and (max-width: 767px) {
+        footer{
+            height: 500px !important;
+        }
+        .footer{
+            height: 100%;
+        }
         .box-title {
             display: block;
             height: auto;
+        }
+        .logo{
+            width:100%;
+            height: auto;
+        }
+        .logo img{
+            width:100%;
         }
 
         .col-xs-12 {
@@ -763,7 +779,7 @@
         }
 
         .slogan {
-            margin-top: 0 !important;
+            margin-top: 16px !important;
         }
 
         .slogan h1 {
@@ -899,7 +915,9 @@
                 <div class="container withpadding menu-home">
                     <div class="col-md-6 col-xs-6">
                         <div class="logo">
-                            <h1>DMEDIA</h1>
+                            <a href="/"><img src="./image/web/logo.png"></a>
+                            
+                            <!-- <h1>DMedia</h1> -->
                         </div>
                         <div class="slogan">
                             <h1>
@@ -1376,12 +1394,103 @@
                 </div>
             </div>
         </main>
-        <div class="footer">
-            <div class="col-md-6 logo-footer">
+        <style type="text/css">
+            footer{
+                clear:left;
+
+            }
+
+            .image-footer img{
+                width: 100%
+            }
+            .footer .logo-footer{
+                margin-top: 5vw;
+            }
+            .introduce h3{
+                color: #fff;
+                font-weight: bold;
+                font-family: 'SFUITextbold';
+
+            }
+            .introduce span{
+                color: #fff;
+
+            }
+
+            .introduce{
+                
+                text-align: left;
+            }
+            .logo-contact{
+                text-align: left;
+            }
+            .logo-contact ul{
+                list-style: none;
+            }
+            .logo-contact ul li{
+                color: #fff;
+            }
+            li{
+                display: flex;
+                margin-bottom: 10px;
+            }
+            .logo-contact li img{
+                width:32px;
+                margin-right: 14px;
+            }
+            .block-contact-footer{
+                height: 294px;
+            }
+
+            
+
+        </style>
+        <footer>
+            <div class="footer">
+                <div class="container box-price-fix">
+                    <div>
+                        <div class="col-md-6 logo-footer">
+                            <div class="image-footer">
+                                <img src="./image/web/image-logo-footer.png">
+                            </div>
+                            <div class="introduce">
+                                <h3>Giới thiệu</h3>
+                                <span>
+                                    D Media với bề dày kinh nghiệm về nghiên cứu, định hình và thấu hiểu mô hình hoạt động của các phòng khám Nha khoa tại Việt Nam, chúng tôi cam kết sẽ hỗ trợ và đồng hành cùng các phòng khám biến website trở thành cánh cửa dẫn khách hàng từ thế giới ảo đến phòng khám thật.
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-xs-12 logo-contact logo-footer">
+
+
+                            <div class="image-footer block-contact-footer">
+                                <!-- <img src="./image/web/image-logo-footer.png"> -->
+                            </div>
+                            <div class="introduce">
+                                <!-- <h3>Giới thiệu</h3>
+                                <span>
+                                    D Media với bề dày kinh nghiệm về nghiên cứu, định hình và thấu hiểu mô hình hoạt động của các phòng khám Nha khoa tại Việt Nam, chúng tôi cam kết sẽ hỗ trợ và đồng hành cùng các phòng khám biến website trở thành cánh cửa dẫn khách hàng từ thế giới ảo đến phòng khám thật.
+                                </span> -->
+                            </div>
+
+                            
+                            <ul>
+                                <li><img src="./image/web/icon9.png"><p>Miền bắc:Toà nhà An Bình 1, KĐT Định công mới Hoàng Mai Hà Nội</p></li>
+                                <li>  <img src="./image/web/icon10.png"><p>cskh@dmedia.com</p></li>
+                                <li><img src="./image/web/icon11.png"><p>dmedia.com</p></li>
+                                <li><img src="./image/web/icon12.png"><p>088360808</p></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                
+                
             </div>
-            <div class="col-md-6 logo-contact">
-            </div>
-        </div>
+        </footer>
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="./owl-carousel/assets/owl.carousel.js"></script>
         <script type="text/javascript">
