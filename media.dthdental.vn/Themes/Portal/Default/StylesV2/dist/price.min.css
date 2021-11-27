@@ -9347,7 +9347,7 @@ a.text-dark:hover {
   }
 }
 .home-price .packages .item.pos {
-  background-image: url(../images/home/price/bg-package-pos-update.png);
+ /* background-image: url(../images/home/price/bg-package-pos-update.png);*/
   display: flex;
   padding: 30px 0 40px;
   background-position: right bottom;
@@ -9411,11 +9411,11 @@ a.text-dark:hover {
   color: #1e78ff;
 }
 .home-price .packages .item.pos .btn-registration {
-  background: linear-gradient(to right, #4185f8, #07b7f5);
+  background: linear-gradient(to right, #614385, #516395);
   color: #fff;
 }
 .home-price .packages .item.fnb {
-  background-image: url(../images/home/price/bg-package-fnb-update.png);
+/*  background-image: url(../images/home/price/bg-package-fnb-update.png);*/
 }
 .home-price .packages .item.fnb .price-regular .price-inline,
 .home-price .packages .item.fnb .price-regular .d {
@@ -9432,12 +9432,12 @@ a.text-dark:hover {
   color: #07c6fa;
 }
 .home-price .packages .item.fnb .btn-registration {
-  background: linear-gradient(to left, #0ecaf6, #07b7f5);
+  background: linear-gradient(to left, #f12711, #f5af19);
   color: #fff;
   margin-bottom: 20px;
 }
 .home-price .packages .item.go {
-  background-image: url(../images/home/price/bg-package-go-update.png);
+/*  background-image: url(../images/home/price/bg-package-go-update.png);*/
 }
 .home-price .packages .item.go .price-regular .price-inline,
 .home-price .packages .item.go .price-regular .d {
@@ -9454,12 +9454,12 @@ a.text-dark:hover {
   color: #37b3ae;
 }
 .home-price .packages .item.go .btn-registration {
-  background: linear-gradient(to right, #37b3a3, #49c784);
+  background: linear-gradient(to right, #00b4db, #0083b0);
   color: #fff;
   margin-bottom: 20px;
 }
 .home-price .packages .item.web {
-  background-image: url(../images/home/price/bg-package-web-update.png);
+/*  background-image: url(../images/home/price/bg-package-web-update.png);*/
 }
 .home-price .packages .item.web .price-regular .price-inline,
 .home-price .packages .item.web .price-regular .d {
@@ -9476,12 +9476,12 @@ a.text-dark:hover {
     no-repeat center center;
 }
 .home-price .packages .item.web .btn-registration {
-  background: linear-gradient(to left, #30e06e, #1acb87);
+  background: linear-gradient(to left, #11998e, #38ef7d);
   color: #fff;
   margin-bottom: 20px;
 }
 .home-price .packages .item.omni {
-  background-image: url(../images/home/price/bg-package-omni-update.png);
+/*  background-image: url(../images/home/price/bg-package-omni-update.png);*/
   display: flex;
   padding: 30px 0 40px;
   background-position: right bottom;
@@ -9555,7 +9555,7 @@ a.text-dark:hover {
     no-repeat center center;
 }
 .home-price .packages .item.omni .btn-registration {
-  background: linear-gradient(to right, #7f81ff, #c452f6);
+  background: linear-gradient(to right, #546ada, #542bda);
   color: #fff;
 }
 .home-price .advisory {
@@ -16027,7 +16027,7 @@ body {
 .btn-registration {
   color: #fff;
   background: #2ad38b;
-  background: linear-gradient(to right, #2ad38b, #0cceb0);
+  background: linear-gradient(to right, #284b9c, #eb1f81);
   border-radius: 45px;
   display: inline-block;
   line-height: 63px;

@@ -23073,7 +23073,7 @@ body {
   background: #e5faf2;
   background: -moz-linear-gradient(top, #e5faf2 0%, #fff 100%);
   background: -webkit-linear-gradient(top, #e5faf2 0%, #fff 100%);
-  background: linear-gradient(to bottom, #e5faf2 0%, #fff 100%);
+  background: linear-gradient(to bottom, #e2e8f5 0%, #fff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5faf2',endColorstr='#ffffff',GradientType=0);
 }
 .ld-sellatwebsite .banner {
@@ -23118,7 +23118,7 @@ body {
 .ld-sellatwebsite .banner h1 {
   font-size: 42px;
   font-weight: bold;
-  color: #096f47;
+  color: #284b9c;
   line-height: 48px;
   margin-bottom: 20px;
 }
@@ -23289,8 +23289,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../images/function/sellatwebsite/arrow-down.png)
-    top center no-repeat;
+/*  background: url(../images/function/sellatwebsite/arrow-down.png)
+    top center no-repeat;*/
 }
 .ld-sellatwebsite .ctkm {
   margin: 40px 0;
@@ -23311,8 +23311,8 @@ body {
   bottom: -375px;
   left: 0;
   z-index: -1;
-  background: url(../images/function/sellatwebsite/bg-left-benefit.png)
-    top center no-repeat;
+ /* background: url(../images/function/sellatwebsite/bg-left-benefit.png)
+    top center no-repeat;*/
 }
 .ld-sellatwebsite .benefit .container {
   position: relative;
@@ -23320,12 +23320,12 @@ body {
 .ld-sellatwebsite .benefit .block-left p {
   font-size: 21px;
   font-weight: 300;
-  color: #00935a;
+  /*color: #00935a;*/
 }
 .ld-sellatwebsite .benefit .block-left h2 {
   margin: 0 0 30px;
   font-size: 42px;
-  color: #096f47;
+  color: #284b9c;
   font-weight: bold;
   line-height: 1.2;
 }
@@ -23363,7 +23363,7 @@ body {
 .ld-sellatwebsite .supported {
   text-align: center;
   padding: 100px 0 90px;
-  background: #effdf8;
+  background: #ffffff;
   position: relative;
   overflow: hidden;
 }
@@ -23381,13 +23381,13 @@ body {
 .ld-sellatwebsite .supported h2 {
   font-size: 42px;
   font-weight: bold;
-  color: #096f47;
+  color: #284b9c;
   margin-bottom: 25px;
 }
 .ld-sellatwebsite .supported p {
   font-size: 21px;
   font-weight: 300;
-  color: #00945b;
+ /* color: #00945b;*/
   line-height: 30px;
   margin-bottom: 5px;
 }
@@ -23562,8 +23562,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../images/function/sellatwebsite/arrow-down.png)
-    top center no-repeat;
+/*  background: url(../images/function/sellatwebsite/arrow-down.png)
+    top center no-repeat;*/
 }
 .ld-sellatwebsite .seo-ads {
   color: #fff;
@@ -23622,14 +23622,14 @@ body {
   margin-bottom: 40px;
 }
 .ld-sellatwebsite .connect-google {
-  background: #effdf8;
+  background: #ffffff;
   padding: 80px 0;
   position: relative;
 }
 .ld-sellatwebsite .connect-google h2 {
   font-size: 42px;
   font-weight: bold;
-  color: #096f47;
+  color: #284b9c;
   margin-bottom: 0;
   text-align: center;
   margin-bottom: 25px;
@@ -23638,7 +23638,7 @@ body {
   text-align: center;
   font-weight: 300;
   font-size: 21px;
-  color: #00935a;
+/*  color: #00935a;*/
   margin-bottom: 70px;
 }
 .ld-sellatwebsite .connect-google .block-content {
@@ -23726,8 +23726,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../images/function/sellatwebsite/arrow-down.png)
-    top center no-repeat;
+/*  background: url(../images/function/sellatwebsite/arrow-down.png)
+    top center no-repeat;*/
 }
 .ld-sellatwebsite .technology {
   position: relative;
@@ -23742,8 +23742,8 @@ body {
   bottom: -200px;
   left: 0;
   z-index: -1;
-  background: url(../images/function/sellatwebsite/bg-left-create-web.png)
-    top center no-repeat;
+/*  background: url(../images/function/sellatwebsite/bg-left-create-web.png)
+    top center no-repeat;*/
 }
 .ld-sellatwebsite .technology:before {
   content: "";
@@ -23756,13 +23756,13 @@ body {
   background: #effdf8;
   background: -moz-linear-gradient(top, #e5faf2 0%, #fff 100%);
   background: -webkit-linear-gradient(top, #e5faf2 0%, #fff 100%);
-  background: linear-gradient(to bottom, #e5faf2 0%, #fff 100%);
+  background: linear-gradient(to bottom, #e2e8f5 0%, #fff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5faf2',endColorstr='#ffffff',GradientType=0);
 }
 .ld-sellatwebsite .technology h2 {
   font-size: 42px;
   font-weight: bold;
-  color: #096f47;
+  color: #284b9c;
   margin-bottom: 0;
   text-align: center;
   margin-bottom: 50px;
@@ -23771,7 +23771,7 @@ body {
   text-align: center;
   font-weight: 300;
   font-size: 21px;
-  color: #00935a;
+  /*color: #00935a;*/
 }
 .ld-sellatwebsite .technology .block-content {
   text-align: left;
@@ -23840,8 +23840,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../images/function/sellatwebsite/arrow-down.png)
-    top center no-repeat;
+/*  background: url(../images/function/sellatwebsite/arrow-down.png)
+    top center no-repeat;*/
 }
 .ld-sellatwebsite .tutorial {
   text-align: center;
@@ -23850,13 +23850,13 @@ body {
 .ld-sellatwebsite .tutorial h2 {
   font-size: 42px;
   font-weight: bold;
-  color: #096f47;
+  color: #284b9c;
   margin-bottom: 25px;
 }
 .ld-sellatwebsite .tutorial p {
   font-size: 21px;
   font-weight: 300;
-  color: #00935a;
+  /*color: #00935a;*/
   margin-bottom: 60px;
 }
 .ld-sellatwebsite
@@ -24099,19 +24099,19 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../images/function/sellatwebsite/arrow-down.png)
-    top center no-repeat;
+/*  background: url(../images/function/sellatwebsite/arrow-down.png)
+    top center no-repeat;*/
 }
 .ld-sellatwebsite .optimize h2 {
   font-size: 42px;
   font-weight: bold;
-  color: #096f47;
+  color: #284b9c;
   margin-bottom: 70px;
   position: relative;
 }
 .ld-sellatwebsite .optimize p {
   font-size: 21px;
-  color: #00935a;
+  /*color: #00935a;*/
   font-weight: 300;
   line-height: 36px;
 }
@@ -24203,11 +24203,11 @@ body {
   position: absolute;
   bottom: -30px;
   left: 0;
-  background: #effdf8;
-  background: -moz-linear-gradient(bottom, #e5faf2 0%, #fff 100%);
+  background: #e2e8f5;
+/*  background: -moz-linear-gradient(bottom, #e5faf2 0%, #fff 100%);
   background: -webkit-linear-gradient(bottom, #e5faf2 0%, #fff 100%);
   background: linear-gradient(to top, #e5faf2 0%, #fff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5faf2',endColorstr='#ffffff',GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5faf2',endColorstr='#ffffff',GradientType=0);*/
 }
 .ld-sellatwebsite .top-refer-website:after {
   content: "";
@@ -24222,7 +24222,7 @@ body {
 .ld-sellatwebsite .top-refer-website.sellatweb h2 {
   font-size: 42px;
   font-weight: bold;
-  color: #2f6952;
+  color: #284b9c;
   margin-bottom: 50px;
   position: relative;
   z-index: 1;
@@ -24894,7 +24894,7 @@ body {
     background-size: contain;
   }
   .ld-sellatwebsite .seo-ads {
-    background: #10c580;
+    background: #284b9c;
     padding: 50px 0 30px 0;
   }
   .ld-sellatwebsite .seo-ads h2 {
@@ -25360,7 +25360,7 @@ body {
     content: "";
     width: 100%;
     height: 85%;
-    background: #10c882;
+    background: #284b9c;
     position: absolute;
     top: 0;
     left: 0;
