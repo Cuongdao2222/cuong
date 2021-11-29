@@ -65,7 +65,7 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 .box_menuTop ul li a{ color: #FFF; padding: 10px 0 10px 20px; display: inline-block;}
 .box_menuTop ul li:FIRST-CHILD a{ border: 0;}
 
-.box_top{ background-color: #cf9a2c; color: #FFF; height: 38px; line-height: 38px; position: relative; z-index: 111111;}
+.box_top{ background-color: #284b9c; color: #FFF; height: 38px; line-height: 38px; position: relative; z-index: 111111;}
 .box_top .hotline{ background: url("../img/icon_1.png") no-repeat left; padding-left: 33px; font-size: 12px;}
 .box_top .hotline .item{ display: inline-block; padding: 0 13px 0 13px; position: relative;}
 .box_top .hotline .item:after{ content: ""; display: block; position: absolute; width: 1px; height: 12px; top: 13px; left: 0; background-color: #FFF;}
@@ -233,13 +233,13 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 .box_defaultHighlightCategory .wrapper{ background-color: #f7f7f7; position: relative; height: 448px;}
 .box_defaultHighlightCategory .wrapper .box_wrap{ width: 690px; float: right;}
 .box_defaultHighlightCategory .wrapper .box_wrap .box_title .title{ font-size: 32px; padding: 15px 40px 25px; font-family: "SVN-GothamLight"; font-weight: normal; }
-.box_defaultHighlightCategory .wrapper .box_wrap .box_title a{ color: #cf9a2c;}
+.box_defaultHighlightCategory .wrapper .box_wrap .box_title a{ color: #284b9c;}
 .box_defaultHighlightCategory .wrapper .box_wrap .box_content{ padding: 0 40px; text-align: justify; line-height: 24px; font-family: "SVN-GothamLight"; font-size: 14px;}
 .box_defaultHighlightCategory .wrapper .image{ position: absolute; bottom: 0; left: 0;}
 .box_defaultHighlightCategory .wrapper .controls{ padding-top: 20px;}
 .box_defaultHighlightCategory .wrapper .controls .view{ float: left; height: 40px; line-height: 40px; padding: 0 30px; display: inline-block; text-transform: uppercase; color: #FFF; font-family: "SVN-GothamBold"; border-radius: 20px;}
 .box_defaultHighlightCategory .wrapper .controls .book{ margin-top: 10px; display: inline-block; background: url("../img/icon_8.png") no-repeat right; padding-right: 32px; margin-left: 20px; color: #232323; font-size: 14px; font-family: "SVN-GothamLight";}
-.box_defaultHighlightCategory .wrapper .controls .book:hover{ color: #cf9a2c;}
+.box_defaultHighlightCategory .wrapper .controls .book:hover{ color: #284b9c;}
 
 .box_defaultCategoryHome{ padding: 50px 0;}
 .box_defaultCategoryHome .container{ padding-left: 30px; padding-right: 30px; width: 1230px;}
@@ -488,7 +488,7 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 
 .box_book{ position: relative; background: url("../img/bg_book.jpg") no-repeat top left; background-size: cover;}
 .box_book .box_wrap{ padding: 50px 0;}
-.box_book .box_title{ font-family: "SVN-GothamLight"; font-size: 32px; margin-bottom: 20px; color: #cf9a2c;}
+.box_book .box_title{ font-family: "SVN-GothamLight"; font-size: 32px; margin-bottom: 20px; color: #284b9c;}
 .box_book .box_content .btnSuccess .alert{ display: block; min-height: 40px; border-radius: 20px; padding: 5px 20px; display: flex; align-items: center;}
 .box_book .box_content .btnSuccess .control{ display: flex; align-items: center;}
 .box_book .box_content .note{ color: #191919; margin-bottom: 20px;}
@@ -736,7 +736,7 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 /*.btn_yellow{ display: inline-block; height: 40px; line-height: 40px; padding: 0 30px; color: #FFF; text-transform: uppercase; font-size: 16px; font-family: "SVN-GothamBold"; border-radius: 20px; background: rgb(215,168,66); background: linear-gradient(90deg, rgba(215,168,66,1) 0%, rgba(234,201,114,1) 100%); transition: all 0.15s ease-in-out 0s;}
 .btn_yellow:hover{ color: #FFF; background: rgb(196,145,42); background: linear-gradient(90deg, rgba(196,145,42,1) 0%, rgba(237,204,118,1) 100%);}*/
 
-.btn_yellow{ position: relative; overflow:hidden; display: inline-block; height: 40px; line-height: 40px; padding: 0 30px; color: #FFF; text-transform: uppercase; font-size: 16px; font-family: "SVN-GothamBold"; border-radius: 20px; background: #cf9a2c; transition: all .3s;}
+.btn_yellow{ position: relative; overflow:hidden; display: inline-block; height: 40px; line-height: 40px; padding: 0 30px; color: #FFF; text-transform: uppercase; font-size: 16px; font-family: "SVN-GothamBold"; border-radius: 20px; background: #284b9c; transition: all .3s;}
 .btn_yellow::before{position: absolute;top: 0;left: -75%;z-index: 2;display: block;content: '';width: 50%;height: 100%;background: -webkit-linear-gradient(left,rgba(249,240,0,0) 0%,rgba(249,240,0,0.7) 100%);background: linear-gradient(to right,rgba(249,240,0,0) 0%,rgba(249,240,0,0.7) 100%);-webkit-transform: skewX(-25deg);transform: skewX(-25deg);}
 .btn_yellow:hover{ color: #FFF;}
 .btn_yellow:hover::before,
@@ -1030,7 +1030,7 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 
     .box_top{ background-color: #333;}
 
-    .box_header{ height: 40px; background-color: #cf9a2c; position: relative; box-shadow: 0 0 0;}
+    .box_header{ height: 40px; background-color: #284b9c; position: relative; box-shadow: 0 0 0;}
     .box_header .container{ display: none;}
     .box_header .toggle{ display: block; position: absolute; top: 11px; right: 15px; width: 25px;}
     .box_header .toggle .line{ display: block; height: 2px; background-color: #FFF; margin-bottom: 3px; border-radius: 1px;}
