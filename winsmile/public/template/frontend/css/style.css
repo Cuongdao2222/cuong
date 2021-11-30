@@ -614,7 +614,7 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 .box_tab .tab_content{ padding: 15px; background: #EEE;}
 
 .box_footer{ padding: 30px 0 30px; position: relative; background: #f7f7f7;}
-.box_footer .box_title{ font-size: 16px; text-transform: uppercase; margin-bottom: 10px; color: #cf9a2c; font-family: "SVN-GothamBold";}
+.box_footer .box_title{ font-size: 16px; text-transform: uppercase; margin-bottom: 10px; color: #284b9c; font-family: "SVN-GothamBold";}
 .box_footer .box_content{ font-size: 14px; line-height: 24px; margin-bottom: 30px;}
 .box_footer .box_content .hotline{ font-size: 23px; color: #191919; font-family: "SVN-GothamBold";}
 .box_footer .logo{text-align: center; margin-bottom: 50px;}
@@ -632,11 +632,11 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 .box_popup_tuvan .wrap .cover{ text-align: center; padding: 25px 0; background: url("../img/cover_popup.jpg") no-repeat right;}
 .box_popup_tuvan .wrap .content{ background-color: #FFF; padding: 20px;}
 .box_popup_tuvan .wrap .form-group{ margin-bottom: 3px;}
-.box_popup_tuvan .wrap .form-group .btn_submit{ background-color: #d09b2e; border-color: #d09b2e; color: #FFF; text-transform: uppercase; font-size: 16px; font-family: "SVN-GothamBold"; margin-top: 10px;}
+.box_popup_tuvan .wrap .form-group .btn_submit{ background-color: #284b9c; border-color: #284b9c; color: #FFF; text-transform: uppercase; font-size: 16px; font-family: "SVN-GothamBold"; margin-top: 10px;}
 .box_popup_tuvan .wrap .form-group textarea{ height: 95px;}
-.box_popup_tuvan .wrap .form-group .hotline{ text-align: center; padding: 10px 0; font-family: "SVN-GothamLight"; font-size: 12px; color: #dbb352;}
-.box_popup_tuvan .wrap .form-group .hotline a{ font-family: "SVN-GothamBold"; color: #de101e;}
-.box_popup_tuvan .wrap .form-group .text{ text-align: center; font-family: "SVN-GothamBold"; color: #d09b2e; font-size: 16px; text-transform: uppercase;}
+.box_popup_tuvan .wrap .form-group .hotline{ text-align: center; padding: 10px 0; font-family: "SVN-GothamLight"; font-size: 12px; color: #284b9c;}
+.box_popup_tuvan .wrap .form-group .hotline a{ font-family: "SVN-GothamBold"; color: #eb1f81;}
+.box_popup_tuvan .wrap .form-group .text{ text-align: center; font-family: "SVN-GothamBold"; color: #284b9c; font-size: 16px; text-transform: uppercase;}
 .box_popup_tuvan .wrap .close_popup{ background: url("../img/icon_21.png") no-repeat center center rgba(255, 255, 255, 0.6); height: 25px; width: 25px; position: absolute; top: -25px; right: -25px; cursor: pointer;}
 
 .box_pagination{ padding-top: 20px; border-top: 1px solid #cf9a2c;}
