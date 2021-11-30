@@ -655,7 +655,7 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 .box_module .box_content img{ max-width: 100% !important; height: auto !important;}
 .box_module .category_content{ padding: 0 0 20px; }
 
-.box_tuvan{ position: fixed; top: 20%; z-index: 99999; right: -305px; width: 360px; transition: all 0.3s ease-in-out 0.3s; border-radius: 10px 0 0 10px; background: #cf9a2c;}
+.box_tuvan{ position: fixed; top: 20%; z-index: 99999; right: -305px; width: 360px; transition: all 0.3s ease-in-out 0.3s; border-radius: 10px 0 0 10px; background: #eb1f81;}
 .box_tuvan .box_content{ display: flex; align-items: center;}
 .box_tuvan .box_content .col-1{ cursor: pointer; text-align: center; padding: 0 8px; color: #FFF; font-size: 12px; text-transform: uppercase; font-family: "SVN-GothamMedium";}
 .box_tuvan .box_content .col-1 img{ margin-bottom: 10px;}
