@@ -2,7 +2,7 @@
 
 /* Default */
 body{font-family: "SVN-GothamBook"; font-size: 14px;}
-a { text-decoration: none; color: #cf9a2c; transition: all 0.15s ease-in-out 0s;}
+a { text-decoration: none; color: #284b9c; transition: all 0.15s ease-in-out 0s;}
 a:HOVER { text-decoration: none; color: #000;}
 a:FOCUS { text-decoration: none; color: #000;}
 h1,h2,h3,h4,h5,h6{ margin: 0; font-weight: normal;}
@@ -41,7 +41,7 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 .box_breadcrumb .breadcrumb>li+li:before{ content: ""; width: 8px; height: 7px; position: absolute; top: 6px; left: 12px; background: url("../img/icon_14.png") no-repeat;}
 .box_breadcrumb .breadcrumb>li:last-child{ color: #e3c992;}
 .box_breadcrumb .breadcrumb>li:last-child:before{ content: ""; width: 8px; height: 7px; position: absolute; top: 6px; left: 12px; background: url("../img/icon_13.png") no-repeat;}
-.box_breadcrumb .breadcrumb>li:last-child>a{ color: #e3c992;}
+.box_breadcrumb .breadcrumb>li:last-child>a{ color: #284b9c;}
 
 .box_header { box-shadow: 0 0 5px #EEE; z-index: 99988; background-color: #FFF; position: relative; width: 100%; top: 0; left: 0;}
 .box_header .box_content{ display: flex; justify-content: center; position: relative;}
@@ -431,7 +431,7 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 .box_feedbackCategoryHome{ padding: 50px 0 80px; display: none; background-color: #f7f7f7;}
 .box_feedbackCategoryHome .box_title{ text-align: center;}
 .box_feedbackCategoryHome .box_title .title{ color: #cf9a2c; font-weight: normal; font-size: 32px;}
-.box_feedbackCategoryHome .box_title .title a{ color: #cf9a2c; font-family: "SVN-GothamLight";}
+.box_feedbackCategoryHome .box_title .title a{ color: #284b9c; font-family: "SVN-GothamLight";}
 .box_feedbackCategoryHome .box_title .title i{ font-size: 18px;}
 .box_feedbackCategoryHome .box_title .view_all{ display: none; position: absolute; top: 12px; right: 0; color: #333;}
 .box_feedbackCategoryHome .box_desc{ text-align: center; font-size: 14px; line-height: 24px; padding: 20px 0; width: 990px; max-width: 100%; margin: 0 auto; color: #232323;}
@@ -447,7 +447,7 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 .box_feedbackCategoryHome .bx-wrapper .bx-controls-direction a{ width: 52px; height: 52px; top: 65px;}
 .box_feedbackCategoryHome .bx-wrapper .bx-prev{ background: url("../img/icon_prev_3.png") no-repeat center center; left: -90px; right: auto;}
 .box_feedbackCategoryHome .bx-wrapper .bx-next{ background: url("../img/icon_next_3.png") no-repeat center center; left: auto; right: -90px;}
-.box_feedbackCategoryHome .item .item_content{ background: url("../img/icon_10.png") no-repeat 18px 25px #FFF; min-height: 170px; color: #949494; border: 1px solid #cf9a2c; padding: 55px 16px 15px 16px; margin-left: 1px; box-shadow: 0px 5px 11px rgba(0,0,0,0.1); margin-bottom: 30px; position: relative;}
+.box_feedbackCategoryHome .item .item_content{ background: url("../img/icon_10.png") no-repeat 18px 25px #FFF; min-height: 170px; color: #949494; border: 1px solid #284b9c; padding: 55px 16px 15px 16px; margin-left: 1px; box-shadow: 0px 5px 11px rgba(0,0,0,0.1); margin-bottom: 30px; position: relative;}
 .box_feedbackCategoryHome .item .item_content::after{ content: ""; width: 20px; height: 12px; position: absolute; bottom: -12px; left: 38px; background: url("../img/icon_11.png") no-repeat;}
 .box_feedbackCategoryHome .item .item_info{ display: flex; align-items: center; padding: 0 10px;}
 .box_feedbackCategoryHome .item .item_info .image{ width: 104px;}
@@ -650,7 +650,7 @@ b, strong{ font-family: "SVN-GothamBold"; font-weight: normal;}
 .box_module{}
 .box_module .box_title{ position: relative;}
 .box_module .box_title .title{ color: #cf9a2c; font-size: 32px; padding: 20px 0 50px; font-weight: normal; text-align: center;}
-.box_module .box_title .title a{ color: #cf9a2c;}
+.box_module .box_title .title a{ color: #284b9c;}
 .box_module .box_content{ padding: 0; background-color: #FFF;}
 .box_module .box_content img{ max-width: 100% !important; height: auto !important;}
 .box_module .category_content{ padding: 0 0 20px; }
