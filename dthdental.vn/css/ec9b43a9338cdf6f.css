@@ -1,0 +1,583 @@
+.onsale-product-container{cursor:pointer;position:relative;z-index:100}.onsale-product-container-inside{cursor:pointer;position:absolute;z-index:100}div.onsale-product-label{position:absolute;top:3px;left:4px;margin-left: -2px;text-align:center}div.onsale-onsale-product-label-text{FONT-FAMILY:inherit;FONT-SIZE:16px;TEXT-ALIGN:center;VERTICAL-ALIGN:middle;COLOR:#FFF}div.new-onsale-product-label-text{FONT-FAMILY:inherit;FONT-SIZE:16px;TEXT-ALIGN:center;VERTICAL-ALIGN:middle;COLOR:#FFF}div.custom-onsale-product-label-text{FONT-FAMILY:inherit;FONT-SIZE:16px;TEXT-ALIGN:center;VERTICAL-ALIGN:middle;COLOR:#FFF}div.onsale-category-container-grid{position:relative}div.onsale-category-container-list{position:relative;float:left}.onsale-category-container{cursor:pointer;position:absolute;z-index:100}div.onsale-category-label{position:absolute;top:3px;left:4px;margin-left: -2px;text-align:center}div.onsale-onsale-category-label-text{color:#FFF;font-family:Arial;font-size:11px;font-weight:bold}div.new-onsale-category-label-text{color:#FFF;font-family:Arial;font-size:11px;font-weight:bold}div.custom-onsale-category-label-text{color:#FFF;font-family:Arial;font-size:11px;font-weight:bold}.amfpc-block-info{position:relative;border:1px
+dotted #008080;margin:6px
+2px;padding:18px
+2px 2px 2px;zoom:1}.amfpc-block-info:hover{border-color:orange !important}.amfpc-block-info>.amfpc-block-handle,.amfpc-block-info>.amfpc-template-info{position:absolute;top:0;padding:2px
+5px;background:#008080;color:white;font:normal 11px Arial;text-align:left !important;z-index:998;text-transform:none}.amfpc-block-info>.amfpc-block-handle:hover,.amfpc-block-info>.amfpc-template-info:hover{z-index:999}.amfpc-block-info>.amfpc-block-handle{cursor:default;left:0;white-space:nowrap}.amfpc-block-info>.amfpc-template-info{right:0}.amfpc-block-info>.amfpc-block-handle:hover{background-color:orange !important}.amfpc-block-info.active{-webkit-animation:amfpc-blocks 1s linear .5s infinite alternate;animation:amfpc-blocks 1s linear .5s infinite alternate}@-webkit-keyframes amfpc-blocks{from{opacity:1}to{opacity: .1}}@keyframes amfpc-blocks{from{opacity:1}to{opacity: .1}}.amfpc-block-info.updated{border-color:red}.amfpc-block-info.updated>.amfpc-block-handle{top:0;background:red}.amfpc-info{width:350px;min-height:95px;position:fixed;bottom:10px;left:10px;background:#008080;color:#fff;z-index:99999;font-size:32px}.amfpc-info
+h1{background:rgba(255, 255, 255, 0.1);color:#fff;padding:2px
+5px;font-size:14px;font-weight:bold}.amfpc-info
+h2{margin-top:12px;text-align:center;font-size:30px;font-weight:400;color:rgba(255, 255, 255, 0.7)}.amfpc-info .amfpc-content{line-height:48px}.amlabel-div{position:relative}.amlabel-div .amlabel-txt{line-height:11px;font-size:0.9em;font-weight:bold;display:block;letter-spacing:0.01px;text-decoration:none;color:#fff}.amlabel-div
+a{text-decoration:none;position:relative}.amlabel-table{position:absolute;z-index:10;cursor:pointer}.amlabel-table
+td{vertical-align:middle;text-align:center;border:0;height:auto}.top-center{top:0;left:50%}.middle-left{left:0;top:50%}.middle-right{right:0;top:50%}.bottom-center{bottom:0;right:50%}.middle-center{top:40%;left:40%}.top-left{top:0;left:0}.top-right{top:0;right:0}.bottom-left{bottom:0;left:0}.bottom-right{bottom:0;right:0}.products-list .amlabel-div{float:left}* html .amlabel-div{float:left}* html .amlabel-div
+a{position:relative}@media (max-width: 620px){.amlabel-table
+td{height:28px}}.amlabel-table2{position:absolute;height:100%;width:100%}.amlabel-txt2{width:100%;height:100%;background-size:contain !important;position:absolute}#importFavoriteProductsForm{position:relative;float:right;margin-left:5px}#importFavoriteProductsForm
+button{float:none;margin:0;position:relative;z-index:1;cursor:default}#importFavoriteProductsForm
+input{opacity:0;position:absolute;width:100%;left:0;top:0;z-index:2;cursor:pointer !important;filter:alpha(opacity:0);height:100%}#ampromo-items-add{border:1px
+solid #ededed;padding:7px;text-align:center;margin-bottom:12px}#ampromo-items-add
+a{text-decoration:none;border-bottom:1px dashed}.amscheckout #ampromo-items-add{margin:7px
+10px}#ampromo-overlay{position:fixed;width:100%;height:100%;background-color:rgba(0,0,0,.8);top:0;left:0;z-index:10000;text-align:center;direction:ltr;overflow:scroll}#ampromo-overlay
+.close{position:absolute;top:7px;right:7px;background:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063494/f6/close_icon.png) no-repeat;width:16px;height:16px;z-index:1;margin:0;padding:0;font-size:0;display:block;opacity: .8}#ampromo-overlay .close:hover{opacity:1;transition:opacity 0.2s ease}.ampromo-item .giftcard-send-form{padding:0;margin:0}@media only screen and (max-width: 820px) and (min-width: 420px){body #ampromo-items.amcarousel{width:400px}body .amcarousel #ampromo-carousel-wrapper{width:250px}}@media only screen and (max-width: 420px){body #ampromo-items.amcarousel{width:100%}body .amcarousel #ampromo-carousel-wrapper{width:250px}body .ampromo-carousel-control.prev{left:0px}body .ampromo-carousel-control.next{right:0px}body .ampromo-carousel-control{z-index:10001}}@media only screen and (max-width: 340px){body #ampromo-items .ampromo-item{border:none}}@media only screen and (max-height: 500px){body #ampromo-items.amcarousel{top:0 !important;height:100%}body #ampromo-items{padding-top:0}body #ampromo-items>h4{display:none}}#ampromo-items{border:1px
+solid #ededed;background-color:white;position:relative;margin:0
+auto;padding:24px;display:inline-block;box-sizing:border-box}#ampromo-items.amcarousel{display:block;width:685px}#ampromo-items .ampromo-item{box-sizing:border-box;margin-bottom:7px;padding:20px;width:250px;border:1px
+solid #ededed;position:relative;margin-right:12px}#ampromo-items .ampromo-item-options{margin-bottom:12px;text-align:left}#ampromo-items .ampromo-item-image{display:block;margin:0
+auto;width:160px;height:160px}.amcarousel #ampromo-carousel-wrapper{width:520px}#ampromo-carousel-wrapper{overflow:hidden;margin:0
+auto}.amcarousel #ampromo-carousel-content{width:4500px;height:1px}#ampromo-carousel-content .ampromo-slide{float:left}.amcarousel .ampromo-carousel-control{display:block}.ampromo-carousel-control{position:absolute;top:260px;background:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063494/da/buttons_next_prev.png) no-repeat;width:48px;height:45px;font-size:0;display:none}.ampromo-carousel-control.carousel-disabled.prev{background-position:0 0 !important}.ampromo-carousel-control.amcarousel-disabled.next{background-position: -46px 0 !important}.ampromo-carousel-control.prev{background-position:0 -45px;left:20px}.ampromo-carousel-control.next{background-position: -46px -45px;right:20px}.ampromo-carousel-control.prev:hover{background-position:0 -91px}.ampromo-carousel-control.next:hover{background-position: -46px -91px}.ampromo-item .qty-holder{display:none}.ampromo-item-options select,
+.ampromo-item-options
+input{max-width:210px}.ampromo-notification{padding:7px;text-align:center;margin-bottom:12px;border:1px
+solid #f16048;color:#df280a;background:#faebe7}.ampromo_items_form
+h4{line-height:50px}.ampromo_items_form h4
+a{display:inline-block;vertical-align:middle;line-height:14px}.ampromo-label{float:right;position:absolute;z-index:500}.ampromo-gift .product-image{float:left}.ampromo-gift
+li{margin:10px
+10px;float:left}.ampromo-tooltip{padding:2px
+5px;background:#FEC;border:1px
+solid #FAA819;color:#1F5070;text-align:left;width:300px;position:absolute;z-index:10001}.ampromo-product-name{font-weight:bold}.ampromo-short-description{}.ampromo-img
+img{}div.amshopby-column{float:left;width:105px;overflow:hidden}select.amshopby-select{width:170px}.amshopby-logo{padding:0pt 10px 10px 0pt;float:left}.amshopby-featured{padding:5px
+5px 5px 5px}.amshopby-link{float:left;padding-left:5px;padding-top:5px}.amshopby-clearer{display:block;clear:both;overflow:hidden}div.block-layered-nav dd
+a{padding:0px
+5px 0px 0px;display:block;float:left}div.block-layered-nav dd a.amshopby-attr::before, div.block-layered-nav dd a.amshopby-attr-selected::before{border-style:none !important}div.block-layered-nav dd a.amshopby-attr-selected{font-weight:bold;padding-left:15px;background-image:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607555123/06/amshopby-cb2.gif);background-repeat:no-repeat;background-position:left center}div.block-layered-nav dd a.amshopby-attr-inactive{pointer-events:none;color:#666}div.block-layered-nav dd a
+img{padding:0px
+4px 5px;float:left}div.block-layered-nav dd .single-choice a.amshopby-attr,
+div.block-layered-nav dd .single-choice a.amshopby-attr:hover,
+div.block-layered-nav dd .single-choice a.amshopby-attr-selected{padding-left:5px;background-image:none}div.block-layered-nav dd li.amshopby-cat-level-2{padding-left:10px}div.block-layered-nav dd li.amshopby-cat-level-3{padding-left:20px}div.block-layered-nav dd a.amshopby-cat-selected{font-weight:bold;color:black;text-decoration:none;cursor:text}div.block-layered-nav li.amshopby-cat-multi
+a{padding-left:15px;background-image:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556319/01/amshopby-cb1.gif);background-repeat:no-repeat;background-position:left center}div.block-layered-nav li.amshopby-cat-multiselected
+a{font-weight:bold;background-image:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607555123/06/amshopby-cb2.gif);background-repeat:no-repeat;background-position:left center}div.block-layered-nav dd li span.amshopby-plusminus{float:left;display:block;width:15px;height:15px;cursor:pointer;background:transparent url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556071/61/amshopby-plus.gif)  no-repeat}div.block-layered-nav dd li
+span.minus{background:transparent
+url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607555815/0c/amshopby-minus.gif) no-repeat}div.block-layered-nav dd li:after{display:block;content:".";clear:both;font-size:0;line-height:0;height:0;overflow:hidden}div.block-layered-nav.amshopby-collapse-enabled dl
+dt{cursor:pointer;padding-left:15px}div.block-layered-nav.amshopby-collapse-enabled dl dt::after{border-style:none !important}.main .col-main div.block-layered-nav.amshopby-collapse-enabled .toggle-content dl dd .no-display{display:block!important}div.block-layered-nav div.amshopby-slider{position:relative;margin:10px
+4px 5px 4px;z-index:9;height:18px;background:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556360/44/amshopby-slider-bg.gif) repeat-x 0 50%;cursor:pointer}div.block-layered-nav div.amshopby-slider
+div.handle{margin-left:-4px;width:8px;top:3px;height:14px;background:transparent url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543062908/42/amshopby-hadle.png) no-repeat;position:absolute;cursor:move;z-index:2}.amshopby-slider-price{color:#798794}.amshopby-slider-price-from{float:left}.amshopby-slider-price-to{float:right}.amshopby-slider-handle-right{position:absolute;top:14px;right:0px}.amshopby-slider-handle-left{position:absolute;top:14px;left:0px}.amshopby-tooltip{padding:2px
+5px;background:#FEC;border:1px
+solid #FAA819;color:#1F5070;text-align:left;width:200px;position:absolute}.amshopby-slider-price-range{text-align:center;font-size:0.9em}.amshopby-tooltip-img{cursor:help;display:inline}div.block-layered-nav,div.amshopby-page-container,div.amshopby-filters-top{position:relative}div.amshopby-overlay{background-color:#FFF;height:100%;left:0;opacity:0.5;filter:alpha(opacity = 50);position:absolute;top:0;width:100%;z-index:555}div.amshopby-overlay
+img{top:100px;left:45%;display:block;position:absolute}div.amshopby-overlay
+div{margin:0
+auto;display:block;width:300px;height:200px;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556328/18/amshopby-overlay.gif') 50% 50% no-repeat}.amshopby-advanced
+li{clear:both}.amshopby-advanced
+li.level1{padding-left:20px}.amshopby-advanced
+li.level2{padding-left:30px}.amshopby-advanced
+li.level3{padding-left:40px}.amshopby-advanced
+li.level4{padding-left:50px}.amshopby-advanced li.active>a{font-weight:bold}.amshopby-slider-bar{position:absolute;background:#999;height:6px;top:6px;z-index:1}.amshopby-subcategory-image{overflow:auto}.btn-remove-inline{background-image:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607555625/7e/am_btn_remove.gif');background-repeat:no-repeat;width:13px;height:12px;margin-left:4px}.btn-remove-inline:hover{}.amshopby-hightlighted{background:yellow}.btn-remove-inline
+img{display:inline}div.block-layered-nav div.amshopby-slider
+div.handle.active{z-index:3}.amshopby-slider-ui{background:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556360/44/amshopby-slider-bg.gif) repeat-x 0 50%;margin:10px
+.4em}.amshopby-slider-ui .ui-slider-handle{background-color:#f18200;border:1px
+solid #de5400;box-sizing:border-box;outline:none}.amshopby-slider-ui .ui-slider-range{background-color:#999}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-slider{cursor:pointer;position:relative;text-align:left}.ui-slider .ui-slider-handle{position:absolute;z-index:2;width:0.8em;height:1.2em;cursor:pointer;-ms-touch-action:none;touch-action:none}.ui-slider .ui-slider-range{position:absolute;z-index:1;font-size: .7em;display:block;border:0;background-position:0 0}.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range{filter:inherit}.ui-slider-horizontal{height: .8em}.ui-slider-horizontal .ui-slider-handle{top: -.2em;margin-left: -.4em}.ui-slider-horizontal .ui-slider-range{top:0.2em;height:8px}.ui-slider-horizontal .ui-slider-range-min{left:0}.ui-slider-horizontal .ui-slider-range-max{right:0}.ui-slider-vertical{width: .8em;height:100px}.ui-slider-vertical .ui-slider-handle{left: -.3em;margin-left:0;margin-bottom: -.6em}.ui-slider-vertical .ui-slider-range{left:0;width:100%}.ui-slider-vertical .ui-slider-range-min{bottom:0}.ui-slider-vertical .ui-slider-range-max{top:0}.amshopby-narrow-by-list table
+td{vertical-align:top}input[name^="amshopby"][id$="from"].input-text,input[name^="amshopby"][id$="to"].input-text{width:auto}.amshopby-item-top{max-width:225px;min-width:180px;display:inline-block;vertical-align:top;height:100%}.amshopby-filters-top .block-content
+ol{max-width:250px}.amshopby-item-top div.amshopby-column{width:auto}.no-display-current,.no-display{display:none}.current .no-display-current, dd.current td.no-display{display:block}@media only screen and (max-width: 770px){dl#narrow-by-list,dl#narrow-by-list2{padding:0px}.main .col-main div.block-layered-nav.amshopby-collapse-enabled .toggle-content dl
+dt{background:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607555501/e7/amshopby-collapsed.gif) center left no-repeat}.main .col-main div.block-layered-nav.amshopby-collapse-enabled .toggle-content.accordion-open dl
+dt.current{background:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556360/4e/amshopby-expanded.gif) center left no-repeat}}.amsocial-iframe{max-width:570px;min-width:314px;width:95%;height:360px;position:relative;top: -360px;padding-top: -170px;margin:0
+auto;border:3px
+solid #000;background-color:white;z-index:99999}#amsocial_iframe_id{width:100%;height:100%;border:0}#amsocial_dark{position:fixed;top:0px;left:0;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543065064/48/ie.png');background: -moz-linear-gradient(rgba(11,11,11,0.1), rgba(11,11,11,0.6)) repeat-x rgba(11,11,11,0.2);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(11,11,11,0.1)), to(rgba(11,11,11,0.6))) repeat-x rgba(11,11,11,0.2);z-index:2147483647;width:100%;height:100%}.amsocial-header{height:40px;font-size:22px;color:white;background:#000;padding-top:3px}.amsocial-header
+a{color:white;text-decoration:none}.amsocial-note{font-size:14px;color:#515151;line-height:16px;width:92%;margin:0
+auto;padding-top:15px;padding-bottom:35px;text-align:left}hr.amsocial-hr{color:#000;border:0px
+none;height:1px;text-align:left;background-color:#000;margin:0
+auto;width:92%;display:none}.amsocial-block{float:left;font-size:15px;max-width:265px;padding-left:20px;text-align:left;width:100%}@media screen and (max-width: 565px){.amsocial-block{float:none;font-size:14px;max-width:240px;padding-left:23px;text-align:left;width:100%}.amsocial-iframe{max-width:490px}.block-one{position:relative;top:97px;clear:both}.block-two{position:relative;top: -88px;clear:both}.amsocial-note{font-size:13px}.amsocial-header{font-size:20px}}.amsocial-items{text-align:center;left: -3px}.amsocial-items
+div{float:left;width:55px}.amsocial-popup
+table{padding-top:15px;padding-bottom:27px;padding-right:20px}.amsocial-icons{margin-left:20px}.amsocial-popup table
+.title{font-size:14px;font-weight:bold}#ccode_placeholder{border:1px
+solid #bbb;height:32px;width:210px;font-size:18px;padding-top:4px;padding-left:8px;color:#00940a}.amsocial-nocode{color:#bbb !important}.amsocial-codecomment{padding-top:3px;color:#bbb;font-size:small}.amsocial-side-image{display:block;position:fixed;right: -0px;top:220px;z-index:9999}.featherlight .featherlight-content{min-width:90%}#fastorder #fastorder_form
+ul{list-style:none;padding:0;margin:0}#fastorder .fastorder-multiple-form{width:100%}#fastorder  .fastorder-multiple-form tbody>tr:nth-child(odd){background:#E8EAEB}#fastorder .fastorder-multiple-form{border:1px
+solid #d3d3d3}#fastorder .no-display{display:none}#fastorder .add-messages-success, #fastorder .add-messages-error{margin-top:15px}#fastorder .add-messages-success
+span{border:1px
+solid #95a486;color:#3d6611;background:#eff5ea;padding:10px}#fastorder .add-messages-error
+span{color:red}#fastorder .validation-advice{display:none}.fastorder-thumbnail-container{display:none}#fastorder_form #fastorder-0{background-color:#8A8886;height:28px}.fastorder-actions{border-bottom:1px #A0B3C3 solid;font-size:12px;height:31px}.fastorder-actions
+a{color:#212121;height:30px;line-height:30px;display:block;float:left;padding:0
+15px;text-align:center;text-decoration:none}.fastorder-actions
+a.active{font-weight:bold;background:#E7F1F4;border-top:1px #A0B3C3 solid;border-left:1px #A0B3C3 solid;border-right:1px #A0B3C3 solid}.fastorder-row{background:#fefefe}#fastorder .messages .error-msg{margin:10px
+0;color:#df280a}#fastorder .messages .success-msg{margin:10px
+0;color:#3d6611}.fastorder-row-name .row-loader{background:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607555232/ef/ajax-loader.gif) no-repeat center center;height:64px;width:100%;position:absolute;top:0;left:0;z-index:2;display:none;border-left:1px #A0B3C3 solid;border-right:1px #A0B3C3 solid}.fastorder-row-ref .height-tr{padding:4%}.fastorder-row-ref{width:27%;position:relative;border-right:1px #d3d3d3 solid}.fastorder-row-ref
+label{float:left;line-height:20px;margin-right:5px;font-size:11px}.fastorder-row-ref .input-text{width:78%}.fastorder-row-ref
+button{width:18%}.fastorder-row-ref button span,.fastorder-row-add button
+span{font:bold 12px/19px Arial,Helvetica,sans-serif;color:#fff}.fastorder-row-image{width:7%;border-right:1px #d3d3d3 solid;position:relative;overflow:hidden}.fastorder-img{}.fastorder-row-image
+div.animation{display:block;text-align:center}.fastorder-row-image div.animation
+img{width:auto;height:65px;cursor:pointer;margin:auto}.fastorder-row-name{padding-left:10px;padding-right:2%;width:31%;font-weight:normal;overflow:hidden;text-transform:uppercase;font-size:11px;border-right:1px #d3d3d3 solid;position:relative}.fastorder-row-name
+.animation{text-decoration:none}.fastorder-row-name
+.price{color:red}.fastorder-row-price{color:red;width:8%;border-right:1px #d3d3d3 solid;font-weight:normal;text-align:center}.fastorder-row-name
+.reference{text-transform:none}.fastorder-row-qty{width:7%;border-right:1px #d3d3d3 solid;text-align:center}.fastorder-row-qty
+.qty{}.fastorder-row-add{width:5%;text-align:center;margin-left:1%}.fastorder-row-edit{width:5%;text-align:center;border-right:1px #d3d3d3 solid}.fastorder_autocomplete{border:1px
+#6D6D6D solid;background:#fff;position:absolute;top:57px;display:none;left: -1px;width:100%;z-index:1;border-top:1px #6D6D6D solid}.fastorder_autocomplete
+ul{}.fastorder_autocomplete
+li{border-bottom:1px #A0B3C3 solid}.fastorder_autocomplete li .product-price{display:none}.fastorder_autocomplete
+li.loader{background:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607555232/ef/ajax-loader.gif) no-repeat center center;height:16px;padding:5px;border-bottom:0}.fastorder_autocomplete li
+a{display:block;text-decoration:none;padding:5px;height:48px}.fastorder_autocomplete li a .product-info{color:#1d1d1d;white-space:nowrap;font-size:11px;font-weight:normal;float:left;display:block;height:34px;width:75%;line-height:140%;overflow:hidden;padding-left:10px}.fastorder_autocomplete li a .product-info .ref-part{font-weight:bold;color:#fff;background-color:#000}.fastorder_autocomplete li a .product-name
+.reference{font-size:11px}.fastorder_autocomplete li a .product-name .reference .ref-part{font-weight:bold;color:#AB8552}.fastorder_autocomplete li a .product-image{float:left;display:block;width:18%;height:32px;text-align:center;background:#fff;border:none;overflow:hidden}.fastorder_autocomplete li a .product-image
+img{height:32px;width:auto}.fastorder_autocomplete li.selected
+a{background-color:#D1D1D1}.fastorder_autocomplete li.selected a .product-image{border:1px
+#A0B3C3 solid}.fastorder-no-results{font-style:italic;font-size:11px;color:#1d1d1d;text-align:center;height:33px;padding:5px;border-bottom:0}.fastorder-wrap-close{position:relative;height:26px;background:#8A8886}.fastorder-close{position:absolute;right:5px;top:5px;color:#000;height:15px;display:block;font-size:10px;text-decoration:none;background:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607555232/b1/btn_window_close.gif) no-repeat right center;padding-right:19px;line-height:15px}.fastorder-close:hover{color:#000}.cart{position:relative}.cart .fastorder-cart-loader-bg{position:absolute;top:0;left:0;height:100%;width:100%;background:#fff;opacity:0;filter:alpha(opacity=0);z-index:10}.cart .fastorder-cart-loader{position:absolute;top:0;left:0;height:100%;width:100%;opacity:0;filter:alpha(opacity=0);background:url(https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607555232/ef/ajax-loader.gif) no-repeat 50% 13px;z-index:11}#fastorder-0 .fastorder-row-ref,#fastorder-0 .fastorder-row-image,#fastorder-0 .fastorder-row-name,#fastorder-0 .fastorder-row-qty,#fastorder-0 .fastorder-row-price,#fastorder-0 .fastorder-row-add,#fastorder-0 .fastorder-row-edit{border-right:none;border-left:none;color:white;font-size:13px;padding-top:2px;text-transform:none;height:27px;text-align:center;font-size:14px}#fastorder
+#file{width:20%}#fastorder .add-rows{float:right;margin-right:5px;margin-left:5px}#fastorder_form
+.submit{float:right}#fastorder
+table{width:100%;border-collapse:collapse}#fastorder tr:nth-of-type(odd){background:#eee}#fastorder td, #fastorder
+th{border:1px
+solid #ccc;vertical-align:middle}@media
+only screen and (max-width: 760px),
+(min-device-width: 320px) and (max-device-width: 800px){#fastorder table, #fastorder thead, #fastorder tbody, #fastorder th, #fastorder td, #fastorder
+tr{display:block}#fastorder thead
+tr{position:absolute;top: -9999px;left: -9999px}#fastorder
+tr{border:1px
+solid #ccc}#fastorder td, #fastorder td.fastorder-row-name{border:none;border-bottom:1px solid #eee;position:relative;padding-left:25%;text-align:center}#fastorder td:before{position:absolute;left:6px;width:25%;padding-right:10px;white-space:nowrap;line-height:55px}#fastorder td:nth-of-type(1):before{content:"Search"}#fastorder td:nth-of-type(2):before{content:"Photo"}#fastorder td:nth-of-type(3):before{content:"Product"}#fastorder td:nth-of-type(4):before{content:"Qty"}#fastorder td:nth-of-type(5):before{content:"Total Price"}#fastorder td:nth-of-type(6):before{content:"Edit"}#fastorder td:nth-of-type(7):before{content:"Action"}#fastorder tr#fastorder-0{display:none}#fastorder .fastorder-row
+td{width:100%;min-height:55px}#fastorder .fastorder-row .fastorder-row-price
+.price{min-height:55px;line-height:55px}#fastorder .fastorder-row-ref .height-tr{min-height:auto}#fastorder .fastorder-row-ref .height-tr .input-text{vertical-align:middle;width:70%}#fastorder .fastorder-row-ref .height-tr .btn-ok{width:27%}#fastorder .fastorder-row-edit button, #fastorder .fastorder-row-add button, #fastorder .fastorder-row-qty
+input{margin-top:10px}#fastorder .add-rows{margin-bottom:10px;float:left}#fastorder
+#data{margin-top:49px}#fastorder #data
+#file{width:57%}}#fountainTextG{width:134px;margin:auto}.fountainTextG{color:rgb(0,0,0);font-family:Arial;font-size:24px;text-decoration:none;font-weight:normal;font-style:normal;float:left;animation-name:bounce_fountainTextG;-o-animation-name:bounce_fountainTextG;-ms-animation-name:bounce_fountainTextG;-webkit-animation-name:bounce_fountainTextG;-moz-animation-name:bounce_fountainTextG;animation-duration:2.09s;-o-animation-duration:2.09s;-ms-animation-duration:2.09s;-webkit-animation-duration:2.09s;-moz-animation-duration:2.09s;animation-iteration-count:infinite;-o-animation-iteration-count:infinite;-ms-animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;animation-direction:normal;-o-animation-direction:normal;-ms-animation-direction:normal;-webkit-animation-direction:normal;-moz-animation-direction:normal;transform:scale(.5);-o-transform:scale(.5);-ms-transform:scale(.5);-webkit-transform:scale(.5);-moz-transform:scale(.5)}#fountainTextG_1{animation-delay:0.75s;-o-animation-delay:0.75s;-ms-animation-delay:0.75s;-webkit-animation-delay:0.75s;-moz-animation-delay:0.75s}#fountainTextG_2{animation-delay:0.9s;-o-animation-delay:0.9s;-ms-animation-delay:0.9s;-webkit-animation-delay:0.9s;-moz-animation-delay:0.9s}#fountainTextG_3{animation-delay:1.05s;-o-animation-delay:1.05s;-ms-animation-delay:1.05s;-webkit-animation-delay:1.05s;-moz-animation-delay:1.05s}#fountainTextG_4{animation-delay:1.2s;-o-animation-delay:1.2s;-ms-animation-delay:1.2s;-webkit-animation-delay:1.2s;-moz-animation-delay:1.2s}#fountainTextG_5{animation-delay:1.35s;-o-animation-delay:1.35s;-ms-animation-delay:1.35s;-webkit-animation-delay:1.35s;-moz-animation-delay:1.35s}#fountainTextG_6{animation-delay:1.5s;-o-animation-delay:1.5s;-ms-animation-delay:1.5s;-webkit-animation-delay:1.5s;-moz-animation-delay:1.5s}#fountainTextG_7{animation-delay:1.64s;-o-animation-delay:1.64s;-ms-animation-delay:1.64s;-webkit-animation-delay:1.64s;-moz-animation-delay:1.64s}@keyframes
+bounce_fountainTextG{0%{transform:scale(1);color:rgb(0,0,0)}100%{transform:scale(.5);color:rgb(255,255,255)}}@-o-keyframes
+bounce_fountainTextG{0%{-o-transform:scale(1);color:rgb(0,0,0)}100%{-o-transform:scale(.5);color:rgb(255,255,255)}}@-ms-keyframes
+bounce_fountainTextG{0%{-ms-transform:scale(1);color:rgb(0,0,0)}100%{-ms-transform:scale(.5);color:rgb(255,255,255)}}@-webkit-keyframes
+bounce_fountainTextG{0%{-webkit-transform:scale(1);color:rgb(0,0,0)}100%{-webkit-transform:scale(.5);color:rgb(255,255,255)}}@-moz-keyframes
+bounce_fountainTextG{0%{-moz-transform:scale(1);color:rgb(0,0,0)}100%{-moz-transform:scale(.5);color:rgb(255,255,255)}}
+/* fancyBox v2.1.4 fancyapps.com | fancyapps.com/fancybox/#license */
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,.fancybox-tmp{padding:0;margin:0;border:0;outline:none;vertical-align:top}.fancybox-wrap{position:absolute;top:0;left:0;z-index:8020}.fancybox-skin{position:relative;background:#f9f9f9;color:#444;text-shadow:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.fancybox-opened{z-index:8030}.fancybox-opened .fancybox-skin{-webkit-box-shadow:0 10px 25px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 10px 25px rgba(0, 0, 0, 0.5);box-shadow:0 10px 25px rgba(0,0,0,0.5)}.fancybox-outer,.fancybox-inner{position:relative}.fancybox-inner{overflow:hidden}.fancybox-type-iframe .fancybox-inner{-webkit-overflow-scrolling:touch}.fancybox-error{color:#444;font:14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0;padding:15px;white-space:nowrap}.fancybox-image,.fancybox-iframe{display:block;width:100%;height:100%}.fancybox-image{max-width:100%;max-height:100%}#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next
+span{background-image:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1463318297/47/fancybox_sprite.png')}#fancybox-loading{position:fixed;top:50%;left:50%;margin-top: -22px;margin-left: -22px;background-position:0 -108px;opacity:0.8;cursor:pointer;z-index:2147483649}#fancybox-loading
+div{width:44px;height:44px;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607554898/62/fancybox_loading.gif') center center no-repeat}.fancybox-close{position:absolute;top: -18px;right: -18px;width:36px;height:36px;cursor:pointer;z-index:8040}.fancybox-nav{position:absolute;top:0;width:40%;height:100%;cursor:pointer;text-decoration:none;background:transparent url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607554898/14/blank.gif');-webkit-tap-highlight-color:rgba(0,0,0,0);z-index:8040}.fancybox-prev{left:0}.fancybox-next{right:0}.fancybox-nav
+span{position:absolute;top:50%;width:36px;height:34px;margin-top: -18px;cursor:pointer;z-index:8040;visibility:hidden}.fancybox-prev
+span{left:10px;background-position:0 -36px}.fancybox-next
+span{right:10px;background-position:0 -72px}.fancybox-nav:hover
+span{visibility:visible}.fancybox-tmp{position:absolute;top: -99999px;left: -99999px;visibility:hidden;max-width:99999px;max-height:99999px;overflow:visible !important}.fancybox-lock{overflow:hidden}.fancybox-overlay{position:absolute;top:0;left:0;overflow:hidden;display:none;z-index:2147483648;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543062686/1f/fancybox_overlay.png')}.fancybox-overlay-fixed{position:fixed;bottom:0;right:0}.fancybox-lock .fancybox-overlay{overflow:auto;overflow-y:scroll}.fancybox-title{visibility:hidden;font:normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;position:relative;text-shadow:none;z-index:8050}.fancybox-opened .fancybox-title{visibility:visible}.fancybox-title-float-wrap{position:absolute;bottom:0;right:50%;margin-bottom: -35px;z-index:8050;text-align:center}.fancybox-title-float-wrap
+.child{display:inline-block;margin-right: -100%;padding:2px
+20px;background:transparent;background:rgba(0, 0, 0, 0.8);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;text-shadow:0 1px 2px #222;color:#FFF;font-weight:bold;line-height:24px;white-space:nowrap}.fancybox-title-outside-wrap{position:relative;margin-top:10px;color:#fff}.fancybox-title-inside-wrap{padding-top:10px}.fancybox-title-over-wrap{position:absolute;bottom:0;left:0;color:#fff;padding:10px;background:#000;background:rgba(0,0,0,.8)}#fancybox-thumbs{position:fixed;left:0;width:100%;overflow:hidden;z-index:8050}#fancybox-thumbs.bottom{bottom:2px}#fancybox-thumbs.top{top:2px}#fancybox-thumbs
+ul{position:relative;list-style:none;margin:0;padding:0}#fancybox-thumbs ul
+li{float:left;padding:1px;opacity:0.5}#fancybox-thumbs ul
+li.active{opacity:0.75;padding:0;border:1px
+solid #fff}#fancybox-thumbs ul li:hover{opacity:1}#fancybox-thumbs ul li
+a{display:block;position:relative;overflow:hidden;border:1px
+solid #222;background:#111;outline:none}#fancybox-thumbs ul li
+img{display:block;position:relative;border:0;padding:0}@media
+all{.featherlight{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:2147483647;text-align:center;white-space:nowrap;cursor:pointer;background:#333;background:rgba(0,0,0,0)}.featherlight:last-of-type{background:rgba(0,0,0,.8)}.featherlight:before{content:'';display:inline-block;height:100%;vertical-align:middle;margin-right:-.25em}.featherlight .featherlight-content{position:relative;text-align:left;vertical-align:middle;display:inline-block;overflow:auto;padding:25px
+25px 0;border-bottom:25px solid transparent;margin-left:5%;margin-right:5%;max-height:95%;background:#fff;cursor:auto;white-space:normal}.featherlight .featherlight-close-icon{position:absolute;z-index:9999;top:0;right:0;line-height:25px;width:25px;cursor:pointer;text-align:center;font-family:Arial,sans-serif;background:#fff;background:rgba(255,255,255,.3);color:#000}.featherlight .featherlight-image{width:100%}.featherlight-iframe .featherlight-content{border-bottom:0;padding:0}.featherlight
+iframe{border:0}}@media only screen and (max-width:1024px){.featherlight .featherlight-content{margin-left:10px;margin-right:10px;max-height:98%;padding:10px
+10px 0;border-bottom:10px solid transparent}}#clerk-power-popup{position:fixed;top:10%;z-index:16777271;width:90%;padding:20px;margin:0
+5%;background-color:white;border:1px
+solid #eee;border-radius:5px;box-shadow:0px 8px 40px 0px rgba(0,0,60,0.15)}#clerk-power-popup .clerk-top-wrapper{display:inline-block;width:100%;border-bottom:1px solid #EEE;margin-top:10px}#clerk-power-popup .clerk-top-wrapper
+.table{width:95% !important;margin:0
+auto !important}#clerk-power-popup .clerk-clearer{clear:both}.alert-success{background-image: -webkit-linear-gradient(top,#dff0d8 0,#c8e5bc 100%);background-image: -o-linear-gradient(top,#dff0d8 0,#c8e5bc 100%);background-image: -webkit-gradient(linear,left top,left bottom,from(#dff0d8),to(#c8e5bc));background-image:linear-gradient(to bottom,#dff0d8 0,#c8e5bc 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8',endColorstr='#ffc8e5bc',GradientType=0);background-repeat:repeat-x;border-color:#b2dba1;color:#3c763d;background-color:#dff0d8}.alert{text-shadow:0 1px 0 rgba(255,255,255,.2);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 2px rgba(0,0,0,.05);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 2px rgba(0,0,0,.05);padding:15px;margin-bottom:20px;border:1px
+solid transparent;border-radius:4px}.left{float:left}.right{float:right}.col4{width:32%;display:inline-block}.col6{width:50%;display:inline-block}.col8{width:66%;display:inline-block}.col12{width:100%;display:inline-block}.padding20{padding:20px}.padding10{padding:10px}.padding10-top{padding:10px
+0 0 0}.clerk-text{text-align:left}.clerk-price{text-align:right}.clerk-total .clerk-text{padding-top:10px;font-weight:bold;font-size:18px}.clerk-total .clerk-price{padding-top:10px;font-weight:bold;font-size:18px}#clerk-power-popup .clerk-top-wrapper .clerk-to-cart{width:100%;margin:0
+auto}#clerk-power-popup .clerk-top-wrapper .clerk-to-cart span, #clerk-power-popup .clerk-top-wrapper .clerk-to-cart span
+span{font-size:16px}#clerk-power-popup .clerk-top-wrapper .clerk-continue-shopping, #clerk-power-popup .clerk-top-wrapper .clerk-to-checkout{margin:0
+auto;font-size:13px}#clerk-power-popup .clerk-top-wrapper .clerk-continue-shopping span, #clerk-power-popup .clerk-top-wrapper .clerk-to-checkout
+span{padding:0px}#clerk-power-popup .clerk-results{clear:both;text-align:center}@media (max-width: 767px){.col6{width:100% !important}}#clerk-power-popup .products-grid
+.actions{position:static}#clerk-power-popup .products-grid>li{width:30.8642%;margin-right:3.7037%}.checkout-cart-clerk .col4,
+.checkout-cart-clerk .col6,
+.checkout-cart-clerk .col8,
+.checkout-cart-clerk
+.col12{box-sizing:border-box}
+/*
+ * Bootstrap v3.3.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/* normalize.css v3.0.2 | MIT License | git.io/normalize */
+@font-face{font-family:'Glyphicons Halflings';src:url('https://cdn.dentalsky.com/skin/frontend/dental/default/megamenu/fonts/glyphicons-halflings-regular.eot');src:url('https://cdn.dentalsky.com/skin/frontend/dental/default/megamenu/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://cdn.dentalsky.com/skin/frontend/dental/default/megamenu/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('https://cdn.dentalsky.com/skin/frontend/dental/default/megamenu/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://cdn.dentalsky.com/skin/frontend/dental/default/megamenu/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1461883268/34/glyphicons-halflings-regular.svg') format('svg')}.glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.glyphicon-asterisk:before{content:"\2a"}.small{font-size:70%;top:4px}.glyphicon-plus:before{content:"\2b"}.glyphicon-euro:before,.glyphicon-eur:before{content:"\20ac"}.glyphicon-minus:before{content:"\2212"}.glyphicon-cloud:before{content:"\2601"}.glyphicon-envelope:before{content:"\2709"}.glyphicon-pencil:before{content:"\270f"}.glyphicon-glass:before{content:"\e001"}.glyphicon-music:before{content:"\e002"}.glyphicon-search:before{content:"\e003"}.glyphicon-heart:before{content:"\e005"}.glyphicon-star:before{content:"\e006"}.glyphicon-star-empty:before{content:"\e007"}.glyphicon-user:before{content:"\e008"}.glyphicon-film:before{content:"\e009"}.glyphicon-th-large:before{content:"\e010"}.glyphicon-th:before{content:"\e011"}.glyphicon-th-list:before{content:"\e012"}.glyphicon-ok:before{content:"\e013"}.glyphicon-remove:before{content:"\e014"}.glyphicon-zoom-in:before{content:"\e015"}.glyphicon-zoom-out:before{content:"\e016"}.glyphicon-off:before{content:"\e017"}.glyphicon-signal:before{content:"\e018"}.glyphicon-cog:before{content:"\e019"}.glyphicon-trash:before{content:"\e020"}.glyphicon-home:before{content:"\e021"}.glyphicon-file:before{content:"\e022"}.glyphicon-time:before{content:"\e023"}.glyphicon-road:before{content:"\e024"}.glyphicon-download-alt:before{content:"\e025"}.glyphicon-download:before{content:"\e026"}.glyphicon-upload:before{content:"\e027"}.glyphicon-inbox:before{content:"\e028"}.glyphicon-play-circle:before{content:"\e029"}.glyphicon-repeat:before{content:"\e030"}.glyphicon-refresh:before{content:"\e031"}.glyphicon-list-alt:before{content:"\e032"}.glyphicon-lock:before{content:"\e033"}.glyphicon-flag:before{content:"\e034"}.glyphicon-headphones:before{content:"\e035"}.glyphicon-volume-off:before{content:"\e036"}.glyphicon-volume-down:before{content:"\e037"}.glyphicon-volume-up:before{content:"\e038"}.glyphicon-qrcode:before{content:"\e039"}.glyphicon-barcode:before{content:"\e040"}.glyphicon-tag:before{content:"\e041"}.glyphicon-tags:before{content:"\e042"}.glyphicon-book:before{content:"\e043"}.glyphicon-bookmark:before{content:"\e044"}.glyphicon-print:before{content:"\e045"}.glyphicon-camera:before{content:"\e046"}.glyphicon-font:before{content:"\e047"}.glyphicon-bold:before{content:"\e048"}.glyphicon-italic:before{content:"\e049"}.glyphicon-text-height:before{content:"\e050"}.glyphicon-text-width:before{content:"\e051"}.glyphicon-align-left:before{content:"\e052"}.glyphicon-align-center:before{content:"\e053"}.glyphicon-align-right:before{content:"\e054"}.glyphicon-align-justify:before{content:"\e055"}.glyphicon-list:before{content:"\e056"}.glyphicon-indent-left:before{content:"\e057"}.glyphicon-indent-right:before{content:"\e058"}.glyphicon-facetime-video:before{content:"\e059"}.glyphicon-picture:before{content:"\e060"}.glyphicon-map-marker:before{content:"\e062"}.glyphicon-adjust:before{content:"\e063"}.glyphicon-tint:before{content:"\e064"}.glyphicon-edit:before{content:"\e065"}.glyphicon-share:before{content:"\e066"}.glyphicon-check:before{content:"\e067"}.glyphicon-move:before{content:"\e068"}.glyphicon-step-backward:before{content:"\e069"}.glyphicon-fast-backward:before{content:"\e070"}.glyphicon-backward:before{content:"\e071"}.glyphicon-play:before{content:"\e072"}.glyphicon-pause:before{content:"\e073"}.glyphicon-stop:before{content:"\e074"}.glyphicon-forward:before{content:"\e075"}.glyphicon-fast-forward:before{content:"\e076"}.glyphicon-step-forward:before{content:"\e077"}.glyphicon-eject:before{content:"\e078"}.glyphicon-chevron-left:before{content:"\e079"}.glyphicon-chevron-right:before{content:"\e080"}.glyphicon-plus-sign:before{content:"\e081"}.glyphicon-minus-sign:before{content:"\e082"}.glyphicon-remove-sign:before{content:"\e083"}.glyphicon-ok-sign:before{content:"\e084"}.glyphicon-question-sign:before{content:"\e085"}.glyphicon-info-sign:before{content:"\e086"}.glyphicon-screenshot:before{content:"\e087"}.glyphicon-remove-circle:before{content:"\e088"}.glyphicon-ok-circle:before{content:"\e089"}.glyphicon-ban-circle:before{content:"\e090"}.glyphicon-arrow-left:before{content:"\e091"}.glyphicon-arrow-right:before{content:"\e092"}.glyphicon-arrow-up:before{content:"\e093"}.glyphicon-arrow-down:before{content:"\e094"}.glyphicon-share-alt:before{content:"\e095"}.glyphicon-resize-full:before{content:"\e096"}.glyphicon-resize-small:before{content:"\e097"}.glyphicon-exclamation-sign:before{content:"\e101"}.glyphicon-gift:before{content:"\e102"}.glyphicon-leaf:before{content:"\e103"}.glyphicon-fire:before{content:"\e104"}.glyphicon-eye-open:before{content:"\e105"}.glyphicon-eye-close:before{content:"\e106"}.glyphicon-warning-sign:before{content:"\e107"}.glyphicon-plane:before{content:"\e108"}.glyphicon-calendar:before{content:"\e109"}.glyphicon-random:before{content:"\e110"}.glyphicon-comment:before{content:"\e111"}.glyphicon-magnet:before{content:"\e112"}.glyphicon-chevron-up:before{content:"\e113"}.glyphicon-chevron-down:before{content:"\e114"}.glyphicon-retweet:before{content:"\e115"}.glyphicon-shopping-cart:before{content:"\e116"}.glyphicon-folder-close:before{content:"\e117"}.glyphicon-folder-open:before{content:"\e118"}.glyphicon-resize-vertical:before{content:"\e119"}.glyphicon-resize-horizontal:before{content:"\e120"}.glyphicon-hdd:before{content:"\e121"}.glyphicon-bullhorn:before{content:"\e122"}.glyphicon-bell:before{content:"\e123"}.glyphicon-certificate:before{content:"\e124"}.glyphicon-thumbs-up:before{content:"\e125"}.glyphicon-thumbs-down:before{content:"\e126"}.glyphicon-hand-right:before{content:"\e127"}.glyphicon-hand-left:before{content:"\e128"}.glyphicon-hand-up:before{content:"\e129"}.glyphicon-hand-down:before{content:"\e130"}.glyphicon-circle-arrow-right:before{content:"\e131"}.glyphicon-circle-arrow-left:before{content:"\e132"}.glyphicon-circle-arrow-up:before{content:"\e133"}.glyphicon-circle-arrow-down:before{content:"\e134"}.glyphicon-globe:before{content:"\e135"}.glyphicon-wrench:before{content:"\e136"}.glyphicon-tasks:before{content:"\e137"}.glyphicon-filter:before{content:"\e138"}.glyphicon-briefcase:before{content:"\e139"}.glyphicon-fullscreen:before{content:"\e140"}.glyphicon-dashboard:before{content:"\e141"}.glyphicon-paperclip:before{content:"\e142"}.glyphicon-heart-empty:before{content:"\e143"}.glyphicon-link:before{content:"\e144"}.glyphicon-phone:before{content:"\e145"}.glyphicon-pushpin:before{content:"\e146"}.glyphicon-usd:before{content:"\e148"}.glyphicon-gbp:before{content:"\e149"}.glyphicon-sort:before{content:"\e150"}.glyphicon-sort-by-alphabet:before{content:"\e151"}.glyphicon-sort-by-alphabet-alt:before{content:"\e152"}.glyphicon-sort-by-order:before{content:"\e153"}.glyphicon-sort-by-order-alt:before{content:"\e154"}.glyphicon-sort-by-attributes:before{content:"\e155"}.glyphicon-sort-by-attributes-alt:before{content:"\e156"}.glyphicon-unchecked:before{content:"\e157"}.glyphicon-expand:before{content:"\e158"}.glyphicon-collapse-down:before{content:"\e159"}.glyphicon-collapse-up:before{content:"\e160"}.glyphicon-log-in:before{content:"\e161"}.glyphicon-flash:before{content:"\e162"}.glyphicon-log-out:before{content:"\e163"}.glyphicon-new-window:before{content:"\e164"}.glyphicon-record:before{content:"\e165"}.glyphicon-save:before{content:"\e166"}.glyphicon-open:before{content:"\e167"}.glyphicon-saved:before{content:"\e168"}.glyphicon-import:before{content:"\e169"}.glyphicon-export:before{content:"\e170"}.glyphicon-send:before{content:"\e171"}.glyphicon-floppy-disk:before{content:"\e172"}.glyphicon-floppy-saved:before{content:"\e173"}.glyphicon-floppy-remove:before{content:"\e174"}.glyphicon-floppy-save:before{content:"\e175"}.glyphicon-floppy-open:before{content:"\e176"}.glyphicon-credit-card:before{content:"\e177"}.glyphicon-transfer:before{content:"\e178"}.glyphicon-cutlery:before{content:"\e179"}.glyphicon-header:before{content:"\e180"}.glyphicon-compressed:before{content:"\e181"}.glyphicon-earphone:before{content:"\e182"}.glyphicon-phone-alt:before{content:"\e183"}.glyphicon-tower:before{content:"\e184"}.glyphicon-stats:before{content:"\e185"}.glyphicon-sd-video:before{content:"\e186"}.glyphicon-hd-video:before{content:"\e187"}.glyphicon-subtitles:before{content:"\e188"}.glyphicon-sound-stereo:before{content:"\e189"}.glyphicon-sound-dolby:before{content:"\e190"}.glyphicon-sound-5-1:before{content:"\e191"}.glyphicon-sound-6-1:before{content:"\e192"}.glyphicon-sound-7-1:before{content:"\e193"}.glyphicon-copyright-mark:before{content:"\e194"}.glyphicon-registration-mark:before{content:"\e195"}.glyphicon-cloud-download:before{content:"\e197"}.glyphicon-cloud-upload:before{content:"\e198"}.glyphicon-tree-conifer:before{content:"\e199"}.glyphicon-tree-deciduous:before{content:"\e200"}.glyphicon-cd:before{content:"\e201"}.glyphicon-save-file:before{content:"\e202"}.glyphicon-open-file:before{content:"\e203"}.glyphicon-level-up:before{content:"\e204"}.glyphicon-copy:before{content:"\e205"}.glyphicon-paste:before{content:"\e206"}.glyphicon-alert:before{content:"\e209"}.glyphicon-equalizer:before{content:"\e210"}.glyphicon-king:before{content:"\e211"}.glyphicon-queen:before{content:"\e212"}.glyphicon-pawn:before{content:"\e213"}.glyphicon-bishop:before{content:"\e214"}.glyphicon-knight:before{content:"\e215"}.glyphicon-baby-formula:before{content:"\e216"}.glyphicon-tent:before{content:"\26fa"}.glyphicon-blackboard:before{content:"\e218"}.glyphicon-bed:before{content:"\e219"}.glyphicon-apple:before{content:"\f8ff"}.glyphicon-erase:before{content:"\e221"}.glyphicon-hourglass:before{content:"\231b"}.glyphicon-lamp:before{content:"\e223"}.glyphicon-duplicate:before{content:"\e224"}.glyphicon-piggy-bank:before{content:"\e225"}.glyphicon-scissors:before{content:"\e226"}.glyphicon-bitcoin:before{content:"\e227"}.glyphicon-btc:before{content:"\e227"}.glyphicon-xbt:before{content:"\e227"}.glyphicon-yen:before{content:"\00a5"}.glyphicon-jpy:before{content:"\00a5"}.glyphicon-ruble:before{content:"\20bd"}.glyphicon-rub:before{content:"\20bd"}.glyphicon-scale:before{content:"\e230"}.glyphicon-ice-lolly:before{content:"\e231"}.glyphicon-ice-lolly-tasted:before{content:"\e232"}.glyphicon-education:before{content:"\e233"}.glyphicon-option-horizontal:before{content:"\e234"}.glyphicon-option-vertical:before{content:"\e235"}.glyphicon-menu-hamburger:before{content:"\e236"}.glyphicon-modal-window:before{content:"\e237"}.glyphicon-oil:before{content:"\e238"}.glyphicon-grain:before{content:"\e239"}.glyphicon-sunglasses:before{content:"\e240"}.glyphicon-text-size:before{content:"\e241"}.glyphicon-text-color:before{content:"\e242"}.glyphicon-text-background:before{content:"\e243"}.glyphicon-object-align-top:before{content:"\e244"}.glyphicon-object-align-bottom:before{content:"\e245"}.glyphicon-object-align-horizontal:before{content:"\e246"}.glyphicon-object-align-left:before{content:"\e247"}.glyphicon-object-align-vertical:before{content:"\e248"}.glyphicon-object-align-right:before{content:"\e249"}.glyphicon-triangle-right:before{content:"\e250"}.glyphicon-triangle-left:before{content:"\e251"}.glyphicon-triangle-bottom:before{content:"\e252"}.glyphicon-triangle-top:before{content:"\e253"}.glyphicon-console:before{content:"\e254"}.glyphicon-superscript:before{content:"\e255"}.glyphicon-subscript:before{content:"\e256"}.glyphicon-menu-left:before{content:"\e257"}.glyphicon-menu-right:before{content:"\e258"}.glyphicon-menu-down:before{content:"\e259"}.glyphicon-menu-up:before{content:"\e260"}.ms-megamenu
+*{box-sizing:border-box;transition:background-color 250ms ease-out;-webkit-transition:background-color  250ms ease-out;-moz-transition:background-color  250ms ease-out;-ms-transition:background-color  250ms ease-out;-o-transition:background-color  250ms ease-out}.ms-megamenu button
+*{box-sizing:content-box}.ms-megamenu
+.row{margin-right: -10px;margin-left: -10px}.ms-megamenu .col-xs-1,.ms-megamenu  .col-xs-2,.ms-megamenu  .col-xs-3,.ms-megamenu  .col-xs-4,.ms-megamenu  .col-xs-5,.ms-megamenu  .col-xs-6,.ms-megamenu  .col-xs-7,.ms-megamenu  .col-xs-8,.ms-megamenu  .col-xs-9,.ms-megamenu  .col-xs-10,.ms-megamenu  .col-xs-11,.ms-megamenu  .col-xs-12{float:left;position:relative;min-height:1px;padding-right:10px;padding-left:10px}.col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width: 768px){.col-sm-1,.col-sm-14,.col-sm-2,.col-sm-24,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-24{width:20%}.col-sm-2{width:16.66666667%}.col-sm-14{width:14%}.col-sm-125{width:12.5%}.col-sm-111{width:11.11111111%}.col-sm-100{width:10%}.col-sm-909{width:9.090909090%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width: 992px){.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width: 1200px){.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}@media (max-width: 460px){.col-tn-1,.col-tn-2,.col-tn-3,.col-tn-4,.col-tn-5,.col-tn-6,.col-tn-7,.col-tn-8,.col-tn-9,.col-tn-10,.col-tn-11,.col-tn-12{float:left}.col-tn-12{width:100%}.col-tn-11{width:91.66666667%}.col-tn-10{width:83.33333333%}.col-tn-9{width:75%}.col-tn-8{width:66.66666667%}.col-tn-7{width:58.33333333%}.col-tn-6{width:50%}.col-tn-5{width:41.66666667%}.col-tn-4{width:33.33333333%}.col-tn-3{width:25%}.col-tn-2{width:16.66666667%}.col-tn-1{width:8.33333333%}.col-tn-offset-12{margin-left:100%}.col-tn-offset-11{margin-left:91.66666667%}.col-tn-offset-10{margin-left:83.33333333%}.col-tn-offset-9{margin-left:75%}.col-tn-offset-8{margin-left:66.66666667%}.col-tn-offset-7{margin-left:58.33333333%}.col-tn-offset-6{margin-left:50%}.col-tn-offset-5{margin-left:41.66666667%}.col-tn-offset-4{margin-left:33.33333333%}.col-tn-offset-3{margin-left:25%}.col-tn-offset-2{margin-left:16.66666667%}.col-tn-offset-1{margin-left:8.33333333%}}@media (max-width: 460px){.hidden-tn{display:none !important}}@media (max-width: 767px) and (min-width: 461px){.hidden-xs{display:none !important}}@media (min-width: 768px) and (max-width: 991px){.hidden-sm{display:none !important}}@media (min-width: 992px) and (max-width: 1199px){.hidden-md{display:none !important}}@media (min-width: 1200px){.hidden-lg{display:none !important}}.ms-megamenu input[type="search"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.ms-megamenu input[type="radio"],
+.ms-megamenu input[type="checkbox"]{margin:3px
+0 0;margin-top:1px \9;line-height:normal}.ms-megamenu input[type="file"]{display:block}.ms-megamenu input[type="range"]{display:block;width:100%}.ms-megamenu select[multiple],
+.ms-megamenu select[size]{height:auto}.ms-megamenu input[type="file"]:focus,
+.ms-megamenu input[type="radio"]:focus,
+.ms-megamenu input[type="checkbox"]:focus{outline:thin dotted;outline:5px
+auto -webkit-focus-ring-color;outline-offset: -2px}.ms-megamenu
+output{display:block;padding-top:7px;font-size:14px;line-height:1.42857143;color:#555}.ms-megamenu .form-control{display:block;width:100%;height:34px;padding:6px
+12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px
+solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075);box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075);-webkit-transition:border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s}.ms-megamenu .form-control:focus{border-color:#66afe9;outline:none;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6)}.ms-megamenu .form-control::-moz-placeholder{color:#999;opacity:1}.ms-megamenu .form-control:-ms-input-placeholder{color:#999}.ms-megamenu .form-control::-webkit-input-placeholder{color:#999}.ms-megamenu .form-control[disabled],
+.ms-megamenu .form-control[readonly],
+.ms-megamenu textarea.form-control{height:173px}input[type="search"]{-webkit-appearance:none}.ms-megamenu input[type="date"],
+.ms-megamenu input[type="time"],
+.ms-megamenu input[type="datetime-local"],
+.ms-megamenu input[type="month"]{line-height:34px;line-height:1.42857143 \0}.ms-megamenu input[type="date"].input-sm,
+.ms-megamenu input[type="time"].input-sm,
+.ms-megamenu input[type="datetime-local"].input-sm,
+.ms-megamenu input[type="month"].input-sm{line-height:30px;line-height:1.5 \0}.ms-megamenu input[type="date"].input-lg,
+.ms-megamenu input[type="time"].input-lg,
+.ms-megamenu input[type="datetime-local"].input-lg,
+.ms-megamenu input[type="month"].input-lg{line-height:46px;line-height:1.33 \0}_:-ms-fullscreen,
+:root input[type="date"],
+_:-ms-fullscreen,
+:root input[type="time"],
+_:-ms-fullscreen,
+:root input[type="datetime-local"],
+_:-ms-fullscreen,
+:root input[type="month"]{line-height:1.42857143}_:-ms-fullscreen.input-sm,
+:root input[type="date"].input-sm,
+_:-ms-fullscreen.input-sm,
+:root input[type="time"].input-sm,
+_:-ms-fullscreen.input-sm,
+:root input[type="datetime-local"].input-sm,
+_:-ms-fullscreen.input-sm,
+:root input[type="month"].input-sm{line-height:1.5}_:-ms-fullscreen.input-lg,
+:root input[type="date"].input-lg,
+_:-ms-fullscreen.input-lg,
+:root input[type="time"].input-lg,
+_:-ms-fullscreen.input-lg,
+:root input[type="datetime-local"].input-lg,
+_:-ms-fullscreen.input-lg,
+:root input[type="month"].input-lg{line-height:1.33}.ms-megamenu .form-group{margin-bottom:10px;float:left;width:100%}.ms-megamenu .radio,
+.ms-megamenu
+.checkbox{position:relative;display:block;margin-top:5px;margin-bottom:5px}.ms-megamenu .radio label,
+.ms-megamenu .checkbox
+label{min-height:20px;padding-left:20px;margin-bottom:0;font-weight:normal;cursor:pointer}.ms-megamenu .radio input[type="radio"],
+.ms-megamenu .radio-inline input[type="radio"],
+.ms-megamenu .checkbox input[type="checkbox"],
+.ms-megamenu .checkbox-inline input[type="checkbox"]{position:absolute;number
+margin-top: 4px \9;margin-left: -19px}.radio+.radio,.checkbox+.checkbox{margin-top: -5px}.ms-megamenu .radio-inline,
+.ms-megamenu .checkbox-inline{display:inline-block;padding-left:20px;margin-bottom:0;font-weight:normal;vertical-align:middle;cursor:pointer}.radio-inline+.radio-inline,.checkbox-inline+.checkbox-inline{margin-top:0;margin-left:10px}.ms-megamenu .form-group
+label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}.ms-megamenu
+.hide{display:none}.ms-megamenu
+.disabled{opacity:0.3;filter:alpha(opacity=30);cursor:default}.ms-megamenu .text-left{text-align:left}.ms-megamenu .text-right{text-align:right}.ms-megamenu .text-center{text-align:center}.ms-megamenu .text-justify{text-align:justify}.ms-megamenu .text-nowrap{white-space:nowrap}.ms-megamenu .text-lowercase{text-transform:lowercase}.ms-megamenu .text-uppercase{text-transform:uppercase}.ms-megamenu .text-capitalize{text-transform:capitalize}.ms-megamenu
+.btn{display:inline-block;padding:6px
+12px;margin-bottom:0;font-size:14px;font-weight:normal;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px
+solid transparent;border-radius:4px}.ms-megamenu .btn:hover,
+.ms-megamenu .btn:focus,
+.ms-megamenu
+.btn.focus{color:#333;text-decoration:none}.ms-megamenu .btn-default{color:#333;background-color:#fff;border-color:#ccc}.ms-megamenu .btn-default:hover,
+.ms-megamenu .btn-default:focus,
+.ms-megamenu .btn-default.focus,
+.ms-megamenu .btn-default:active,
+.ms-megamenu .btn-default.active,
+.ms-megamenu .open>.dropdown-toggle.btn-default{color:#333;background-color:#e6e6e6;border-color:#adadad}.ms-megamenu .btn-default:active,
+.ms-megamenu .btn-default.active,
+.ms-megamenu .open>.dropdown-toggle.btn-default{background-image:none}.ms-megamenu .btn-default.disabled,
+.ms-megamenu .btn-default[disabled],
+.ms-megamenu fieldset[disabled] .btn-default,
+.ms-megamenu .btn-default.disabled:hover,
+.ms-megamenu .btn-default[disabled]:hover,
+.ms-megamenu fieldset[disabled] .btn-default:hover,
+.ms-megamenu .btn-default.disabled:focus,
+.ms-megamenu .btn-default[disabled]:focus,
+.ms-megamenu fieldset[disabled] .btn-default:focus,
+.ms-megamenu .btn-default.disabled.focus,
+.ms-megamenu .btn-default[disabled].focus,
+.ms-megamenu fieldset[disabled] .btn-default.focus,
+.ms-megamenu .btn-default.disabled:active,
+.ms-megamenu .btn-default[disabled]:active,
+.ms-megamenu fieldset[disabled] .btn-default:active,
+.ms-megamenu .btn-default.disabled.active,
+.ms-megamenu .btn-default[disabled].active,
+.ms-megamenu fieldset[disabled] .btn-default.active{background-color:#fff;border-color:#ccc}.ms-megamenu .btn-default
+.badge{color:#fff;background-color:#333}.ms-megamenu .btn-primary{color:#fff;background-color:#337ab7;border-color:#2e6da4}.ms-megamenu .btn-primary:hover,
+.ms-megamenu .btn-primary:focus,
+.ms-megamenu .btn-primary.focus,
+.ms-megamenu .btn-primary:active,
+.ms-megamenu .btn-primary.active,
+.ms-megamenu .open>.dropdown-toggle.btn-primary{color:#fff;background-color:#286090;border-color:#204d74}.ms-megamenu .btn-primary:active,
+.ms-megamenu .btn-primary.active,
+.ms-megamenu .open>.dropdown-toggle.btn-primary{background-image:none}.ms-megamenu .btn-primary.disabled,
+.ms-megamenu .btn-primary[disabled],
+.ms-megamenu fieldset[disabled] .btn-primary,
+.ms-megamenu .btn-primary.disabled:hover,
+.ms-megamenu .btn-primary[disabled]:hover,
+.ms-megamenu fieldset[disabled] .btn-primary:hover,
+.ms-megamenu .btn-primary.disabled:focus,
+.ms-megamenu .btn-primary[disabled]:focus,
+.ms-megamenu fieldset[disabled] .btn-primary:focus,
+.ms-megamenu .btn-primary.disabled.focus,
+.ms-megamenu .btn-primary[disabled].focus,
+.ms-megamenu fieldset[disabled] .btn-primary.focus,
+.ms-megamenu .btn-primary.disabled:active,
+.ms-megamenu .btn-primary[disabled]:active,
+.ms-megamenu fieldset[disabled] .btn-primary:active,
+.ms-megamenu .btn-primary.disabled.active,
+.ms-megamenu .btn-primary[disabled].active,
+.ms-megamenu fieldset[disabled] .btn-primary.active{background-color:#337ab7;border-color:#2e6da4}.ms-megamenu .btn-primary
+.badge{color:#337ab7;background-color:#fff}.ms-megamenu .btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}.ms-megamenu .btn-success:hover,
+.ms-megamenu .btn-success:focus,
+.ms-megamenu .btn-success.focus,
+.ms-megamenu .btn-success:active,
+.ms-megamenu .btn-success.active,
+.ms-megamenu .open>.dropdown-toggle.btn-success{color:#fff;background-color:#449d44;border-color:#398439}.ms-megamenu .btn-success:active,
+.ms-megamenu .btn-success.active,
+.ms-megamenu .open>.dropdown-toggle.btn-success{background-image:none}.ms-megamenu .btn-success.disabled,
+.ms-megamenu .btn-success[disabled],
+.ms-megamenu fieldset[disabled] .btn-success,
+.ms-megamenu .btn-success.disabled:hover,
+.ms-megamenu .btn-success[disabled]:hover,
+.ms-megamenu fieldset[disabled] .btn-success:hover,
+.ms-megamenu .btn-success.disabled:focus,
+.ms-megamenu .btn-success[disabled]:focus,
+.ms-megamenu fieldset[disabled] .btn-success:focus,
+.ms-megamenu .btn-success.disabled.focus,
+.ms-megamenu .btn-success[disabled].focus,
+.ms-megamenu fieldset[disabled] .btn-success.focus,
+.ms-megamenu .btn-success.disabled:active,
+.ms-megamenu .btn-success[disabled]:active,
+.ms-megamenu fieldset[disabled] .btn-success:active,
+.ms-megamenu .btn-success.disabled.active,
+.ms-megamenu .btn-success[disabled].active,
+.ms-megamenu fieldset[disabled] .btn-success.active{background-color:#5cb85c;border-color:#4cae4c}.ms-megamenu .btn-success
+.badge{color:#5cb85c;background-color:#fff}.ms-megamenu .btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da}.ms-megamenu .btn-info:hover,
+.ms-megamenu .btn-info:focus,
+.ms-megamenu .btn-info.focus,
+.ms-megamenu .btn-info:active,
+.ms-megamenu .btn-info.active,
+.ms-megamenu .open>.dropdown-toggle.btn-info{color:#fff;background-color:#31b0d5;border-color:#269abc}.ms-megamenu .btn-info:active,
+.ms-megamenu .btn-info.active,
+.ms-megamenu .open>.dropdown-toggle.btn-info{background-image:none}.ms-megamenu .btn-info.disabled,
+.ms-megamenu .btn-info[disabled],
+.ms-megamenu fieldset[disabled] .btn-info,
+.ms-megamenu .btn-info.disabled:hover,
+.ms-megamenu .btn-info[disabled]:hover,
+.ms-megamenu fieldset[disabled] .btn-info:hover,
+.ms-megamenu .btn-info.disabled:focus,
+.ms-megamenu .btn-info[disabled]:focus,
+.ms-megamenu fieldset[disabled] .btn-info:focus,
+.ms-megamenu .btn-info.disabled.focus,
+.ms-megamenu .btn-info[disabled].focus,
+.ms-megamenu fieldset[disabled] .btn-info.focus,
+.ms-megamenu .btn-info.disabled:active,
+.ms-megamenu .btn-info[disabled]:active,
+.ms-megamenu fieldset[disabled] .btn-info:active,
+.ms-megamenu .btn-info.disabled.active,
+.ms-megamenu .btn-info[disabled].active,
+.ms-megamenu fieldset[disabled] .btn-info.active{background-color:#5bc0de;border-color:#46b8da}.ms-megamenu .btn-info
+.badge{color:#5bc0de;background-color:#fff}.ms-megamenu .btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}.ms-megamenu .btn-warning:hover,
+.ms-megamenu .btn-warning:focus,
+.ms-megamenu .btn-warning.focus,
+.ms-megamenu .btn-warning.active,
+.ms-megamenu .open>.dropdown-toggle.btn-warning{color:#fff;background-color:#ec971f;border-color:#d58512}.ms-megamenu .btn-warning:active,
+.ms-megamenu .btn-warning.active,
+.ms-megamenu .open>.dropdown-toggle.btn-warning{background-image:none}.ms-megamenu .btn-warning.disabled,
+.ms-megamenu .btn-warning[disabled],
+.ms-megamenu fieldset[disabled] .btn-warning,
+.ms-megamenu .btn-warning.disabled:hover,
+.ms-megamenu .btn-warning[disabled]:hover,
+.ms-megamenu fieldset[disabled] .btn-warning:hover,
+.ms-megamenu .btn-warning.disabled:focus,
+.ms-megamenu .btn-warning[disabled]:focus,
+.ms-megamenu fieldset[disabled] .btn-warning:focus,
+.ms-megamenu .btn-warning.disabled.focus,
+.ms-megamenu .btn-warning[disabled].focus,
+.ms-megamenu fieldset[disabled] .btn-warning.focus,
+.ms-megamenu .btn-warning.disabled:active,
+.ms-megamenu .btn-warning[disabled]:active,
+.ms-megamenu fieldset[disabled] .btn-warning:active,
+.ms-megamenu .btn-warning.disabled.active,
+.ms-megamenu .btn-warning[disabled].active,
+.ms-megamenu fieldset[disabled] .btn-warning.active{background-color:#f0ad4e;border-color:#eea236}.ms-megamenu .btn-warning
+.badge{color:#f0ad4e;background-color:#fff}.ms-megamenu .btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}.ms-megamenu .btn-danger:hover,
+.ms-megamenu .btn-danger:focus,
+.ms-megamenu .btn-danger.focus,
+.ms-megamenu .btn-danger:active,
+.ms-megamenu .btn-danger.active,
+.ms-megamenu .open>.dropdown-toggle.btn-danger{color:#fff;background-color:#c9302c;border-color:#ac2925}.ms-megamenu .btn-danger:active,
+.ms-megamenu .btn-danger.active,
+.ms-megamenu .open>.dropdown-toggle.btn-danger{background-image:none}.ms-megamenu .btn-danger.disabled,
+.ms-megamenu .btn-danger[disabled],
+.ms-megamenu fieldset[disabled] .btn-danger,
+.ms-megamenu .btn-danger.disabled:hover,
+.ms-megamenu .btn-danger[disabled]:hover,
+.ms-megamenu fieldset[disabled] .btn-danger:hover,
+.ms-megamenu .btn-danger.disabled:focus,
+.ms-megamenu .btn-danger[disabled]:focus,
+.ms-megamenu fieldset[disabled] .btn-danger:focus,
+.ms-megamenu .btn-danger.disabled.focus,
+.ms-megamenu .btn-danger[disabled].focus,
+.ms-megamenu fieldset[disabled] .btn-danger.focus,
+.ms-megamenu .btn-danger.disabled:active,
+.ms-megamenu .btn-danger[disabled]:active,
+.ms-megamenu fieldset[disabled] .btn-danger:active,
+.ms-megamenu .btn-danger.disabled.active,
+.ms-megamenu .btn-danger[disabled].active,
+.ms-megamenu fieldset[disabled] .btn-danger.active{background-color:#d9534f;border-color:#d43f3a}.ms-megamenu .btn-danger
+.badge{color:#d9534f;background-color:#fff}.ms-megamenu .btn-link{font-weight:normal;color:#337ab7;border-radius:0}.ms-megamenu .btn-link,
+.ms-megamenu .btn-link:active,
+.ms-megamenu .btn-link.active,
+.ms-megamenu .btn-link[disabled],
+.ms-megamenu fieldset[disabled] .btn-link{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}.ms-megamenu .btn-link,
+.ms-megamenu .btn-link:hover,
+.ms-megamenu .btn-link:focus,
+.ms-megamenu .btn-link:active{border-color:transparent}.ms-megamenu .btn-link:hover,
+.ms-megamenu .btn-link:focus{color:#23527c;text-decoration:underline;background-color:transparent}.ms-megamenu .btn-link[disabled]:hover,
+.ms-megamenu fieldset[disabled] .btn-link:hover,
+.ms-megamenu .btn-link[disabled]:focus,
+.ms-megamenu fieldset[disabled] .btn-link:focus{color:#777;text-decoration:none}.ms-megamenu .btn-lg,
+.ms-megamenu .btn-group-lg>.btn{padding:10px
+16px;font-size:18px;line-height:1.3333333;border-radius:6px}.ms-megamenu .btn-sm,
+.ms-megamenu .btn-group-sm>.btn{padding:5px
+10px;font-size:12px;line-height:1.5;border-radius:3px}.ms-megamenu .btn-xs,
+.ms-megamenu .btn-group-xs>.btn{padding:1px
+5px;font-size:12px;line-height:1.5;border-radius:3px}.ms-megamenu .btn-block{display:block;width:100%}.ms-megamenu .btn-block+.btn-block{margin-top:5px}.ms-megamenu{box-sizing:border-box;text-align:left}.ms-featured{padding-left:20px}.ms-megamenu
+img{display:inline;vertical-align:middle;max-width:50%}.ms-megamenu .ms-topmenu{position:relative;background:#2f2f2f;float:left;width:100%;z-index:1001}.ms-megamenu .ms-level0{}.ms-level0.item_relative{position:relative}.ms-megamenu .ms-level0.active{background:#3b3b3b}.ms-megamenu .ms-label{color:#fff;font-size:15px;opacity:0.9;filter:alpha(opacity=90);outline:none !important;text-decoration:none !important;cursor:pointer;line-height:1.5}.ms-topmenu .ms-label{float:left;padding:15px}.ms-megamenu .ms-iconmega{vertical-align:top;position:relative}.ms-megamenu .ms-submenu{display:none;position:absolute;top:50px;z-index:10000;padding:15px;background:#fff;border:1px
+solid #ddd;max-width:100%;border-top:0}.ms-header,.mb-header{float:left;width:100%;padding:10px
+0;margin-bottom:15px;border-bottom:1px solid #ddd}.ms-footer,.mb-footer{float:left;width:100%;padding:10px
+0;border-top:1px solid #ddd;margin-top:15px;font-size:12px}.col-category
+.level1{font-weight:700}.col-category
+.level2{font-weight:400;margin-left:5px}.ms-topmenu .col-category .sub-level3,.ms-leftmenu .col-category .sub-level3{display:none;position:absolute;left:100px;width:16em;background-color:#fff;z-index:10001;padding:10px;min-width:12em;-webkit-box-shadow:0 3px 10px rgba(0,0,0, 0.15);box-shadow:0 3px 10px rgba(0,0,0, 0.15)}.level2
+small{font-size:50%;top: -2px}.level2.active
+.level2{text-indent:5px;-moz-transition:all ease-in-out 100ms;-webkit-transition:all ease-in-out 100ms;-o-transition:all ease-in-out 100ms;transition:all ease-in-out 100ms}.mb-version .col-category .sub-level3{width:100%;float:left;z-index:10001;padding:0
+10px}.ms-megamenu .f-product .product-image{}.ms-megamenu .f-product .product-image
+img{width:100%}.mb-content .item,
+.mb-content .col-productlist,
+.mb-content .col-category,
+.mb-featured .f-product,
+.mb-featured .f-category{padding-top:10px;padding-bottom:10px}.ms-contact .ms-title{font-size:16px;font-weight:600;text-transform:uppercase;margin:0
+0 10px;padding:0
+0 5px;float:left;width:100%}.ms-contact label
+em{color:red}.megamenu-mobile{display:none;text-align:left;bottom:37px;position:relative;z-index:9999}.ms-megamenu
+.anchor_mbmenu{background:rgb(7, 70, 102);padding:8px
+0}.ms-megamenu .anchor_mbmenu
+.anchor_mbmenu_text{outline:0;text-decoration:none;font-size:20px;color:#fff}.megamenu-mobile .mb-topmenu{display:none;position:relative;float:left;width:100%}.ms-megamenu .mb-submenu{position:absolute;left:100%;top:0;z-index: -1;background:#fff;display:none;float:left;width:100%}.ms-megamenu .mb-submenu.blind{position:static}.ms-megamenu .mb-label{padding:12px
+25px 8px;background:#FFF;border:1px
+solid #ddd;border-top:0;color:#2f2f2f;text-decoration:none;outline:none}.ms-megamenu .mb-label.flag{background:#EBEDED}.ms-megamenu .mb-label.mb-return{border:0;padding-bottom:13px}.ms-megamenu .mb-label
+span{float:left}.ms-megamenu .mb-click
+span{float:right;margin-right: -15px}.ms-megamenu .active .mb-submenu{display:inline;z-index:1001}.ms-megamenu .mb-submain{padding:15px;border:1px
+solid #ddd;border-top:0}#header-nav{display:block}.skip-nav{display:none}.item_relative{position:relative}.ms-leftmenu{position:relative;z-index:1000;text-align:left}.ms-leftmenu .msl-level0{float:left;width:100%}.ms-leftmenu .msl-submenu{display:none;position:absolute;top:0px;left:239px;z-index:10000;padding:15px;background:#fff;border:1px
+solid #ddd}.ms-leftmenu .msl-label{padding:12px
+25px 8px;background:#FFF;border:1px
+solid #ddd;border-top:0;color:#2f2f2f;text-decoration:none;outline:none;cursor:pointer;line-height:1.5}.ms-leftmenu .msl-label.first{border-top:1px solid #ddd}.ms-leftmenu .msl-label.flag{background:#EBEDED}.ms-leftmenu .msl-label
+span.small{float:right;margin-right: -15px}.lmegamenu-mobile{display:none}.ms-megamenu
+.anchor_lmbmenu{background:rgb(7, 70, 102);padding:8px
+0}.ms-megamenu .anchor_lmbmenu
+.anchor_lmbmenu_text{outline:0;text-decoration:none;font-size:20px;color:#fff}.lmegamenu-mobile .lmb-leftmenu{display:none;position:relative;text-align:left;float:left;width:100%}.ms-megamenu .lmb-submenu{position:absolute;left:100%;top:0;z-index: -1;background:#fff;display:none;float:left;width:100%}.ms-megamenu .lmb-submenu.blind{position:static}.ms-megamenu .lmb-label{padding:12px
+25px 8px;background:#FFF;border:1px
+solid #ddd;border-top:0;color:#2f2f2f;text-decoration:none;outline:none}.ms-megamenu .lmb-label.flag{background:#EBEDED}.ms-megamenu .lmb-label.lmb-return{border:0}.ms-megamenu .lmb-label
+span{float:left}.ms-megamenu .lmb-click
+span{float:right;margin-right: -15px}.ms-megamenu .active .lmb-submenu{display:inline;z-index:1001}.ms-megamenu .mb-submain{padding:15px;border:1px
+solid #ddd;border-top:0}.ms-megamenu .mb-submenu.slide,.ms-megamenu .lmb-submenu.slide{top:-42px}div.f-category{background-color:white;text-align:center;padding-top:3px;width:48%;margin-left:2%;-webkit-box-shadow:0px 5px 10px -2px rgba(50, 50, 50, 0.45);-moz-box-shadow:0px 5px 10px -2px rgba(50, 50, 50, 0.45);box-shadow:0px 5px 10px -2px rgba(50, 50, 50, 0.45)}.ms-megamenu .form-group{margin-bottom:10px !important}.ms-topmenu .ms-submenu
+a{font-size:12px}.mb-version .mb-submenu a, .mb-version .lmb-submenu
+a{font-size:12px}.mb-footer{display:none}.menu-deal-column{float:left;max-width:292px}.menu-deal-block{display:inline-block}.menu-deal-block
+img{padding-right:15px;padding-bottom:15px;max-width:100%}.ms-topmenu .ms-submenu{-webkit-box-shadow: -1px 10px 17px -6px rgba(0,0,0,0.75);-moz-box-shadow: -1px 10px 17px -6px rgba(0,0,0,0.75);box-shadow: -1px 10px 17px -6px rgba(0,0,0,0.75)}.menu-deal-block a:hover{opacity:0.8}#submenu-8{padding:20px
+0px 5px 20px !important}.rewardpoints-cart-sidebar{min-height:22px;text-align:left;clear:both;margin-top:5px}.rewardpoints-cart-sidebar
+img{margin-right:3px}.rewardpoints-slider-input{clear:both}#rewardpoints-slider-container{}#rewardpoints-slider{position:relative;z-index:9;height:18px;margin:12px
+auto 18px;padding:0
+24px;cursor:pointer;width:209px;float:left}#rewardpoints-slider-zoom-out{position:absolute;left:1px;top:0px}#rewardpoints-track{position:relative;height:18px;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556411/bd/reward_rule.gif') -1px 0px repeat-x}#rewardpoints-handle{position:absolute;top: -1px;width:9px;height:22px;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556411/85/magnifier_handle.gif') 0 0 no-repeat}#rewardpoints-slider-zoom-in{position:absolute;right:1px;top:0px}.rewardpoints-slider-label{margin:5px
+0 0 5px;float:left}#rewardpoints-login-msg,#rewardpoints-needmore-msg{clear:both;min-height:13px;margin:3px
+0 0;padding-left:17px;line-height:13px;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556410/af/validation_advice_bg.gif') 2px 0 no-repeat;color:#eb340a}#rewardpoints-needmore-points{font-size:13px;font-weight:bold}.onestepcheckout-payment-methods .rewards-sales-rules{padding-left:0 !important}.rewards-sales-rules
+dt{margin-top:7px}.rewards-sales-rules dt
+label{font-weight:bold;color:#666}.rewards-sales-rules #rewardpoints-slider{margin-bottom:10px}.onestepcheckout-payment-methods .rewards-sales-rules #rewardpoints-slider{margin-bottom:10px;margin-left: -16px}.rewards-sales-rules
+#reward_sales_rule{width:157px;margin-left:3px}.onestepcheckout-payment-methods .rewards-sales-rules
+#reward_sales_rule{width:140px !important;margin-left:3px}.rewardpoints-slider-input .input-point{display:inline-block;width:300px}.rewardpoints-slider-input .input-max{margin-top:5px}.rewardpoints-slider-input .input-max
+input{float:left;margin-right:3px;margin-top:2px}#reward_sales_point{width:49px !important}#reward_ajax_loading{margin:10px;text-align:center;font-style:italic;float:right}.rule_refreshing_label{color:#666;font-style:italic}.sp-methods #cart-rewards-form{width:280px}.onestepcheckout-payment-methods .sp-methods #cart-rewards-form{width:260px !important}.sp-methods #cart-rewards-form .rewards-sales-rules
+label{float:none}.sp-methods .rewards-sales-rules dd
+label{font-weight:normal;color:#000}#cart-rewards-form dd.rewards-slider{margin-left:17px}.rewardpoints-money{color:#3182be;font-size:13px}.product-view .add-to-cart .qty-wrapper
+img{margin-bottom:2px}.dashboard .box-rewardpoints-summary,.box-rewardpoints-summary{color:#333;font-size:13px;padding-bottom:15px;border-bottom:1px solid #cecece;margin-bottom:15px}.dashboard .box-rewardpoints-summary, .box-rewardpoints-summary .info-summary{padding-top:5px}.dashboard .box-rewardpoints-summary .box-head h2, .box-rewardpoints-summary .box-head
+h2{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063529/74/rewards.png") no-repeat scroll 0 0 transparent;padding:5px
+0 5px 25px;font-size:15px}.box-rewardpoints-history .box-head
+h2{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063530/4b/transactions.png") no-repeat scroll 0 center transparent;padding:5px
+0 5px 25px;font-size:15px}.rewardpoints-name-img
+img{display:inline}img.rewardpoint-img{display:inline}#rewardpoints-referfriends-popup-body .referfriends-body-left-product{margin-top:20px}.links span.rewardpoints-name{position:relative\9;padding-right:18px\9}.links span.rewardpoints-name
+img{margin:0
+!important;vertical-align:middle}.discount .discount-form .rewards-sales-rules .input-max{margin-top:15px}.discount .discount-form .rewards-sales-rules .input-max
+#reward_max_points_used{margin:4px}#behavior-ajax-loader{}.share-login #behavior-ajax-loader a
+img{vertical-align:top !important}.rewardpoints-product-view-earning{margin-bottom:20px;clear:both;font-size:12px}.rewardpointsbehavior-checkout-action a img,
+#rewardpoints-navigation-rewardpoints.navigation a img,
+a.rewardpoints-name-img
+img{margin-bottom:-2px}.rewardpoints-title{font-size:15px;color:#3182be}.rewardpoints-title-link{text-decoration:none;color:#3182be;font-weight:bold}.rewardpoints-title-rate{margin-top:5px}.rewardpoints-dashboard-list{margin-bottom:10px}.rewardpoints-dashboard-ul{list-style:circle !important;margin:0
+0 0 2em !important}.rewardpointsrule-rule-name-policy{color:#3182be;font-style:italic}strong.rewardpoints-title{text-transform:uppercase}.rewawoo .regular-price
+.price{font-size:16px !important}.rewawoo:nth-of-type(2){display:none}@import url(//fonts.googleapis.com/css?family=Raleway:400,700,300);.cart-forms .discount
+h2{font-size:12px;font-weight:bold}.discount-form .rewards-sales-rules dt
+label{font-size:14px;font-weight:normal;font-family:"Raleway","Helvetica Neue",Verdana,Arial,sans-serif}.discount-form
+label{font-size:14px;font-weight:normal}.col-main .referfriends-body{height:450px !important}.col-main .referfriends-body-left-description{float:left}.col-main  .referfriends-body-left{width:49% !important;text-align:left}.col-main  .referfriends-body-right{float:right;width:250px}.col-main  .referfriends-body-right-ul li.referfriends-sharelink{text-align:left;float:left;width:100%;height:70px}.col-main  .referfriends-body-right-ul li.referfriends-sharefacebook{float:left;width:100%;text-align:left}.col-main  .referfriends-body-right-ul li.referfriends-sharegoogleplus{float:left;width:100%;text-align:left}.col-main  .referfriends-body-right-ul li.referfriends-sharetwitter{float:left;width:100%;text-align:left}.col-main  .referfriends-body-right-ul li.referfriends-shareemail{float:left;width:100%;text-align:left}.col-main #rewardpoints-referfriends-popup{margin-left:auto;display:block;margin-right:auto}@media (max-width:900px){.col-main  #rewardpoints-referfriends-popup{position:relative;height:auto;float:none !important;width:auto!important;left:auto !important;margin-left:auto;display:block;margin-right:auto}.col-main  .referfriends-body-left-earn{float:left !important}}@media (max-width:720px){.col-main  #rewardpoints-referfriends-popup{position:relative;height:auto;width:auto;margin-left:auto;display:block;margin-right:auto}.col-main .referfriends-body-right{display:block !important}}@media (max-width:690px){.col-main  #rewardpoints-referfriends-popup{position:relative;height:auto;width:auto;margin-left:auto;display:block;margin-right:auto}.col-main .referfriends-body-right{display:block !important;width:100% !important;text-align:left;float:left !important}.col-main .referfriends-body-left{width:100% !important;text-align:left}.col-main .referfriends-body-left-description{width:100% !important;text-align:left}.col-main  .referfriends-body-left-earn{padding-bottom:20px}}.referfriends-body-right-1{display:none}.referfriends-title{background:none !important}.referfriends-body{background:none !important}.referfriends-bottom{background:none !important}.dialog_e{background:none !important}.dialog_content{background:none;width:auto !important}.referfriends-title
+h2{padding-top:20px !important;font-weight:500;border-bottom:1px solid #CCC;padding-bottom:10px !important}.referfriends-title
+a{top:5px !important;right:10px !important}.referfriends-body-left-earn{height:55px !important}#rewardpoints-referfriends-popup{border:1px
+solid #CCC;border-radius:5px}@media(max-width:900px){.dialog_e{display:none}.dialog{position:absolute;left:50% !important;top:32px !important;margin-left:-320px;width:640px !important;float:left !important;height:auto !important}#rewardpoints-referfriends-popup{position:absolute;left:50%;margin-left:-320px;width:640px !important;float:left !important;height:auto !important}.referfriends-body-right-ul  li.referfriends-sharelink{background-size:35px !important}.referfriends-body-right-ul li.referfriends-sharefacebook
+a{background-size:35px !important}.referfriends-body-right-ul li.referfriends-sharegoogleplus
+a{background-size:35px !important}.referfriends-body-right-ul li.referfriends-sharetwitter
+a{background-size:35px !important}.referfriends-body-right-ul li.referfriends-shareemail
+a{background-size:35px !important}.referfriends-body-right .referfriends-body-right-ul  li.referfriends-sharelink{font-size:16px}.referfriends-body-right  .referfriends-body-right-ul li
+a{font-size:16px}.referfriends-body-left-earn{height:58px !important}.referfriends-body-left{width:300px !important}.dialog{top:31px !important}}@media(max-width:720px){.dialog{position:absolute !important;left:50% !important;margin-left: -270px !important;width:540px !important;float:left !important;height:auto !important}#rewardpoints-referfriends-popup{position:absolute;margin-left: -270px;left:50%;width:540px !important;float:left !important;height:auto !important}.referfriends-body-right .referfriends-body-right-ul  li.referfriends-sharelink{font-size:16px}.referfriends-body-right-ul li.referfriends-sharefacebook{height:50px !important}.referfriends-body-right-ul li.referfriends-sharegoogleplus{height:50px !important}.referfriends-body-right-ul li.referfriends-sharetwitter{height:50px !important}.referfriends-body-right-ul li.referfriends-shareemail{height:50px !important}.referfriends-body-right  .referfriends-body-right-ul li
+a{font-size:16px}.referfriends-body-right .referfriends-body-right-ul  li.referfriends-sharelink{font-size:14px}.referfriends-body-left{width:500px !important;float:left}.referfriends-body-left-earn{height:65px !important}.referfriends-body-right{display:none}.referfriends-body-right-1{display:block;position:absolute;top:145px;left:300px}.referfriends-body-right-1  .referfriends-body-right-ul  li.referfriends-sharelink{font-size:16px}.referfriends-body-right-1  .referfriends-body-right-ul li
+a{font-size:16px}.share-link-url{width:149px !important}.referfriends-title{background:none !important}.referfriends-body{background:none !important}.referfriends-bottom{background:none !important}.referfriends-body-left-product-title
+h3{width:240px}}@media(max-width:620px){.dialog{position:absolute !important;left:50% !important;margin-left: -180px !important;width:360px !important;float:left !important;height:auto !important}#rewardpoints-referfriends-popup{position:absolute;margin-left: -180px;left:50%;width:360px !important;float:left !important;height:auto !important}.referfriends-body-right-ul  li.referfriends-sharelink{background-size:27px !important}.referfriends-body-right-ul li.referfriends-sharefacebook
+a{background-size:27px !important}.referfriends-body-right-ul li.referfriends-sharegoogleplus
+a{background-size:27px !important}.referfriends-body-right-ul li.referfriends-sharetwitter
+a{background-size:27px !important}.referfriends-body-right-ul li.referfriends-shareemail
+a{background-size:27px !important}.referfriends-body-right  .referfriends-body-right-ul li
+a{font-size:16px}.referfriends-body-left{width:300px !important;float:left}.referfriends-body-right-1{display:block;position:static}.referfriends-title{background:none !important}.referfriends-body{background:none !important}.referfriends-bottom{background:none !important}}@media(max-width:460px){#rewardpoints-referfriends-popup{position:absolute;margin-left: -150px;left:50%;width:300px !important;float:left !important;height:auto !important}.referfriends-body-right-ul  li.referfriends-sharelink{background-size:27px !important}.referfriends-body-right-ul li.referfriends-sharefacebook
+a{background-size:27px !important}.referfriends-body-right-ul li.referfriends-sharegoogleplus
+a{background-size:27px !important}.referfriends-body-right-ul li.referfriends-sharetwitter
+a{background-size:27px !important}.referfriends-body-right-ul li.referfriends-shareemail
+a{background-size:27px !important}.referfriends-body-right  .referfriends-body-right-ul li
+a{font-size:16px}.referfriends-body-left{width:260px !important;float:left}.referfriends-body-right-1{display:block;position:static}.referfriends-title{background:none !important}.referfriends-body{background:none !important}.referfriends-bottom{background:none !important}}.data-table#recent-transactions-history td .label-cell{display:none}.data-table#recent-transactions-history td
+h2{font-size:13px;text-transform:none}#rewardpoints-settings li.control
+label{background-color:#fff}@media
+all{.sp-methods dl.rewardpoints-sp-methods dt
+label{background-color:#fff;padding:0px}.sp-methods dl.rewardpoints-sp-methods dt label:hover{background-color:#fff}}@media only screen and (max-width: 890px){.data-table#recent-transactions-history
+thead{display:none}.data-table#recent-transactions-history tbody
+tr{margin:0;border-bottom:1px solid silver;border-top:1px solid silver}.data-table#recent-transactions-history td.a-right.first{display:none}.data-table#recent-transactions-history td .label-cell{margin:0;text-transform:uppercase;display:block;text-align:left;float:left;font-family:"Helvetica Neue",Verdana,Arial,sans-serif;font-size:13px}.data-table#recent-transactions-history
+td{display:block;text-align:right;border:none}.data-table#recent-transactions-history td
+h2{font-size:13px;text-transform:none;text-align:left;margin-left:280px}.rewardpointsreferfriends-dashboard-right{float:left !important;width:100% !important;display:block}}@media only screen and (max-width: 979px){.rewardpointsreferfriends-dashboard-right{float:left !important;width:100% !important;display:block}.rewardpointsreferfriends-dashboard-left{width:100% !important;float:right;clear:both}.sp-methods dl.rewardpoints-sp-methods dt
+label{background-color:#fff;padding:0px}.sp-methods dl.rewardpoints-sp-methods dt label:hover{background-color:#fff}}@media only screen and (max-width: 760px){.data-table#recent-transactions-history td
+h2{margin-left:335px}}@media only screen and (max-width: 700px){.data-table#recent-transactions-history td
+h2{margin-left:300px}}@media only screen and (max-width: 650px){.data-table#recent-transactions-history td
+h2{margin-left:250px}}@media only screen and (max-width: 550px){.data-table#recent-transactions-history td
+h2{margin-left:230px}}@media only screen and (max-width: 450px){.data-table#recent-transactions-history td
+h2{margin-left:200px}}@media only screen and (max-width: 770px){.rewardpointsreferfriends-dashboard-left{width:100% !important}}.rewardpointsbehavior-checkout-action{float:left;margin:2px
+2px 7px 0px;padding:1px;width:172px;text-align:left}.account-create .rewardpointsbehavior-checkout-action{clear:both}.account-create .rewardpointsbehavior-checkout-action1{float:none;width:100% !important;margin:0px
+!important}.account-login .rewardpointsbehavior-checkout-action1{float:none}.rewardpointsbehavior-checkout-action1{float:left;margin:0px
+0px 0px 5px;padding:1px;width:172px;text-align:left}.rewardpointsbehavior-checkout-action .rewardpointsbehavior-icon{float:right !important}.rewardpointsbehavior-product-view{width:100%;float:left}.rewardpointsbehavior-product-view .rewardpointsbehavior-checkout-action{width:auto}.twitter-count-horizontal,.behavior-facebook-like.behavior-social{width:85px !important;float:left}#fb-send-id-behavior
+span{vertical-align:baseline !important}#___plusone_0, #___plusone_0
+iframe{width:67px !important}.behavior-google-plus{width:67px;display:inline-block}.behavior-linkedin{width:100px;display:inline-block}.share-social-button{display:inline}.behavior-social{display:inline-block;vertical-align:top}.behavior-facebook-share .share-button
+.label{display:inline-block;vertical-align:top;zoom:1;padding:1px
+4px 0 23px;white-space:nowrap}.behavior-facebook-share .share-button{font-size:11px;font-family:'Helvetica Neue',Arial,sans-serif;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;height:20px;max-width:100%;position:relative;display:inline-block;zoom:1;background-color:#f8f8f8;background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#dedede));background-image: -moz-linear-gradient(top,#fff,#dedede);background-image: -o-linear-gradient(top,#fff,#dedede);background-image: -ms-linear-gradient(top,#fff,#dedede);background-image:linear-gradient(top,#fff,#dedede);border:#ccc solid 1px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;color:#333;font-weight:bold;text-shadow:0 1px 0 rgba(255,255,255,.5);text-decoration:none;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none;cursor:pointer;overflow:hidden}.behavior-facebook-share .share-button
+i{position:absolute;top:50%;left:4px;margin-top: -7px;width:14px;height:14px;background:transparent url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063529/a3/facebook-icon.png') 0 0 no-repeat;background-image:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063529/a3/facebook-icon.png')}.behavior-facebook-share a.share-button:hover{background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#e8e8e8))}.rewardpoints-referfriend-dialog-refer .top,
+.rewardpoints-referfriend-dialog-refer
+.bot{display:none}.rewardpoints-referfriend-dialog-refer .dialog_e,
+.rewardpoints-referfriend-dialog-refer
+.dialog_w{width:0}#rewardpoints-referfriends-popup{background-color:#fff}.rewardpoints-referfriend-dialog-refer
+.dialog_close{display:none}.referfriends-title{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556386/c5/bg-header2.gif") no-repeat scroll 0 0 transparent;height:81px;padding:0
+40px}.referfriends-title
+h2{color:#525252;padding-top:41px;font-size:25px}.referfriends-title
+a{position:absolute;top:20px;right:40px;font-size:15px;color:#e26703;text-decoration:none}.referfriends-title a:hover{text-decoration:underline}.referfriends-body-refer{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063511/3c/bg-referfriend.png") repeat scroll 0 0 transparent;border:1px
+solid #d5d5d5;margin:0;padding:26px
+32px 22px;height:392px;font-size:18px;color:#373737}.referfriends-body-refer
+h3{color:#df543d}.referfriends-body-refer h3
+.price{font-weight:bold}.referfriends-body-refer
+.price{color:#2f7eb5;font-weight:normal}.offer-contact p,
+.offer-question
+p{font-size:16px}.referfriends-body{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556386/99/bg-body-box.gif") repeat-y scroll 0 0 transparent;margin:0;padding:10px
+40px;padding-bottom:0 !important;height:392px;font-size:13px;color:#454545}.referfriends-body-left{float:left;width:350px}.referfriends-body-left-description{margin-bottom:10px}.referfriends-body-left-earn{height:80px}.referfriends-body-left-product-title
+h3{font-size:18px;font-weight:nomal;color:#e26703}.referfriends-body-right{float:left;width:230px;margin-left:20px}.referfriends-body-right-ul li.referfriends-sharelink{padding:4px
+1px 4px 60px;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063511/aa/share.png') no-repeat left center;height:60px;color:#454545;font-size:18px;font-weight:normal}.referfriends-body-right-ul li.referfriends-sharelink .share-link-url{padding:4px}.referfriends-body-right-ul li.referfriends-sharefacebook{height:60px}.referfriends-body-right-ul li.referfriends-sharefacebook
+a{height:43px;padding:13px
+1px 4px 60px;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063512/5f/facebook.png') no-repeat left center}.referfriends-body-right-ul li.referfriends-sharetwitter{height:60px}.referfriends-body-right-ul li.referfriends-sharetwitter
+a{height:43px;padding:13px
+1px 4px 60px;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063511/28/twitter.png') no-repeat left center}.referfriends-body-right-ul li.referfriends-sharegoogleplus{height:60px}.referfriends-body-right-ul li.referfriends-sharegoogleplus
+a{height:43px;padding:13px
+1px 4px 60px;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063511/1d/google.png') no-repeat left center}.referfriends-body-right-ul li.referfriends-shareemail{height:60px}.referfriends-body-right-ul li.referfriends-shareemail
+a{height:43px;padding:13px
+1px 4px 60px;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063510/56/sendmail.png') no-repeat left center}.referfriends-body-right-ul
+li{height:52px}.referfriends-body-right-ul li
+a{color:#454545;font-size:18px;font-weight:normal;position:absolute;text-decoration:none}.referfriends-bottom{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556386/de/bg-bottom.gif") no-repeat scroll 0 0 transparent;height:17px}.rewardpointsreferfriends-dashboard-left{float:left;width:58%}.rewardpointsreferfriends-dashboard-right{float:right;width:39%}.rewardpointsreferfriends-block-content-share{padding-left:8px !important}.box-referfriends-content .box-head
+h2{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063511/6e/icon-links.png") no-repeat scroll left center transparent;float:left;width:100%;padding:5px
+0;text-indent:25px;text-align:left}.rewardpointsreferfriend-box-url .refer-content{padding:4px
+1px 0px 60px;background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063511/aa/share.png') no-repeat left center;height:60px;color:#454545;font-size:18px;font-weight:normal;margin:0
+5px}.rewardpointsreferfriend-box-url .refer-content
+input{width:100%}.refer-sharing-box-content{background:#fff !important;padding:8px
+!important;margin:0
+!important;text-align:justify !important}.info-summary-special-offer
+p{text-align:justify}.info-summary-special-offer
+img{max-width:100%}h2.email-logo{background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063510/29/email-color.png') no-repeat}strong.special-title-offer{background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1607556387/c9/i_ma-reviews.gif') no-repeat;padding-left:20px}div.info-summary-special-offer{padding-bottom:15px}div.info-summary-special-offer
+p{padding-bottom:0px;margin-bottom:5px}#rewardpoints-referfriends-landing{text-align:center}#rewardpoints-referfriends-landing
+p{margin:0}.referfriends-body-offer-detail-description{font-size:16px}.parent-body-offer{height:auto}.referfriends-body-offer-detail{margin-bottom:20px;text-align:left}.referfriends-body-offer{min-height:100px}.offer-howto{overflow:hidden;margin:20px
+0 20px 0;text-align:left}.offer-howto
+h3{font-size:18px}.offer-howto .offer-question{float:left;margin-right:21px;width:48%}.btn-start-shopping{}.offer-contact{width:280px;float:left}.offer-proceed{font-size:16px;font-weight:bold;height:30px;text-align:center}.allow .step-title{cursor:pointer}.allow .step-title:hover{background:#F9F3E3}.allow .step-title:hover
+.number{background:#F18200;border-color:#F19900;color:#FFF}.allow .step-title:hover
+h2{color:#F18200}.step,p.box-content{padding:8px}.form-list
+textarea{width:100%;height:100px}.step-title
+span.logo{width:16px;height:16px;margin-right:4px;border:none}#input-personal-url{width:219px;float:right}#input-personal-url
+#personal_url{width:215px}#personal_referfriends_url{width:327px;text-align:center}.step-title h2.email-logo{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063511/7a/email-grayscale.png") no-repeat scroll 5px -2px / 20px 20px}.active .step-title h2.email-logo, #referfriends-opc-email .step-title:hover
+h2.logo{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063510/29/email-color.png") no-repeat scroll 5px -2px / 20px 20px}.rewardpointsreferfriends-dashboard-right .opc .section .step-title{border-top:1px solid #ececec}.rewardpointsreferfriends-dashboard-right .opc .section .step-title
+h2{margin:0px;line-height:1px;padding:8px
+0px 8px 90px}.rewardpointsreferfriends-dashboard-right .opc .section .step-title
+.logo{max-width:0px;min-height:0px;margin-top:5px;height:5px !important}.rewardpointsreferfriends-dashboard-right ol.opc.referfriends-opc{border-bottom:1px solid #ececec;margin-bottom:20px}.google-plus-share a
+img{float:left;margin-right:33px}.step-title h2.google-logo{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063510/4b/gplus-grayscale.png") no-repeat scroll 5px 0 / 18px 18px}.active .step-title h2.google-logo, #referfriends-opc-google .step-title:hover
+h2.logo{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1461883268/b5/gplus-color.png") no-repeat scroll 5px 0/ 18px 18px}.step-title h2.facebook-logo{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063510/77/facebook-grayscale.png") no-repeat scroll 5px -1px / 20px 20px}.active .step-title h2.facebook-logo, #referfriends-opc-facebook .step-title:hover
+h2.logo{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063511/1e/facebook-color.png") no-repeat scroll 5px -1px / 20px 20px}.step-title h2.twitter-logo{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1461883268/3e/tweet.png") no-repeat scroll -26px -27px / 53px 45px}.active .step-title h2.twitter-logo, #referfriends-opc-twitter .step-title:hover
+h2.logo{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1461883268/3e/tweet.png") no-repeat scroll -25px 1px / 53px 45px}.tweeter
+h2.h2{-webkit-border-radius:3px;border:#CCC solid 1px;padding:2px;-moz-border-radius:3px;border-radius:3px;background-image: -moz-linear-gradient(top, white, #DEDEDE);background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#DEDEDE));background-image: -ms-linear-gradient(top, white, #DEDEDE);background-image:linear-gradient(top, white, #DEDEDE);background-image: -o-linear-gradient(top, white, #DEDEDE)}button.tweeter h2.h2
+h2{background:url('https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1461883268/3e/tweet.png') no-repeat -26px 3px;padding:0px
+3px 0px 24px;color:#1E7EC8;margin-left:2px}.buttons-set{padding-top:7px;border-top:0px;margin-top:0px}.referfriends-opc
+li{margin-bottom:0px;border-bottom:none}.referfriends-opc
+.step{padding:5px}.referfriends-opc .allow .step-title{border-bottom:none;padding:4px
+8px 6px}.action-shopping{text-align:center}a.btn-start-shopping{overflow:visible;width:auto;border:0;padding:0;margin:0;background:transparent;cursor:pointer;display:inline-block}a.btn-start-shopping
+span{background:url("https://cdn.dentalsky.com/media/extendware/ewimageopt/media/css/1543063510/d0/btn_shopping.png") no-repeat scroll top left transparent;float:left;font-family:Arial;font-size:16px;color:white;font-weight:bold;height:34px;line-height:34px;padding-left:5px;position:relative;text-align:center;white-space:nowrap}a.btn-start-shopping span
+span{background-position:100% 0;padding:0
+40px 0 22px}.referfriends-title a
+img{position:absolute;top:20px;right:40px}.box-rewardpointsreferfriends-history{clear:both}
